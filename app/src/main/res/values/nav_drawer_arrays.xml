@@ -25,9 +25,12 @@
     MAKE SURE THE ITEMS IN ALL 3 ARRAYS CORRESPOND IN ORDER AND ALL 3 ARRAYS ARE SAME LENGTH-->
     <array name="nav_menu_prefs_drawables">
         <item>@drawable/ic_system_ui</item>
-        <item>@drawable/ic_phone</item>
-        <item>@drawable/ic_framework</item>
         <item>@drawable/ic_notification_panel</item>
+        <item>@drawable/ic_network_speed</item>
+        <item>@drawable/ic_virtual</item>
+        <item>@drawable/ic_reboot_options</item>
+        <item>@drawable/ic_lockscreen</item>
+        <item>@drawable/ic_navbar</item>
     </array>
 
 
@@ -35,10 +38,13 @@
     Use @string reference, so later on your app can be translated with ease
     KEEP THE ORDER BETWEEN ALL YOUR ARRAYS-->
     <string-array name="nav_menu_prefs_titles">
-        <item>@string/systemui_prefs</item>
-        <item>@string/phone_prefs</item>
-        <item>@string/framework_prefs</item>
-        <item>@string/notification_panel_prefs</item>
+        <item>Barra de estado</item>
+        <item>Panel de notificaciones</item>
+        <item>Velocímetros de red</item>
+        <item>Botones virtuales</item>
+        <item>Menú de reinicio</item>
+        <item>Pantalla de bloqueo</item>
+        <item>Barra de navegación</item>
     </string-array>
 
 
@@ -47,9 +53,12 @@
     Here you put the file names of the preference files you create in your xml directory
     THEY MUST BE PRECISE AND CASE SENSITIVE!!! DO NOT ADD .xml SUFFIX-->
     <string-array name="nav_menu_xml_file_names" translatable="false">
-        <item>ui_prefs</item>
-        <item>phone_prefs</item>
-        <item>framework_prefs</item>
-        <item>notification_panel_prefs</item>
+        <item>deluxe_statusbar_preference</item>
+        <item>deluxe_notpanel_preference</item>
+        <item>deluxe_speedmeters_preference</item>
+        <item>deluxe_sb_virtual_buttons_preference</item>
+        <item>deluxe_reboot_preference</item>
+        <item>deluxe_lockscreen_preference</item>
+        <item>deluxe_navbar_preference</item>
     </string-array>
 </resources>

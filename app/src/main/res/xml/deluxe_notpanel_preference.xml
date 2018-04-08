@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen android:title="Colores" android:summary="Fondo/Toggles/Botones/Brillo">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Usar colores personalizados/Stock"
+            android:defaultValue="0"
+            android:key="agc_notpanel_custom_colors" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Fondo del panel"
+            android:defaultValue="#FFFFFF"
+            android:dependency="agc_notpanel_custom_colors"
+            android:key="agc_notpanel_bg"
+            hexValue="true"
+            alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Botón ajustes"
+            android:defaultValue="#FFFFFF"
+            android:dependency="agc_notpanel_custom_colors"
+            android:key="agc_notpanel_settings"
+            hexValue="true"
+            alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Botón mas ajustes (3 puntos)"
+            android:defaultValue="#FFFFFF"
+            android:dependency="agc_notpanel_custom_colors"
+            android:key="agc_notpanel_moresettings"
+            hexValue="true"
+            alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Hora"
+            android:defaultValue="#FFFFFF"
+            android:dependency="agc_notpanel_custom_colors"
+            android:key="agc_notpanel_time"
+            hexValue="true"
+            alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Fecha"
+            android:defaultValue="#FFFFFF"
+            android:dependency="agc_notpanel_custom_colors"
+            android:key="agc_notpanel_date"
+            hexValue="true"
+            alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Icono arrastrar (2 lineas)"
+            android:defaultValue="#FFFFFF"
+            android:dependency="agc_notpanel_custom_colors"
+            android:key="agc_notpanel_handler"
+            hexValue="true"
+            alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Toggles encendidos"
+            android:defaultValue="#FFFFFF"
+            android:dependency="agc_notpanel_custom_colors"
+            android:key="agc_notpanel_enabled_tile"
+            hexValue="true"
+            alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Toggles apagados"
+            android:defaultValue="#FFFFFF"
+            android:dependency="agc_notpanel_custom_colors"
+            android:key="agc_notpanel_disabled_tile"
+            hexValue="true"
+            alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Brillo background"
+            android:defaultValue="#FFFFFF"
+            android:dependency="agc_notpanel_custom_colors"
+            android:key="agc_notpanel_brigthness_backround"
+            hexValue="true"
+            alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Brillo foreground"
+            android:defaultValue="#FFFFFF"
+            android:dependency="agc_notpanel_custom_colors"
+            android:key="agc_notpanel_brigthness_foreground"
+            hexValue="true"
+            alphaSlider="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Uso de datos" android:summary="Visibilidad/Posición/Fuente/Color">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Mostrar/Ocultar"
+            android:defaultValue="false"
+            android:key="agc_datausage_visibility"
+            app:packageNameToKill="com.android.systemui"
+            app:isSilent="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Color"
+            android:dependency="agc_datausage_visibility"
+            android:defaultValue="#00FFFF"
+            android:key="agc_datausage_color"
+            hexValue="true"
+            alphaSlider="true"/>
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:title="Posición"
+            android:key="agc_datausage_position"
+            android:defaultValue="2"
+            android:entryValues="@array/agc_datausage_position_values"
+            android:entries="@array/agc_datausage_position_entries"
+            android:dependency="agc_datausage_visibility" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:title="Fuente"
+            android:entries="@array/ck_fonts_entries"
+            android:entryValues="@array/ck_fonts_values"
+            android:dependency="agc_datausage_visibility"
+            android:key="agc_datausage_font"
+            android:defaultValue="0"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Fondo personalizado" android:summary="Color/Degradado/Imagen">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="enable_noti_gear_custom_bg"
+                android:title="Habilitar fondo personalizado"/>
+        <PreferenceCategory android:dependency="enable_noti_gear_custom_bg" android:title="Preferencias generales">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:defaultValue="0"
+                    android:entries="@array/custom_bg_type_entries"
+                    android:entryValues="@array/custom_bg_type_values"
+                    android:key="noti_gear_custom_bg_type"
+                    android:title="Tipo de fondo"
+                    app:dependentValue="0"/>
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:defaultValue="255"
+                    android:key="noti_gear_bg_opacity"
+                    android:title="Opacidad"
+                    app:maxValue="255"
+                    app:minValue="0"/>
+        </PreferenceCategory>
+        <PreferenceCategory android:dependency="enable_noti_gear_custom_bg" android:title="Preferencias de imagen">
+            <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference
+                    android:key="noti_gear_bg_image_uri"
+                    android:title="Selecciona imagen de fondo"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:defaultValue="0"
+                    android:entries="@array/crop_entries"
+                    android:entryValues="@array/crop_values"
+                    android:key="noti_gear_bg_crop_type"
+                    android:title="Escalado de imagen"/>
+        </PreferenceCategory>
+        <PreferenceCategory android:dependency="enable_noti_gear_custom_bg" android:title="Preferencias color/degradado">
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#00000000"
+                    android:dependency="noti_gear_custom_bg_type"
+                    android:key="noti_gear_bg_primary_color"
+                    android:title="Selecciona color primario"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#00000000"
+                    android:dependency="noti_gear_custom_bg_type"
+                    android:key="noti_gear_second_gradient_color"
+                    android:title="Selecciona color secundario (Para degradado)"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:defaultValue="0"
+                    android:dependency="noti_gear_custom_bg_type"
+                    android:entries="@array/gradient_entries"
+                    android:entryValues="@array/gradient_values"
+                    android:key="noti_gear_bg_gradient_orientation"
+                    android:title="Orientación de degradado" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Efecto Matrix" android:summary="Visibilidad/Colores/Tamaño">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Visibilidad del efecto"
+                android:key="noti_matrix_anim_visible"
+                android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Color del fondo"
+                android:key="noti_matrix_anim_bg_color"
+                android:dependency="noti_matrix_anim_visible"
+                android:defaultValue="#ff000000"
+                alphaSlider="true"
+                hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Color del texto"
+                android:dependency="noti_matrix_anim_visible"
+                android:key="noti_matrix_anim_text_color"
+                android:defaultValue="#00ff00"
+                alphaSlider="true"
+                hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:max="50"
+                android:dependency="noti_matrix_anim_visible"
+                android:title="Tamaño de la fuente"
+                android:key="noti_matrix_anim_font_size"
+                android:defaultValue="35"
+                min="12"
+                unitsRight="" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:max="50"
+                android:dependency="noti_matrix_anim_visible"
+                android:title="Frecuencia de animación"
+                android:key="noti_matrix_anim_frequency"
+                android:defaultValue="5"
+                min="1"
+                unitsRight="" />
+    </PreferenceScreen>
+</PreferenceScreen>

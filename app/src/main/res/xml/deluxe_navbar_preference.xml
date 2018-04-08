@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceScreen
+            android:title="Fondo personalizado">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="enable_gear_custom_bg"
+                android:title="Habilitar fondo personalizado"/>
+        <PreferenceCategory
+                android:dependency="enable_gear_custom_bg"
+                android:title="Preferencias generales">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:defaultValue="0"
+                    android:entries="@array/custom_bg_type_entries"
+                    android:entryValues="@array/custom_bg_type_values"
+                    android:key="gear_custom_bg_type"
+                    android:title="Tipo de fondo"
+                    app:dependentValue="0"/>
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:defaultValue="255"
+                    android:key="gear_bg_opacity"
+                    android:title="Opacidad"
+                    app:maxValue="255"
+                    app:minValue="0"/>
+        </PreferenceCategory>
+        <PreferenceCategory
+                android:dependency="enable_gear_custom_bg"
+                android:title="Preferencias de imagen">
+            <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference
+                    android:key="gear_bg_image_uri"
+                    android:title="Selección de imagen"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:defaultValue="0"
+                    android:entries="@array/crop_entries"
+                    android:entryValues="@array/crop_values"
+                    android:key="gear_bg_crop_type"
+                    android:title="Escalado de imagen"/>
+        </PreferenceCategory>
+        <PreferenceCategory
+                android:dependency="enable_gear_custom_bg"
+                android:title="Preferencias color/degradado">
+
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#00000000"
+                    android:dependency="gear_custom_bg_type"
+                    android:key="gear_bg_primary_color"
+                    android:title="Selecciona color primario"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#00000000"
+                    android:dependency="gear_custom_bg_type"
+                    android:key="gear_second_gradient_color"
+                    android:title="Selecciona color secundario (Para degradado)"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:defaultValue="0"
+                    android:dependency="gear_custom_bg_type"
+                    android:entries="@array/gradient_entries"
+                    android:entryValues="@array/gradient_values"
+                    android:key="gear_bg_gradient_orientation"
+                    android:title="Orientación del degradado"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Usar tamaño personalizado"
+            android:key="araul_navbar_height_switch"
+            android:defaultValue="false"
+            app:packageNameToKill="com.android.systemui"
+            app:isSilent="true" />
+    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+            android:title="Tamaño"
+            android:key="araul_navbar_height"
+            android:defaultValue="125"
+            app:minValue="60"
+            app:maxValue="165" />
+</PreferenceScreen>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Botones virtuales" />
+    <PreferenceScreen android:title="Boton izquierdo virtual" android:summary="Personalizar boton izquierdo virtual en statusbar">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Activar boton virtual" android:key="statusbar_keybuttonview_izquierda" android:defaultValue="false" android:summaryOn="Activado" android:summaryOff="Desactivado" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/boton_virtual_izq_entries" android:title="Toque" android:key="statusbar_lvb_click_value" android:summary="" android:dependency="statusbar_keybuttonview_izquierda" android:defaultValue="3" android:entryValues="@array/boton_virtual_izq_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/boton_virtual_izq_entries" android:title="Presionando" android:key="statusbar_lvb_long_click_value" android:summary="" android:dependency="statusbar_keybuttonview_izquierda" android:defaultValue="13" android:entryValues="@array/boton_virtual_izq_values" />
+        <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference android:title="Seleccion de aplicaciones" android:key="eragon_doubletap_home_app" app:intentSeparator="\##" app:showSearch="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Boton centro virtual" android:summary="Personalizar boton centro virtual en statusbar">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Activar boton virtual" android:key="statusbar_keybuttonview_centro" android:defaultValue="false" android:summaryOn="Activado" android:summaryOff="Desactivado" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/boton_virtual_cntr_entries" android:title="Toque" android:key="statusbar_cvb_click_value" android:summary="" android:dependency="statusbar_keybuttonview_centro" android:defaultValue="2" android:entryValues="@array/boton_virtual_cntr_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/boton_virtual_cntr_entries" android:title="Presionando" android:key="statusbar_cvb_long_click_value" android:summary="" android:dependency="statusbar_keybuttonview_centro" android:defaultValue="4" android:entryValues="@array/boton_virtual_cntr_values" />
+        <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference android:title="Seleccion de aplicaciones" android:key="eragon_longpress_back_app" app:intentSeparator="\##" app:showSearch="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Boton derecha virtual" android:summary="Personalizar boton derecha virtual en statusbar">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Activar boton virtual" android:key="statusbar_keybuttonview_derecha" android:defaultValue="false" android:summaryOn="Activado" android:summaryOff="Desactivado" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/boton_virtual_drch_entries" android:title="Toque" android:key="statusbar_rvb_click_value" android:summary="" android:dependency="statusbar_keybuttonview_derecha" android:defaultValue="0" android:entryValues="@array/boton_virtual_drch_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/boton_virtual_drch_entries" android:title="Presionando" android:key="statusbar_rvb_long_click_value" android:summary="" android:dependency="statusbar_keybuttonview_derecha" android:defaultValue="1" android:entryValues="@array/boton_virtual_drch_values" />
+        <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference android:title="Seleccion de aplicaciones" android:key="eragon_longpress_home_app" app:intentSeparator="\##" app:showSearch="true" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Boton virtual en navbar derecha" android:summary="Activar o desactivar boton virtual en navbar lado derecho">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Activar boton virtual" android:key="navbar_keybuttonview_derecha" android:defaultValue="false" android:summaryOn="Activado" android:summaryOff="Desactivado" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/boton_virtual_nav_entries" android:title="Toque" android:key="navbar_nvb_click_value" android:summary="" android:dependency="navbar_keybuttonview_derecha" android:defaultValue="0" android:entryValues="@array/boton_virtual_nav_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference android:entries="@array/boton_virtual_nav_entries" android:title="Presionando" android:key="navbar_nvb_long_click_value" android:summary="" android:dependency="navbar_keybuttonview_derecha" android:defaultValue="1" android:entryValues="@array/boton_virtual_nav_values" />
+        <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference android:title="Seleccion de aplicaciones" android:key="eragon_longpress_menu_app" app:intentSeparator="\##" app:showSearch="true" />
+    </PreferenceScreen>
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference android:title="Cerrar apps con pulsación larga en retroceso" android:key="araul_back_key" android:defaultValue="0" android:summaryOn="On" android:summaryOff="Off" />
+</PreferenceScreen>

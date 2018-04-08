@@ -1,4 +1,392 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-
-</PreferenceScreen>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Statusbar icons preferences">
+        <PreferenceScreen android:title="Bateria" android:summary="Stock/3MinitBattery/Colores">
+            <PreferenceCategory android:title="3Minit preferences">
+                <PreferenceScreen android:icon="@drawable/ic_battery" android:title="3MinitBattery" android:summary="Cambiar icono de bateria" android:dependency="agc_minitbattery">
+                    <intent android:targetPackage="com.three.minit.minitbatterysettings.free" android:targetClass="com.three.minit.minitbatterysettings.MainActivity" />
+                </PreferenceScreen>
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                        android:title="3MinitBattery icon"
+                        android:key="agc_minitbattery"
+                        android:defaultValue="false"
+                        android:summaryOn="Visible"
+                        android:summaryOff="Oculto" />
+            </PreferenceCategory>
+            <PreferenceCategory android:title="Stock preferences">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="Mostrar batería stock"
+                    android:key="show_stock_battery"
+                    android:defaultValue="true"
+                    android:summaryOn="Visible"
+                    android:summaryOff="Invisible" />
+                <!-- Temporal hided
+            <PreferenceScreen android:title="Colors" android:dependency="show_stock_battery">
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                        android:title="Use custom colors"
+                        android:key="use_custom_battery_color"
+                        android:dependency="show_stock_battery"
+                        android:defaultValue="false" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                        android:title="No-charged level"
+                        android:key="battery_empty_background"
+                        android:dependency="use_custom_battery_color"
+                        android:defaultValue="-1"
+                        hexValue="true"
+                        alphaSlider="true" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                        android:title="Contour"
+                        android:key="battery_corner"
+                        android:dependency="use_custom_battery_color"
+                        android:defaultValue="-1"
+                        hexValue="true"
+                        alphaSlider="true" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                        android:title="Charged level"
+                        android:key="battery_lvl_charged"
+                        android:dependency="use_custom_battery_color"
+                        android:defaultValue="-1"
+                        hexValue="true"
+                        alphaSlider="true" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                        android:title="Flash (Charging)"
+                        android:key="battery_charging"
+                        android:dependency="use_custom_battery_color"
+                        android:defaultValue="-1"
+                        hexValue="true"
+                        alphaSlider="true" />
+            </PreferenceScreen>
+                                                        -->
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Reloj" android:summary="Visibilidad/Elementos/Tamaños/Fuentes/Colores">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Visibilidad"
+                android:defaultValue="true"
+                android:key="agc_clock_visibility" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:title="Posición"
+                android:dependency="agc_clock_visibility"
+                android:defaultValue="2"
+                android:key="agc_clock_position"
+                android:entryValues="@array/clock_position_values"
+                android:entries="@array/clock_position_entries" />
+            <PreferenceScreen android:title="Colores" android:dependency="agc_clock_visibility" android:summary="Elige color global o individuales">
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="Usar color global / individuales"
+                    android:key="agc_clock_individual_colors"
+                    android:defaultValue="-0x1" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:title="Color global"
+                    android:key="agc_clock_global_color"
+                    app:reverseDependency="agc_clock_individual_colors"
+                    android:defaultValue="-1"
+                    hexValue="true"
+                    alphaSlider="true" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:title="Horas"
+                    android:dependency="agc_clock_individual_colors"
+                    android:key="agc_clock_hour_color"
+                    android:defaultValue="-1"
+                    hexValue="true"
+                    alphaSlider="true" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:title="Minutos"
+                    android:dependency="agc_clock_individual_colors"
+                    android:key="agc_clock_min_color"
+                    android:defaultValue="-1"
+                    hexValue="true"
+                    alphaSlider="true" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:title="Segundos"
+                    android:dependency="agc_clock_individual_colors"
+                    android:key="agc_clock_second_color"
+                    android:defaultValue="-1"
+                    hexValue="true"
+                    alphaSlider="true" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:title="Separador (2 puntos)"
+                    android:dependency="agc_clock_individual_colors"
+                    android:key="agc_clock_separator_color"
+                    android:defaultValue="-1"
+                    hexValue="true"
+                    alphaSlider="true" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:title="Dia"
+                    android:dependency="agc_clock_individual_colors"
+                    android:key="agc_clock_day_color"
+                    android:defaultValue="-1"
+                    hexValue="true"
+                    alphaSlider="true" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:title="Fecha"
+                    android:dependency="agc_clock_individual_colors"
+                    android:key="agc_clock_date_color"
+                    android:defaultValue="-1"
+                    hexValue="true"
+                    alphaSlider="true" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="Fuentes" android:dependency="agc_clock_visibility" android:summary="Elige fuentes individuales">
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:title="Fuente de día"
+                    android:defaultValue="0"
+                    android:key="agc_clock_day_font"
+                    android:entryValues="@array/ck_fonts_values"
+                    android:entries="@array/ck_fonts_entries" />
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:title="Fuente de fecha"
+                    android:defaultValue="0"
+                    android:key="agc_clock_date_font"
+                    android:entryValues="@array/ck_fonts_values"
+                    android:entries="@array/ck_fonts_entries" />
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:title="Fuente de horas/minutos/segundos"
+                    android:defaultValue="0"
+                    android:key="agc_clock_hour_font"
+                    android:entryValues="@array/ck_fonts_values"
+                    android:entries="@array/ck_fonts_entries" />
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:title="Fuente de AM/PM"
+                    android:defaultValue="0"
+                    android:key="agc_clock_ampm_font"
+                    android:entryValues="@array/ck_fonts_values"
+                    android:entries="@array/ck_fonts_entries" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="Tamaños" android:dependency="agc_clock_visibility" android:summary="Elige tamaños personalizados">
+                <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:title="Tamaño de horas/minutos/segundos"
+                    android:key="agc_clock_hour_size"
+                    app:minValue="1"
+                    app:maxValue="10"
+                    android:defaultValue="10" />
+                <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:title="Tamaño de separador de hora (2 puntos)"
+                    android:key="agc_clock_hourseparator_size"
+                    app:minValue="1"
+                    app:maxValue="10"
+                    android:defaultValue="10" />
+                <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:title="Tamaño de día"
+                    android:key="agc_clock_day_size"
+                    app:minValue="1"
+                    app:maxValue="10"
+                    android:defaultValue="10" />
+                <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:title="Tamaño de fecha"
+                    android:key="agc_clock_date_size"
+                    app:minValue="1"
+                    app:maxValue="10"
+                    android:defaultValue="10" />
+                <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:title="Tamaño de AM/PM"
+                    android:key="agc_clock_ampm_size"
+                    app:minValue="1"
+                    app:maxValue="10"
+                    android:defaultValue="10" />
+            </PreferenceScreen>
+            <PreferenceScreen android:title="Elementos a mostrar / Otros ajustes" android:summary="Elige que mostrar y en que orden">
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="Mostrar segundos"
+                    android:key="agc_clock_seconds"
+                    android:defaultValue="false" />
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="Mostrar día"
+                    android:key="agc_clock_day"
+                    android:defaultValue="false" />
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="Mostrar día completo"
+                    android:key="agc_clock_wholeday"
+                    android:defaultValue="false" />
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="Mostrar fecha"
+                    android:key="agc_clock_date"
+                    android:defaultValue="false" />
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="Mostrar año completo"
+                    android:key="agc_clock_wholeyear"
+                    android:defaultValue="false" />
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="AM-PM en mayúsculas"
+                    android:defaultValue="false"
+                    android:key="agc_clock_ampm_uppercase" />
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:title="Separador"
+                    android:defaultValue="0"
+                    android:key="agc_clock_separator_string"
+                    android:entryValues="@array/ck_dateseparator_values"
+                    android:entries="@array/ck_dateseparator_entries" />
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:title="Orden de elementos"
+                    android:defaultValue="0"
+                    android:key="agc_clock_order"
+                    android:entries="@array/clockelements_entries"
+                    android:entryValues="@array/clockelements_values" />
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:title="Orden de fecha"
+                    android:defaultValue="0"
+                    android:key="agc_clock_date_order"
+                    android:entries="@array/ck_dateorder_entries"
+                    android:entryValues="@array/ck_dateorder_values" />
+            </PreferenceScreen>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Colores de iconos" android:summary="Wifi/Señal/Datos/Bluetooth/Alarma/Localización/Porcentaje">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Color global/separados"
+                android:key="agc_sb_use_separated_color"
+                android:defaultValue="true" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Color global"
+                android:defaultValue="-1"
+                app:reverseDependency="agc_sb_use_separated_color"
+                hexValue="true"
+                alphaSlider="false"
+                android:key="agc_sb_global_color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="WiFi"
+                android:defaultValue="-1"
+                android:dependency="agc_sb_use_separated_color"
+                hexValue="true"
+                alphaSlider="false"
+                android:key="agc_sb_wifi_color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Flechas WiFi"
+                android:defaultValue="-1"
+                android:dependency="agc_sb_use_separated_color"
+                hexValue="true"
+                alphaSlider="false"
+                android:key="agc_sb_wifi_arrows_color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Datos móviles"
+                android:defaultValue="-1"
+                android:dependency="agc_sb_use_separated_color"
+                hexValue="true"
+                alphaSlider="false"
+                android:key="agc_sb_mbtype_color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Flechas datos móviles"
+                android:defaultValue="-1"
+                android:dependency="agc_sb_use_separated_color"
+                hexValue="true"
+                alphaSlider="false"
+                android:key="agc_sb_mobile_arrows_color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Roaming"
+                android:defaultValue="-1"
+                android:dependency="agc_sb_use_separated_color"
+                hexValue="true"
+                alphaSlider="false"
+                android:key="agc_sb_roaming_color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Señal"
+                android:defaultValue="-1"
+                android:dependency="agc_sb_use_separated_color"
+                hexValue="true"
+                alphaSlider="false"
+                android:key="agc_sb_signal_color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Modo avión"
+                android:defaultValue="-1"
+                android:dependency="agc_sb_use_separated_color"
+                hexValue="true"
+                alphaSlider="false"
+                android:key="agc_sb_airplane_color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Porcentaje de batería"
+                android:key="agc_bt_percentage_color"
+                android:defaultValue="-1"
+                android:dependency="agc_sb_use_separated_color"
+                hexValue="true"
+                alphaSlider="false" />
+            <!--
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Notificaciones"
+                android:key="agc_sb_notif_colors"
+                android:defaultValue="-1"
+                android:dependency="agc_sb_use_separated_color"
+                hexValue="true"
+                alphaSlider="false" />
+                                        -->
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Nombre de operadora" android:summary="Visibilidad/Texto/Color/Tamaño/Fuente">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="Visibilidad del texto"
+                    android:key="agc_customcarrier_visibility"
+                    android:defaultValue="true" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="Usar texto personalizado"
+                    android:key="agc_customcarrier_usecustomtext"
+                    android:dependency="agc_customcarrier_visibility"
+                    android:defaultValue="true" />
+            <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference
+                    android:title="Edita el texto"
+                    android:key="agc_customcarrier_text"
+                    android:summary="%s"
+                    android:dependency="agc_customcarrier_usecustomtext"
+                    android:defaultValue="DeluxeROM®" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:title="Fuente"
+                    android:key="agc_customcarrier_font"
+                    android:summary="%s"
+                    android:dependency="agc_customcarrier_visibility"
+                    android:entryValues="@array/ck_fonts_values"
+                    android:entries="@array/ck_fonts_entries"
+                    android:defaultValue="0"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:title="Color"
+                    android:key="agc_customcarrier_color"
+                    android:dependency="agc_customcarrier_visibility"
+                    android:defaultValue="-1"
+                    hexValue="true" alphaSlider="true" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:title="Tamaño"
+                    android:defaultValue="15"
+                    android:key="agc_customcarrier_size"
+                    app:minValue="1"
+                    android:dependency="agc_customcarrier_visibility"
+                    app:maxValue="25"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Otros mods">
+        <PreferenceScreen android:title="Barra de batería">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="Mostrar barra de batería"
+                    android:key="battery_bar"
+                    android:defaultValue="0" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="Animación de carga"
+                    android:key="battery_bar_animate"
+                    android:defaultValue="true" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:entries="@array/battery_bar_style_entries"
+                    android:title="Posición"
+                    android:key="battery_bar_style"
+                    android:summary="%s"
+                    android:defaultValue="1"
+                    android:entryValues="@array/battery_bar_style_values" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:entries="@array/battery_bar_thickness_entries"
+                    android:title="Tamaño"
+                    android:key="battery_bar_thickness"
+                    android:summary="%s"
+                    android:defaultValue="2"
+                    android:entryValues="@array/battery_bar_thickness_values" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:title="Color"
+                    android:key="battery_bar_color"
+                    android:summary="Choose color of battery bar"
+                    android:defaultValue="-1"
+                    hexValue="true"
+                    alphaSlider="true" />
+        </PreferenceScreen>
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Doble toque para bloquear"
+                android:key="double_tap_statusbar"
+                android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Bajar desde el lado derecho"
+            android:summaryOn="Muestra todos los toggles"
+            android:summaryOff="Vista normal"
+            android:key="tweaks_qs_pulldown"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    </PreferenceScreen>

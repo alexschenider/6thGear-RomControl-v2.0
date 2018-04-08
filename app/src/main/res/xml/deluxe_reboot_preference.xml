@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Elementos a mostrar en menú de reinicio (Mín. 2)">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Apagar"
+            android:key="agc_rebootmenu_shutdown"
+            android:defaultValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Reiniciar"
+            android:key="agc_rebootmenu_reboot"
+            android:defaultValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Reiniciar en recovery"
+            android:key="agc_rebootmenu_recovery"
+            android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Reiniciar en download"
+            android:key="agc_rebootmenu_download" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Modo emergencia"
+            android:key="agc_rebootmenu_emergency_mode"
+            android:defaultValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Datos móviles"
+            android:key="agc_rebootmenu_mobile_data"
+            android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Linterna"
+            android:key="agc_rebootmenu_flashlight"
+            android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Asistencia"
+            android:key="agc_rebootmenu_assistence"
+            android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Grabar pantalla"
+            android:key="agc_rebootmenu_recordscreen"
+            android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Captura de pantalla"
+            android:key="agc_rebootmenu_screenshot"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Mostrar si el dispositivo está bloqueado">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Reiniciar"
+            android:defaultValue="true"
+            android:key="agc_rebootmenu_rebootonlocked"
+            android:dependency="agc_rebootmenu_reboot" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Reiniciar en recovery"
+            android:key="agc_rebootmenu_recoveryonlocked"
+            android:dependency="agc_rebootmenu_recovery"
+            android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Reiniciar en download"
+            android:key="agc_rebootmenu_downloadonlocked"
+            android:dependency="agc_rebootmenu_download"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

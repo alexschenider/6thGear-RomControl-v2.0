@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">Rom Control</string>
+    <string name="app_name">DRC</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -68,6 +68,11 @@
     <string name="select_all">Select all</string>
     <string name="debloat_rom_menu_title">Debloat rom</string>
     <string name="select_all_label">All</string>
+    <string name="deluxe_statusbar_preference">Statusbar</string>
+    <string name="dsb_gradient_filter_value_0">Off</string>
+    <string name="dsb_gradient_filter_value_1">Only on the desktop</string>
+    <string name="dsb_gradient_filter_value_2">Everywhere except the desktop</string>
+    <string name="dsb_gradient_filter_value_3">On</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

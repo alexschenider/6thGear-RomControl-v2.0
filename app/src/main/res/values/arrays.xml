@@ -49,9 +49,9 @@
     </array>
 
     <string-array name="custom_bg_type_entries">
-        <item>Image</item>
-        <item>Solid color</item>
-        <item>Gradient</item>
+        <item>Imagen</item>
+        <item>Color sólido</item>
+        <item>Degradado</item>
     </string-array>
     <string-array name="custom_bg_type_values" translatable="false">
         <item>0</item>
@@ -59,10 +59,10 @@
         <item>2</item>
     </string-array>
     <string-array name="gradient_entries">
-        <item>Top to bottom</item>
-        <item>Bottom to top</item>
-        <item>Left to right</item>
-        <item>Right to left</item>
+        <item>De arriba a abajo</item>
+        <item>De abajo a arriba</item>
+        <item>De izquierda a derecha</item>
+        <item>De derecha a izquierda</item>
 
     </string-array>
     <string-array name="gradient_values" translatable="false">
@@ -83,4 +83,329 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <string-array name="dsb_gradient_filter_entries">
+        <item>@string/dsb_gradient_filter_value_0</item>
+        <item>@string/dsb_gradient_filter_value_1</item>
+        <item>@string/dsb_gradient_filter_value_2</item>
+        <item>@string/dsb_gradient_filter_value_3</item>
+    </string-array>
+    <string-array name="dsb_gradient_filter_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="clockelements_entries">
+        <item>DÍA / HORA / FECHA</item>
+        <item>FECHA / HORA / DÍA</item>
+        <item>HORA / DÍA / FECHA</item>
+        <item>HORA / FECHA / DÍA</item>
+    </string-array>
+    <string-array name="clockelements_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="ck_fonts_entries">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold Italic</item>
+    </string-array>
+    <string-array name="ck_fonts_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="ck_dateorder_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="ck_dateorder_entries">
+        <item>DD + MM + AAAA</item>
+        <item>MM + DD + AAAA</item>
+        <item>AAAA + MM + DD</item>
+        <item>AAAA + DD + MM</item>
+    </string-array>
+    <string-array name="ck_dateseparator_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="ck_dateseparator_entries">
+        <item>Usar  - como separator</item>
+        <item>Usar  / como separador</item>
+        <item>Usar  \\ com separador</item>
+        <item>Usar  . como separador</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Izquierda</item>
+        <item>Centro</item>
+        <item>Derecho</item>
+    </string-array>
+    <string-array name="clock_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string-array name="longpress_back_timeout_entries">
+        <item>300 ms</item>
+        <item>400 ms</item>
+        <item>500 ms</item>
+        <item>600 ms</item>
+        <item>700 ms</item>
+        <item>800 ms</item>
+        <item>900 ms</item>
+        <item>1000 ms</item>
+    </string-array>
+    <string-array name="longpress_back_timeout_values">
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+    </string-array>
+
+
+    <string-array name="boton_virtual_nav_entries">
+        <item>Bloquear pantalla</item>
+        <item>Menú de reinicio</item>
+        <item>Atrás</item>
+        <item>Home</item>
+        <item>Recientes</item>
+        <item>Menú</item>
+        <item>Volumen +</item>
+        <item>Volumen -</item>
+        <item>Teléfono</item>
+        <item>Sonido</item>
+        <item>Linterna</item>
+        <item>Panel de notificaciones</item>
+        <item>WiFi</item>
+        <item>Bluetooth</item>
+        <item>Aplicación</item>
+        <item>Liberar RAM</item>
+        <item>Nada</item>
+    </string-array>
+    <string-array name="boton_virtual_nav_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>15</item>
+        <item>17</item>
+        <item>18</item>
+        <item>25</item>
+        <item>999</item>
+    </string-array>
+    <string-array name="boton_virtual_izq_entries">
+        <item>Bloquear pantalla</item>
+        <item>Menú de reinicio</item>
+        <item>Atrás</item>
+        <item>Home</item>
+        <item>Recientes</item>
+        <item>Menú</item>
+        <item>Volumen +</item>
+        <item>Volumen -</item>
+        <item>Teléfono</item>
+        <item>Sonido</item>
+        <item>Linterna</item>
+        <item>Panel de notificaciones</item>
+        <item>WiFi</item>
+        <item>Bluetooth</item>
+        <item>Aplicación</item>
+        <item>Liberar RAM</item>
+        <item>Nada</item>
+    </string-array>
+    <string-array name="boton_virtual_izq_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>15</item>
+        <item>17</item>
+        <item>21</item>
+        <item>25</item>
+        <item>999</item>
+    </string-array>
+    <string-array name="boton_virtual_cntr_entries">
+        <item>Bloquear pantalla</item>
+        <item>Menú de reinicio</item>
+        <item>Atrás</item>
+        <item>Home</item>
+        <item>Recientes</item>
+        <item>Menú</item>
+        <item>Volumen +</item>
+        <item>Volumen -</item>
+        <item>Teléfono</item>
+        <item>Sonido</item>
+        <item>Linterna</item>
+        <item>Panel de notificaciones</item>
+        <item>WiFi</item>
+        <item>Bluetooth</item>
+        <item>Aplicación</item>
+        <item>Liberar RAM</item>
+        <item>Nada</item>
+    </string-array>
+    <string-array name="boton_virtual_cntr_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>15</item>
+        <item>17</item>
+        <item>19</item>
+        <item>25</item>
+        <item>999</item>
+    </string-array>
+    <string-array name="boton_virtual_drch_entries">
+        <item>Bloquear pantalla</item>
+        <item>Menú de reinicio</item>
+        <item>Atrás</item>
+        <item>Home</item>
+        <item>Recientes</item>
+        <item>Menú</item>
+        <item>Volumen +</item>
+        <item>Volumen -</item>
+        <item>Teléfono</item>
+        <item>Sonido</item>
+        <item>Linterna</item>
+        <item>Panel de notificaciones</item>
+        <item>WiFi</item>
+        <item>Bluetooth</item>
+        <item>Aplicación</item>
+        <item>Liberar RAM</item>
+        <item>Nada</item>
+    </string-array>
+    <string-array name="boton_virtual_drch_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>15</item>
+        <item>17</item>
+        <item>20</item>
+        <item>25</item>
+        <item>999</item>
+    </string-array>
+
+ <string-array name="agc_datausage_position_entries">
+     <item>Izquierda</item>
+     <item>Centro</item>
+     <item>Derecha</item>
+ </string-array>
+
+    <string-array name="agc_datausage_position_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="SignalPositionName">
+        <item>Left</item>
+        <item>Right</item>
+    </string-array>
+    <string-array name="SignalPositionValue">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="traffic_state_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="traffic_state_items">
+        <item>No mostrar</item>
+        <item>Solo subida</item>
+        <item>Solo descarga</item>
+        <item>Subida y descarga</item>
+    </string-array>
+    <string-array name="arrow_position_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="arrow_position_entries">
+        <item>Derecha</item>
+        <item>Izquierda</item>
+    </string-array>
+    <string-array name="traffic_style_entries">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold italic</item>
+    </string-array>
+    <string-array name="traffic_style_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="battery_bar_style_entries">
+        <item>Izquierda</item>
+        <item>Centrado</item>
+    </string-array>
+    <string-array name="battery_bar_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="battery_bar_thickness_entries">
+        <item>1 dp</item>
+        <item>2 dp</item>
+        <item>3 dp</item>
+        <item>4 dp</item>
+    </string-array>
+    <string-array name="battery_bar_thickness_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
 </resources>

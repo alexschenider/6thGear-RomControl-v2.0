@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Rotación"
+        android:defaultValue="true"
+        android:key="agc_keyguard_rotation"
+        app:packageNameToKill="com.android.systemui"
+        app:isSilent="true" />
+</PreferenceScreen>
