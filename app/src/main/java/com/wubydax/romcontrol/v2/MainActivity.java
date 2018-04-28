@@ -146,7 +146,7 @@ public class MainActivity extends AppCompatActivity
             loadPrefsFragment(getResources().getStringArray(R.array.nav_menu_xml_file_names)[index]);
             setTitle(item.getTitle().toString());
             mSharedPreferences.edit().putInt(Constants.LAST_FRAGMENT, index).apply();
-        } else {
+        } /*else {
             switch (id) {
 
                 case R.id.themes:
@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity
                     break;
             }
 
-        }
+        }*/
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         assert drawer != null;
         drawer.closeDrawer(GravityCompat.START);

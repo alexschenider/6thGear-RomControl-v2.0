@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/matrix" android:summary="@string/matrix_summary">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="@string/visibility"
+                android:key="matrix_effect"
+                android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="@string/matrix_bg_color"
+                android:key="recents_matrix_anim_bg_color"
+                android:dependency="matrix_effect"
+                android:defaultValue="#ff000000"
+                alphaSlider="true"
+                hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="@string/matrix_txt_color"
+                android:dependency="matrix_effect"
+                android:key="recents_matrix_anim_text_color"
+                android:defaultValue="#00ff00"
+                alphaSlider="true"
+                hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:max="50"
+                android:dependency="matrix_effect"
+                android:title="@string/size"
+                android:key="recents_matrix_anim_font_size"
+                android:defaultValue="35"
+                min="12"
+                unitsRight="" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:max="50"
+                android:dependency="matrix_effect"
+                android:title="@string/matrix_frqnc"
+                android:key="recents_matrix_anim_frequency"
+                android:defaultValue="5"
+                min="1"
+                unitsRight="" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/ramaokp" android:summary="@string/ramaokpsummary">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="@string/showhide"
+            android:key="ram_bar_recents"
+            android:defaultValue="0" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="@string/freeram"
+                android:key="free_ram_color"
+                android:defaultValue="-1"
+                hexValue="true"
+                alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="@string/usedram"
+                android:key="used_ram_color"
+                android:defaultValue="-1"
+                hexValue="true"
+                alphaSlider="true" />
+    </PreferenceScreen>
+</PreferenceScreen>

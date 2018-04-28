@@ -1,0 +1,146 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:4:11-46
+		INJECTED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:3:11-57
+	xmlns:android
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:6:5-72
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:6:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:8:5-80
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:9:5-77
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:9:22-75
+uses-permission#android.permission.REBOOT
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:10:5-11:59
+	tools:ignore
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:11:22-57
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:10:22-62
+uses-permission#android.permission.DEVICE_POWER
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:12:5-13:59
+	tools:ignore
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:13:22-57
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:12:22-68
+uses-permission#android.permission.RECOVERY
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:14:5-66
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:14:22-64
+application
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:16:5-48:19
+MERGED from [com.android.support:design:24.2.0] /home/abrahamgc/.android/build-cache/48dbf9dfb0a9287171096a289a7fb1ccc4eee996/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] /home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /home/abrahamgc/.android/build-cache/ffafa49a9f4d207619d92da7917580659cf80256/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /home/abrahamgc/.android/build-cache/95032142638002e6487c857f09a38adc07ba9ee2/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.2.0] /home/abrahamgc/.android/build-cache/1ff4a949a4b69117428dd0731b8c0260c9d1651e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] /home/abrahamgc/.android/build-cache/7935f58099618a1b86cce9b41f6f89aa305288f0/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] /home/abrahamgc/.android/build-cache/f59a3bbf5320f0a36a7cdf9b68bdc69476646d62/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] /home/abrahamgc/.android/build-cache/55b2767b479234c03e66bbeefbaa8a5a36d37105/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] /home/abrahamgc/.android/build-cache/0dd57dd495e4d8fa666adecf539f19ac2171434e/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] /home/abrahamgc/.android/build-cache/08ec28fbeb17baeed23f8878899ad6961feb66c3/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:24.2.0] /home/abrahamgc/.android/build-cache/0cdb9fb5a4e58a8bd7580d711bc283467a0ff6cb/output/AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/abrahamgc/.android/build-cache/6f1edbb63cf680c60aa7caee7e7b593f35a8f001/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:20:9-41
+	android:supportsRtl
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:22:9-35
+	tools:ignore
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:24:9-48
+	android:allowBackup
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:19:9-43
+	android:largeHeap
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:21:9-33
+	android:theme
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:23:9-44
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:17:9-30
+meta-data#com.samsung.android.sdk.multiwindow.penwindow.enable
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:25:9-110
+	android:value
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:25:88-108
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:25:20-87
+meta-data#com.sec.android.support.multiwindow
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:26:9-94
+	android:value
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:26:71-91
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:26:20-70
+activity#com.wubydax.romcontrol.v2.MainActivity
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:27:9-38:20
+	android:label
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:29:13-45
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:28:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LEANBACK_LAUNCHER+android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:30:13-37:29
+action#android.intent.action.MAIN
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:33:27-83
+category#android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:35:17-89
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:35:27-86
+activity#com.wubydax.romcontrol.v2.AboutActivity
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:39:9-42:20
+	android:parentActivityName
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:41:13-55
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:40:13-42
+service#com.wubydax.romcontrol.v2.utils.BackupRestoreIntentService
+ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:44:9-47:19
+	android:exported
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml:45:13-61
+uses-sdk
+INJECTED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:24.2.0] /home/abrahamgc/.android/build-cache/48dbf9dfb0a9287171096a289a7fb1ccc4eee996/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.0] /home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] /home/abrahamgc/.android/build-cache/ffafa49a9f4d207619d92da7917580659cf80256/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] /home/abrahamgc/.android/build-cache/95032142638002e6487c857f09a38adc07ba9ee2/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.2.0] /home/abrahamgc/.android/build-cache/1ff4a949a4b69117428dd0731b8c0260c9d1651e/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] /home/abrahamgc/.android/build-cache/7935f58099618a1b86cce9b41f6f89aa305288f0/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] /home/abrahamgc/.android/build-cache/f59a3bbf5320f0a36a7cdf9b68bdc69476646d62/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] /home/abrahamgc/.android/build-cache/55b2767b479234c03e66bbeefbaa8a5a36d37105/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:recyclerview-v7:24.2.0] /home/abrahamgc/.android/build-cache/0b046ae47304949b5063a17bc3ee660ac18e3d90/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:24.2.0] /home/abrahamgc/.android/build-cache/0dd57dd495e4d8fa666adecf539f19ac2171434e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] /home/abrahamgc/.android/build-cache/08ec28fbeb17baeed23f8878899ad6961feb66c3/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:24.2.0] /home/abrahamgc/.android/build-cache/0cdb9fb5a4e58a8bd7580d711bc283467a0ff6cb/output/AndroidManifest.xml:20:5-43
+MERGED from [de.hdodenhof:circleimageview:2.0.0] /home/abrahamgc/.android/build-cache/6f1edbb63cf680c60aa7caee7e7b593f35a8f001/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] /home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml
+		INJECTED from /home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/AndroidManifest.xml

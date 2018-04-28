@@ -49,9 +49,9 @@
     </array>
 
     <string-array name="custom_bg_type_entries">
-        <item>Imagen</item>
-        <item>Color sólido</item>
-        <item>Degradado</item>
+        <item>@string/image</item>
+        <item>@string/solid_color</item>
+        <item>@string/gradient</item>
     </string-array>
     <string-array name="custom_bg_type_values" translatable="false">
         <item>0</item>
@@ -74,9 +74,9 @@
     </string-array>
 
     <string-array name="crop_entries">
-        <item>Center crop</item>
-        <item>Center inside</item>
-        <item>Fit XY</item>
+        <item>@string/center_crop</item>
+        <item>@string/center_inside</item>
+        <item>@string/fit_xy</item>
     </string-array>
     <string-array name="crop_values" translatable="false">
         <item>0</item>
@@ -128,10 +128,10 @@
         <item>3</item>
     </string-array>
     <string-array name="ck_dateorder_entries">
-        <item>DD + MM + AAAA</item>
-        <item>MM + DD + AAAA</item>
-        <item>AAAA + MM + DD</item>
-        <item>AAAA + DD + MM</item>
+        <item>@string/dma</item>
+        <item>@string/mda</item>
+        <item>@string/amd</item>
+        <item>@string/adm</item>
     </string-array>
     <string-array name="ck_dateseparator_values">
         <item>0</item>
@@ -140,15 +140,15 @@
         <item>3</item>
     </string-array>
     <string-array name="ck_dateseparator_entries">
-        <item>Usar  - como separator</item>
-        <item>Usar  / como separador</item>
-        <item>Usar  \\ com separador</item>
-        <item>Usar  . como separador</item>
+        <item>@string/use0</item>
+        <item>@string/use1</item>
+        <item>@string/use2</item>
+        <item>@string/use3</item>
     </string-array>
     <string-array name="clock_position_entries">
-        <item>Izquierda</item>
-        <item>Centro</item>
-        <item>Derecho</item>
+        <item>@string/left</item>
+        <item>@string/center</item>
+        <item>@string/right</item>
     </string-array>
     <string-array name="clock_position_values">
         <item>0</item>
@@ -180,23 +180,23 @@
 
 
     <string-array name="boton_virtual_nav_entries">
-        <item>Bloquear pantalla</item>
-        <item>Menú de reinicio</item>
-        <item>Atrás</item>
-        <item>Home</item>
-        <item>Recientes</item>
-        <item>Menú</item>
-        <item>Volumen +</item>
-        <item>Volumen -</item>
-        <item>Teléfono</item>
-        <item>Sonido</item>
-        <item>Linterna</item>
-        <item>Panel de notificaciones</item>
-        <item>WiFi</item>
-        <item>Bluetooth</item>
-        <item>Aplicación</item>
-        <item>Liberar RAM</item>
-        <item>Nada</item>
+        <item>@string/lock_screen</item>
+        <item>@string/reboot_menu</item>
+        <item>@string/back</item>
+        <item>@string/home</item>
+        <item>@string/recents</item>
+        <item>@string/menu</item>
+        <item>@string/volup</item>
+        <item>@string/voldown</item>
+        <item>@string/phone</item>
+        <item>@string/sound</item>
+        <item>@string/flashlight</item>
+        <item>@string/notpanel</item>
+        <item>@string/wifi</item>
+        <item>@string/bluetooth</item>
+        <item>@string/app</item>
+        <item>@string/cleanram</item>
+        <item>@string/nothing</item>
     </string-array>
     <string-array name="boton_virtual_nav_values">
         <item>0</item>
@@ -218,23 +218,23 @@
         <item>999</item>
     </string-array>
     <string-array name="boton_virtual_izq_entries">
-        <item>Bloquear pantalla</item>
-        <item>Menú de reinicio</item>
-        <item>Atrás</item>
-        <item>Home</item>
-        <item>Recientes</item>
-        <item>Menú</item>
-        <item>Volumen +</item>
-        <item>Volumen -</item>
-        <item>Teléfono</item>
-        <item>Sonido</item>
-        <item>Linterna</item>
-        <item>Panel de notificaciones</item>
-        <item>WiFi</item>
-        <item>Bluetooth</item>
-        <item>Aplicación</item>
-        <item>Liberar RAM</item>
-        <item>Nada</item>
+        <item>@string/lock_screen</item>
+        <item>@string/reboot_menu</item>
+        <item>@string/back</item>
+        <item>@string/home</item>
+        <item>@string/recents</item>
+        <item>@string/menu</item>
+        <item>@string/volup</item>
+        <item>@string/voldown</item>
+        <item>@string/phone</item>
+        <item>@string/sound</item>
+        <item>@string/flashlight</item>
+        <item>@string/notpanel</item>
+        <item>@string/wifi</item>
+        <item>@string/bluetooth</item>
+        <item>@string/app</item>
+        <item>@string/cleanram</item>
+        <item>@string/nothing</item>
     </string-array>
     <string-array name="boton_virtual_izq_values">
         <item>0</item>
@@ -256,23 +256,23 @@
         <item>999</item>
     </string-array>
     <string-array name="boton_virtual_cntr_entries">
-        <item>Bloquear pantalla</item>
-        <item>Menú de reinicio</item>
-        <item>Atrás</item>
-        <item>Home</item>
-        <item>Recientes</item>
-        <item>Menú</item>
-        <item>Volumen +</item>
-        <item>Volumen -</item>
-        <item>Teléfono</item>
-        <item>Sonido</item>
-        <item>Linterna</item>
-        <item>Panel de notificaciones</item>
-        <item>WiFi</item>
-        <item>Bluetooth</item>
-        <item>Aplicación</item>
-        <item>Liberar RAM</item>
-        <item>Nada</item>
+        <item>@string/lock_screen</item>
+        <item>@string/reboot_menu</item>
+        <item>@string/back</item>
+        <item>@string/home</item>
+        <item>@string/recents</item>
+        <item>@string/menu</item>
+        <item>@string/volup</item>
+        <item>@string/voldown</item>
+        <item>@string/phone</item>
+        <item>@string/sound</item>
+        <item>@string/flashlight</item>
+        <item>@string/notpanel</item>
+        <item>@string/wifi</item>
+        <item>@string/bluetooth</item>
+        <item>@string/app</item>
+        <item>@string/cleanram</item>
+        <item>@string/nothing</item>
     </string-array>
     <string-array name="boton_virtual_cntr_values">
         <item>0</item>
@@ -294,23 +294,23 @@
         <item>999</item>
     </string-array>
     <string-array name="boton_virtual_drch_entries">
-        <item>Bloquear pantalla</item>
-        <item>Menú de reinicio</item>
-        <item>Atrás</item>
-        <item>Home</item>
-        <item>Recientes</item>
-        <item>Menú</item>
-        <item>Volumen +</item>
-        <item>Volumen -</item>
-        <item>Teléfono</item>
-        <item>Sonido</item>
-        <item>Linterna</item>
-        <item>Panel de notificaciones</item>
-        <item>WiFi</item>
-        <item>Bluetooth</item>
-        <item>Aplicación</item>
-        <item>Liberar RAM</item>
-        <item>Nada</item>
+        <item>@string/lock_screen</item>
+        <item>@string/reboot_menu</item>
+        <item>@string/back</item>
+        <item>@string/home</item>
+        <item>@string/recents</item>
+        <item>@string/menu</item>
+        <item>@string/volup</item>
+        <item>@string/voldown</item>
+        <item>@string/phone</item>
+        <item>@string/sound</item>
+        <item>@string/flashlight</item>
+        <item>@string/notpanel</item>
+        <item>@string/wifi</item>
+        <item>@string/bluetooth</item>
+        <item>@string/app</item>
+        <item>@string/cleanram</item>
+        <item>@string/nothing</item>
     </string-array>
     <string-array name="boton_virtual_drch_values">
         <item>0</item>
@@ -333,9 +333,9 @@
     </string-array>
 
  <string-array name="agc_datausage_position_entries">
-     <item>Izquierda</item>
-     <item>Centro</item>
-     <item>Derecha</item>
+     <item>@string/left</item>
+     <item>@string/center</item>
+     <item>@string/right</item>
  </string-array>
 
     <string-array name="agc_datausage_position_values">
@@ -345,8 +345,8 @@
     </string-array>
 
     <string-array name="SignalPositionName">
-        <item>Left</item>
-        <item>Right</item>
+        <item>@string/left</item>
+        <item>@string/right</item>
     </string-array>
     <string-array name="SignalPositionValue">
         <item>0</item>
@@ -360,18 +360,18 @@
         <item>3</item>
     </string-array>
     <string-array name="traffic_state_items">
-        <item>No mostrar</item>
-        <item>Solo subida</item>
-        <item>Solo descarga</item>
-        <item>Subida y descarga</item>
+        <item>@string/noshow</item>
+        <item>@string/onlyupload</item>
+        <item>@string/onlydownload</item>
+        <item>@string/upanddown</item>
     </string-array>
     <string-array name="arrow_position_values">
         <item>0</item>
         <item>1</item>
     </string-array>
     <string-array name="arrow_position_entries">
-        <item>Derecha</item>
-        <item>Izquierda</item>
+        <item>@string/right</item>
+        <item>@string/left</item>
     </string-array>
     <string-array name="traffic_style_entries">
         <item>Normal</item>
@@ -387,8 +387,8 @@
     </string-array>
 
     <string-array name="battery_bar_style_entries">
-        <item>Izquierda</item>
-        <item>Centrado</item>
+        <item>@string/left</item>
+        <item>@string/right</item>
     </string-array>
     <string-array name="battery_bar_style_values">
         <item>0</item>
@@ -407,5 +407,61 @@
         <item>4</item>
     </string-array>
 
+    <string-array name="rebootmenu_style_entries">
+        <item>@string/stock</item>
+        <item>@string/semicircle</item>
+        <item>@string/gradient</item>
+        <item>@string/hexagonal</item>
+        <item>@string/spanky</item>
+    </string-array>
+    <string-array name="rebootmenu_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="agc_navbar_entries">
+        <item>Stock</item>
+        <item>Carbon</item>
+        <item>Airbrush</item>
+        <item>Zenyth</item>
+    </string-array>
+
+    <string-array name="agc_navbar_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <array name="drawables_agc_navbar_recent">
+        <item>@drawable/navbar_stock_recent</item>
+        <item>@drawable/navbar_carbon_recent</item>
+        <item>@drawable/navbar_airbrush_recent</item>
+        <item>@drawable/navbar_zenyth_recent</item>
+    </array>
+    <array name="drawables_agc_navbar_home">
+        <item>@drawable/navbar_stock_home</item>
+        <item>@drawable/navbar_carbon_home</item>
+        <item>@drawable/navbar_airbrush_home</item>
+        <item>@drawable/navbar_zenyth_home</item>
+    </array>
+    <array name="drawables_agc_navbar_back">
+        <item>@drawable/navbar_stock_back</item>
+        <item>@drawable/navbar_carbon_back</item>
+        <item>@drawable/navbar_airbrush_back</item>
+        <item>@drawable/navbar_zenyth_back</item>
+    </array>
+
+    <array name="drawables_icono_reinicio">
+        <item>@drawable/stock</item>
+        <item>@drawable/semicircle</item>
+        <item>@drawable/gradient</item>
+        <item>@drawable/hexagonal</item>
+        <item>@drawable/spanky</item>
+    </array>
 
 </resources>

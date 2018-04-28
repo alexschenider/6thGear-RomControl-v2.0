@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/fade_out.xml",
+        "source": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/home/abrahamgc/.android/build-cache/48dbf9dfb0a9287171096a289a7fb1ccc4eee996/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/home/abrahamgc/.android/build-cache/48dbf9dfb0a9287171096a289a7fb1ccc4eee996/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/home/abrahamgc/.android/build-cache/48dbf9dfb0a9287171096a289a7fb1ccc4eee996/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/home/abrahamgc/.android/build-cache/48dbf9dfb0a9287171096a289a7fb1ccc4eee996/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Acceso a apps">
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+                android:title="SuperSU"
+                android:icon="@drawable/ic_supersu"
+                app:componentName="eu.chainfire.supersu/eu.chainfire.supersu.MainActivity" />
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+                android:title="Magisk"
+                android:icon="@drawable/ic_magisk"
+                app:componentName="com.topjohnwu.magisk/com.topjohnwu.magisk.MainActivity" />
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+                android:title="ScreenRecorder"
+                android:icon="@drawable/ic_settings_d"
+                android:summary="Ajustes para ScreenRecorder"
+                app:componentName="com.sec.app.screenrecorder/com.sec.app.screenrecorder.activity.SettingsActivity" />
+    </PreferenceCategory>
+</PreferenceScreen>

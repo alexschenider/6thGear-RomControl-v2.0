@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Desplazarse hacia arriba"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Más opciones"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Listo"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Ver todo"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Seleccionar una aplicación"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"NO"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"SÍ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Buscar…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Borrar consulta"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Consulta"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Buscar"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Enviar consulta"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Búsqueda por voz"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartir con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
+    <string name="about_us">Sobre nosotros</string>
+    <string name="adm">AAAA ++ DD ++ MM</string>
+    <string name="airplane">Modo avión</string>
+    <string name="amd">AAAA ++ MM ++ DD</string>
+    <string name="ampm_size">Tamaño AM/PM</string>
+    <string name="ampmfont">Fuente AM/PM</string>
+    <string name="app">Aplicación</string>
+    <string name="app_name">DRC</string>
+    <string name="app_reboot_required_dialog_title"/>
+    <string name="apps">Aplicaciones</string>
+    <string name="arrows">Flechas</string>
+    <string name="ask_confirmation">Mostrar confirmación antes de apagar/reiniciar</string>
+    <string name="assistence">Asistencia</string>
+    <string name="back">Retroceso</string>
+    <string name="backicon">Icono de retroceso</string>
+    <string name="battery">Batería</string>
+    <string name="battery_summary">Stock/3MinitBattery/Colores</string>
+    <string name="bg_tg_bt_br">Fondo/toggles/Botones/Brillo</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="br_bar">Barra de brillo</string>
+    <string name="br_bar_without">Barra sin brillo</string>
+    <string name="br_controller">Controlador de brillo</string>
+    <string name="br_max_level">Nivel de brillo máximo</string>
+    <string name="brightness_detail_icon">Icono de ajustes de brillo</string>
+    <string name="brightness_icon">Icono de brillo</string>
+    <string name="bt_bar">Barra de batería</string>
+    <string name="bt_bar_anim">Usar animación de carga</string>
+    <string name="bt_percentage">Porcentaje de batería</string>
+    <string name="carrier_font">Fuente</string>
+    <string name="carrier_summary">Visibilidad/Texto/Color/Fuente</string>
+    <string name="center">Centro</string>
+    <string name="center_crop">Centrada ajustada</string>
+    <string name="center_inside">Centrada</string>
+    <string name="change_battery">Cambiar icono de batería</string>
+    <string name="changelog">Cambios</string>
+    <string name="cl_global">Color global</string>
+    <string name="cleanram">Liberar RAM</string>
+    <string name="clock">Reloj</string>
+    <string name="clock_summary">Visibilidad/Elementos/Tamaños/Fuentes/Colores</string>
+    <string name="color">Color</string>
+    <string name="colors">Colores</string>
+    <string name="custombg">Fondo personalizado</string>
+    <string name="custombg_color_pref">Preferencias de color/degradado</string>
+    <string name="custombg_enable">Habilitar fondo personalizado</string>
+    <string name="custombg_general_pref">Preferencias generales</string>
+    <string name="custombg_image_pref">Preferencias de imagen</string>
+    <string name="custombg_image_scale">Escala de imagen</string>
+    <string name="custombg_orientation">Orientación del degradado</string>
+    <string name="custombg_primary">Color primario</string>
+    <string name="custombg_secondary">Color secundario (Solo para degradado))</string>
+    <string name="custombg_select_image">Selecciona imagen</string>
+    <string name="custombg_summary">Color/Degradado/Imagen</string>
+    <string name="custombg_type">Tipo de fondo</string>
+    <string name="customheight">Usar tamaño personalizado</string>
+    <string name="datamobile">Datos móviles</string>
+    <string name="datausage">Uso de datos</string>
+    <string name="datausage_summary">Visibilidad/Posición/Fuente/Color</string>
+    <string name="date">Fecha</string>
+    <string name="date_order">Orden de fecha</string>
+    <string name="date_size">Tamaño de fecha</string>
+    <string name="datefont">Fuente de fecha</string>
+    <string name="day">Dia</string>
+    <string name="day_size">Tamaño de dia</string>
+    <string name="dayfont">Fuente de dia</string>
+    <string name="deluxe_statusbar_preference">Barra de estado</string>
+    <string name="divisor_toggles">Divisor de toggles</string>
+    <string name="dma">DD ++ MM ++ AAAA</string>
+    <string name="drc"/>
+    <string name="dt2s">Doble toque para bloquear</string>
+    <string name="elem_order">Orden de elementos</string>
+    <string name="elementstoshow">Elementos a mostrar</string>
+    <string name="elementstoshowmin">Elementos a mostrar en menú de reinicio (Mín. 2)</string>
+    <string name="emergencymode">Modo emergencia</string>
+    <string name="enable">Activar</string>
+    <string name="ereboot">Reiniciar</string>
+    <string name="extra_clock_prfs">Elementos a mostrar/Otros ajustes</string>
+    <string name="extra_clock_prfs_summary">Selecciona que mostrar y en que orden</string>
+    <string name="fit_xy">Ajustar XY</string>
+    <string name="flashlight">Linterna</string>
+    <string name="font">Fuente</string>
+    <string name="fonts">Fuentes</string>
+    <string name="freeram">RAM libre</string>
+    <string name="gb_color">Color global</string>
+    <string name="global_indiv">Selecciona color global o individual</string>
+    <string name="global_separated">Color global/separado</string>
+    <string name="gradient">Degradado</string>
+    <string name="handler">Icono arrastrar (2 lineas)</string>
+    <string name="hexagonal">Hexagonal</string>
+    <string name="home">Inicio</string>
+    <string name="homeicon">Icono de inicio</string>
+    <string name="hour">Hora</string>
+    <string name="hour_mins_secs_font">Fuente de horas/minutos/segundos</string>
+    <string name="hour_separator">Separador (2 puntos)</string>
+    <string name="hours">Horas</string>
+    <string name="hours_mins_size">Tamaño de horas/minutos/segundos</string>
+    <string name="icons_col">Colores de iconos</string>
+    <string name="icons_summary">WiFi/Señal/Datos/Avión/Porcentaje</string>
+    <string name="image">Imagen</string>
+    <string name="invisible">Invisible</string>
+    <string name="kill_on_long_press">Pulsación larga en retroceso para cerrar aplicación</string>
+    <string name="left">Izquierda</string>
+    <string name="lock_screen">Bloquear pantalla</string>
+    <string name="lockscreen">Pantalla de bloqueo</string>
+    <string name="long_press">Pulsación larga</string>
+    <string name="matrix">Efecto Matrix</string>
+    <string name="matrix_bg_color">Color de fondo</string>
+    <string name="matrix_frqnc">Frecuencia de texto</string>
+    <string name="matrix_summary">Visibilidad/Color/Tamaño</string>
+    <string name="matrix_txt_color">Color del texto</string>
+    <string name="mbl_data">Datos móviles</string>
+    <string name="mbl_data_arrws">Flechas de datos móviles</string>
+    <string name="mda">MM ++ DD ++ AAAA</string>
+    <string name="menu">Menú</string>
+    <string name="menureboot">Menú de reinicio</string>
+    <string name="mins">Minutos</string>
+    <string name="more_options"/>
+    <string name="navbar">Barra de navegación</string>
+    <string name="navbar_right">Derecha en barra de navegación</string>
+    <string name="noshow">No mostrar</string>
+    <string name="nothing">Nada</string>
+    <string name="notification_panel_prefs">Preferencias panel de notificaciones</string>
+    <string name="notpanel">Panel de notificaciones</string>
+    <string name="onlydownload">Solo descarga</string>
+    <string name="onlyupload">solo subida</string>
+    <string name="opacity">Opacidad</string>
+    <string name="other_mods">Otros mods</string>
+    <string name="panel_bg">Fondo del panel</string>
+    <string name="panel_mnore_settings">Botón de mas ajustes (3 puntos)</string>
+    <string name="panel_settings_bt">Botón de ajustes</string>
+    <string name="phone">Teléfono</string>
+    <string name="position">Posición</string>
+    <string name="quick_pulldown">Bajar desde el lado derecho</string>
+    <string name="quick_pulldown_no">Vista normal</string>
+    <string name="quick_pulldown_yes">Muestra todos los toggles</string>
+    <string name="ramaokp">Barra de RAM A.O.K.P</string>
+    <string name="ramaokpsummary">Visibilidad/Colores</string>
+    <string name="reboot_device_text">Reiniciar dispositivo</string>
+    <string name="reboot_menu">Menú de reinicio</string>
+    <string name="reboot_recovery_text">Reiniciar en Recovery</string>
+    <string name="reboot_ui_text">Reiniciar SystemUI</string>
+    <string name="rebootdownload">Reiniciar en Download</string>
+    <string name="rebootrecovery">Reiniciar en Recovery</string>
+    <string name="recents">Recientes</string>
+    <string name="recentsicon">Icono de recientes</string>
+    <string name="recordscreen">Grabar pantalla</string>
+    <string name="right">Derecha</string>
+    <string name="roaming">Roaming</string>
+    <string name="root_progress_dialog_title">Adquiriendo acceso root...</string>
+    <string name="rotation">Rotación</string>
+    <string name="sb_carrier">Nombre de operadora</string>
+    <string name="sb_center">Centro en barra de estado</string>
+    <string name="sb_icons_preferences">Preferencias de iconos en barra de estado</string>
+    <string name="sb_left">Izquierda en barra de estado</string>
+    <string name="sb_right">Derecha en barra de estado</string>
+    <string name="screenshot">Captura de pantalla</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
+    <string name="seconds">Segundos</string>
+    <string name="select_app">Selecciona aplicación</string>
+    <string name="select_indiv_fonts">Selecciona fuentes individuales</string>
+    <string name="select_indv_sizes">Selecciona tamaños individuales</string>
+    <string name="select_style">Selecciona estilo de iconos</string>
+    <string name="semicircle">Semicírculo</string>
+    <string name="separator">Separador</string>
+    <string name="separator_size">Separador de hora (2 puntos)</string>
+    <string name="set_theme">Aplicar tema</string>
+    <string name="settings">Ajustes</string>
+    <string name="short_press">Pulsación corta</string>
+    <string name="show_battery">Mostrar batería stock</string>
+    <string name="show_bt_bar">Mostrar barra de batería</string>
+    <string name="show_date">Mostrar fecha</string>
+    <string name="show_day">Mostrar dia</string>
+    <string name="show_hide">Mostrar/Ocultar</string>
+    <string name="show_seconds">Mostrar segundos</string>
+    <string name="show_whole_day">Mostrar día completo</string>
+    <string name="show_whole_year">Mostrar año completo</string>
+    <string name="showhide">Mostrar/Ocultar</string>
+    <string name="shutdown">Apagar</string>
+    <string name="signal">Señal</string>
+    <string name="signal_positions">Posición iconos de señal</string>
+    <string name="size">Tamaño</string>
+    <string name="sizes">Tamaños</string>
+    <string name="solid_color">Color sólido</string>
+    <string name="sound">Sonido</string>
+    <string name="sp_arrows_preferences">Preferencias de flechas</string>
+    <string name="sp_autohide">Esconder con tráfico bajo</string>
+    <string name="sp_autohide_when">Esconder por debajo de</string>
+    <string name="sp_byte">Mostrar en bytes</string>
+    <string name="sp_info">Información a mostrar</string>
+    <string name="sp_left">Tráfico de red a la izquierda</string>
+    <string name="sp_right">Tráfico de red a la derecha</string>
+    <string name="sp_separate_colors">Separar colores</string>
+    <string name="sp_settings">Ajustes de tráfico de red (¡Solo uno!)</string>
+    <string name="sp_show_arrows">Mostrar flechas</string>
+    <string name="sp_title">Tráfico de red</string>
+    <string name="sp_visual_options">Opciones de visualización</string>
+    <string name="spanky">Spanky</string>
+    <string name="speedmetters">Velocímetros</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"+999"</string>
+    <string name="statusbar">Barra de estado</string>
+    <string name="stock">Stock</string>
+    <string name="stock_preferences">Preferencias stock</string>
+    <string name="text_edit">Edita el texto</string>
+    <string name="text_toggles">Texto de toggles</string>
+    <string name="texts">Textos</string>
+    <string name="theme_dialog_title">Elige tema</string>
+    <string name="tminit_icon">Icono 3MinitBattery</string>
+    <string name="tminit_preferences">Preferencias 3Minit</string>
+    <string name="toggles_off">Toggles apagados</string>
+    <string name="toggles_on">Toggles encendidos</string>
+    <string name="upanddown">Subida y descarga</string>
+    <string name="uppercase_ampm">Mostrar AM/PM en mayúsculas</string>
+    <string name="use0">Usar - como separador</string>
+    <string name="use1">Usar / como separador</string>
+    <string name="use2">Usar \\ como separador</string>
+    <string name="use3">Usar - como separador</string>
+    <string name="use_custom_color">Usar color personalizado/stock</string>
+    <string name="use_customtext">Usar texto personalizado</string>
+    <string name="use_global_color">Usar color global/individual</string>
+    <string name="usedram">RAM usada</string>
+    <string name="vbuttons">Botones virtuales</string>
+    <string name="virtualbuttons">Botones virtuales</string>
+    <string name="visibility">Visibilidad</string>
+    <string name="visibility_carrier">Visibilidad del texto</string>
+    <string name="visible">Visible</string>
+    <string name="voldown">Bajar volumen</string>
+    <string name="volup">Subir volumen</string>
+    <string name="wifi">WiFi</string>
+    <string name="wifiarrws">Flechas WiFi</string>
+</resources>
