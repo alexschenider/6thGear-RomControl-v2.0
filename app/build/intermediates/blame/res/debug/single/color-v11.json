@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

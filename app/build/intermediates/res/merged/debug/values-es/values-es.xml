@@ -80,13 +80,15 @@
     <string name="date_order">Orden de fecha</string>
     <string name="date_size">Tamaño de fecha</string>
     <string name="datefont">Fuente de fecha</string>
+    <string name="datehourday">Fecha / Hora /Dia</string>
     <string name="day">Dia</string>
     <string name="day_size">Tamaño de dia</string>
     <string name="dayfont">Fuente de dia</string>
+    <string name="dayhourdate">Dia / Hora / Fecha</string>
     <string name="deluxe_statusbar_preference">Barra de estado</string>
     <string name="divisor_toggles">Divisor de toggles</string>
     <string name="dma">DD ++ MM ++ AAAA</string>
-    <string name="drc"/>
+    <string name="drc">DeluxeROMControl</string>
     <string name="dt2s">Doble toque para bloquear</string>
     <string name="elem_order">Orden de elementos</string>
     <string name="elementstoshow">Elementos a mostrar</string>
@@ -101,6 +103,10 @@
     <string name="font">Fuente</string>
     <string name="fonts">Fuentes</string>
     <string name="freeram">RAM libre</string>
+    <string name="fromdowntoup">De abajo a arriba</string>
+    <string name="fromlefttoright">De izquierda a derecha</string>
+    <string name="fromrighttoleft">De derecha a izquierda</string>
+    <string name="fromuptodown">De arriba a abajo</string>
     <string name="gb_color">Color global</string>
     <string name="global_indiv">Selecciona color global o individual</string>
     <string name="global_separated">Color global/separado</string>
@@ -112,6 +118,8 @@
     <string name="hour">Hora</string>
     <string name="hour_mins_secs_font">Fuente de horas/minutos/segundos</string>
     <string name="hour_separator">Separador (2 puntos)</string>
+    <string name="hourdateday">Hora / Fecha / Día</string>
+    <string name="hourdaydate">Hora / Día / Fecha</string>
     <string name="hours">Horas</string>
     <string name="hours_mins_size">Tamaño de horas/minutos/segundos</string>
     <string name="icons_col">Colores de iconos</string>

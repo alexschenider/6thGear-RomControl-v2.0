@@ -333,10 +333,10 @@
         <item>2</item>
     </string-array>
     <string-array name="clockelements_entries">
-        <item>DÍA / HORA / FECHA</item>
-        <item>FECHA / HORA / DÍA</item>
-        <item>HORA / DÍA / FECHA</item>
-        <item>HORA / FECHA / DÍA</item>
+        <item>@string/dayhourdate</item>
+        <item>@string/datehourday</item>
+        <item>@string/hourdaydate</item>
+        <item>@string/hourdateday</item>
     </string-array>
     <string-array name="clockelements_values">
         <item>0</item>
@@ -402,10 +402,10 @@
         <item>3</item>
     </string-array>
     <string-array name="gradient_entries">
-        <item>De arriba a abajo</item>
-        <item>De abajo a arriba</item>
-        <item>De izquierda a derecha</item>
-        <item>De derecha a izquierda</item>
+        <item>@string/fromuptodown</item>
+        <item>@string/fromdowntoup</item>
+        <item>@string/fromlefttoright</item>
+        <item>@string/fromrighttoleft</item>
 
     </string-array>
     <string-array name="gradient_values" translatable="false">
@@ -1223,16 +1223,18 @@
     <string name="date_order">Date order</string>
     <string name="date_size">Date size</string>
     <string name="datefont">Date font</string>
+    <string name="datehourday">Date / Hour / Day</string>
     <string name="day">Day</string>
     <string name="day_size">Day size</string>
     <string name="dayfont">Day font</string>
+    <string name="dayhourdate">Day / Hour / Date</string>
     <string name="debloat_rom_menu_title">Debloat rom</string>
     <string name="deluxe_statusbar_preference">Statusbar</string>
     <string name="deselect_all">Deselect all</string>
     <string name="dialog_color_picker">Pick Color</string>
     <string name="divisor_toggles">Toggles divisor</string>
     <string name="dma">DD + MM + YYYY</string>
-    <string name="drc"/>
+    <string name="drc">DeluxeROMControl</string>
     <string name="dsb_gradient_filter_value_0">Off</string>
     <string name="dsb_gradient_filter_value_1">Only on the desktop</string>
     <string name="dsb_gradient_filter_value_2">Everywhere except the desktop</string>
@@ -1253,6 +1255,10 @@
     <string name="fonts">Fonts</string>
     <string name="framework_prefs">Framework prefs</string>
     <string name="freeram">Free RAM</string>
+    <string name="fromdowntoup">Down to up</string>
+    <string name="fromlefttoright">Left to right</string>
+    <string name="fromrighttoleft">Right to left</string>
+    <string name="fromuptodown">Up to down</string>
     <string name="gb_color">Global color</string>
     <string name="global_indiv">Select global or individual color</string>
     <string name="global_separated">Global/Separated color</string>
@@ -1264,6 +1270,8 @@
     <string name="hour">Hour</string>
     <string name="hour_mins_secs_font">Hours/Mins/Secs font</string>
     <string name="hour_separator">Separator (2 points)</string>
+    <string name="hourdateday">Hour / Date / Day</string>
+    <string name="hourdaydate">Hour / Day / Date</string>
     <string name="hours">Hours</string>
     <string name="hours_mins_size">Hours/Mins/Secs size</string>
     <string name="icons_col">Icons colors</string>

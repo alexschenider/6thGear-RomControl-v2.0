@@ -1,86 +1,86 @@
 [
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_btn_colored_borderless_text_material.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/nav_items_selector_light.xml",
-        "source": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/res/color/nav_items_selector_light.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_tint_edittext.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_search_url_text.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\nav_items_selector_light.xml",
+        "source": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\color\\nav_items_selector_light.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_tint_default.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\4509dad66e5c1ad2be41b64bcdbca311ffd218cd\\output\\res\\color\\design_error.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_primary_text_material_light.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_tint_spinner.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_secondary_text_material_light.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/home/abrahamgc/.android/build-cache/48dbf9dfb0a9287171096a289a7fb1ccc4eee996/output/res/color/design_tint_password_toggle.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_tint_btn_checkable.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_primary_text_material_dark.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/home/abrahamgc/.android/build-cache/48dbf9dfb0a9287171096a289a7fb1ccc4eee996/output/res/color/design_error.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_tint_default.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/switch_thumb_material_dark.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\4509dad66e5c1ad2be41b64bcdbca311ffd218cd\\output\\res\\color\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_tint_switch_thumb.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/nav_items_selector_dark.xml",
-        "source": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/src/main/res/color/nav_items_selector_dark.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_tint_switch_track.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_tint_seek_thumb.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/switch_thumb_material_light.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\nav_items_selector_dark.xml",
+        "source": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\color\\nav_items_selector_dark.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/home/abrahamgc/.android/build-cache/49cb65a7bc820408c614c3afcc8b65e4c2bbb881/output/res/color/abc_secondary_text_material_dark.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\08a20b89dc34bd24cba44166b7e703c4f31eed58\\output\\res\\color\\abc_tint_switch_track.xml"
     }
 ]

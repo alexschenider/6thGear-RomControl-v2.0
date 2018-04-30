@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/home/abrahamgc/.android/build-cache/48dbf9dfb0a9287171096a289a7fb1ccc4eee996/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\4509dad66e5c1ad2be41b64bcdbca311ffd218cd\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim-v21/design_appbar_state_list_animator.xml",
-        "source": "/home/abrahamgc/.android/build-cache/48dbf9dfb0a9287171096a289a7fb1ccc4eee996/output/res/anim-v21/design_appbar_state_list_animator.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\4509dad66e5c1ad2be41b64bcdbca311ffd218cd\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
     },
     {
-        "merged": "/home/abrahamgc/IntellIJ-Projects/6thGear-RomControl-v2.0/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/home/abrahamgc/.android/build-cache/48dbf9dfb0a9287171096a289a7fb1ccc4eee996/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\AbrahamGC\\.android\\build-cache\\4509dad66e5c1ad2be41b64bcdbca311ffd218cd\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     }
 ]

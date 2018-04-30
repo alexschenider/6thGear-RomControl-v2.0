@@ -192,7 +192,7 @@
     <string name="emergencymode">Modo emergencia</string>
     <string name="elementstoshowmin">Elementos a mostrar en menú de reinicio (Mín. 2)</string>
     <string name="elementstoshow">Elementos a mostrar</string>
-    <string name="drc"></string>
+    <string name="drc">DeluxeROMControl</string>
     <string name="dma">DD ++ MM ++ AAAA</string>
     <string name="datamobile">Datos móviles</string>
     <string name="back">Retroceso</string>
@@ -227,4 +227,12 @@
     <string name="fit_xy">Ajustar XY</string>
     <string name="image">Imagen</string>
     <string name="solid_color">Color sólido</string>
+    <string name="dayhourdate">Dia / Hora / Fecha</string>
+    <string name="datehourday">Fecha / Hora /Dia</string>
+    <string name="hourdaydate">Hora / Día / Fecha</string>
+    <string name="hourdateday">Hora / Fecha / Día</string>
+    <string name="fromuptodown">De arriba a abajo</string>
+    <string name="fromdowntoup">De abajo a arriba</string>
+    <string name="fromlefttoright">De izquierda a derecha</string>
+    <string name="fromrighttoleft">De derecha a izquierda</string>
 </resources>

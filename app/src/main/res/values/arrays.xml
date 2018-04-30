@@ -59,10 +59,10 @@
         <item>2</item>
     </string-array>
     <string-array name="gradient_entries">
-        <item>De arriba a abajo</item>
-        <item>De abajo a arriba</item>
-        <item>De izquierda a derecha</item>
-        <item>De derecha a izquierda</item>
+        <item>@string/fromuptodown</item>
+        <item>@string/fromdowntoup</item>
+        <item>@string/fromlefttoright</item>
+        <item>@string/fromrighttoleft</item>
 
     </string-array>
     <string-array name="gradient_values" translatable="false">
@@ -98,10 +98,10 @@
     </string-array>
 
     <string-array name="clockelements_entries">
-        <item>DÍA / HORA / FECHA</item>
-        <item>FECHA / HORA / DÍA</item>
-        <item>HORA / DÍA / FECHA</item>
-        <item>HORA / FECHA / DÍA</item>
+        <item>@string/dayhourdate</item>
+        <item>@string/datehourday</item>
+        <item>@string/hourdaydate</item>
+        <item>@string/hourdateday</item>
     </string-array>
     <string-array name="clockelements_values">
         <item>0</item>
