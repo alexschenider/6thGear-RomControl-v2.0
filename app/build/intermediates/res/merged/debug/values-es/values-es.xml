@@ -85,7 +85,7 @@
     <string name="bg_tg_bt_br">Fondo/toggles/Botones/Brillo</string>
     <string name="bgfree">Fondo RAM libre</string>
     <string name="bgused">Fondo RAM usada</string>
-    <string name="biometric_on_boot">Bométricos al reiniciar</string>
+    <string name="biometric_on_boot">Biométricos al reiniciar</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="bluronmenu">Blur en menú y carpetas</string>
     <string name="box">Cuadrado</string>
@@ -148,8 +148,12 @@
     <string name="device_info_view">Información de dispositivo</string>
     <string name="device_model">Modelo</string>
     <string name="device_up">Tiempo encendido</string>
+    <string name="diagonal_down_left_right">Abajo-Derecha a Arriba-Izquierda</string>
+    <string name="diagonal_down_right_left">Abajo-Derecha a Arriba-Izquierda</string>
     <string name="diagonal_left_right">Diagonal de izquierda a derecha</string>
     <string name="diagonal_right_left">Diagonal de derecha a izquierda</string>
+    <string name="diagonal_up_left_right">Arriba-Izquierda a Abajo-Derecha</string>
+    <string name="diagonal_up_right_left">Arriba-Derecha a Abajo-Izquierda</string>
     <string name="divisor_toggles">Divisor de toggles</string>
     <string name="dma">DD ++ MM ++ AAAA</string>
     <string name="down_padding">Margen inferior</string>
@@ -353,6 +357,7 @@
     <string name="statusbar">Barra de estado</string>
     <string name="stock">Stock</string>
     <string name="stock_preferences">Preferencias stock</string>
+    <string name="style_five">Estilo 5</string>
     <string name="style_fourd">Estilo 4</string>
     <string name="style_one">Estilo 1</string>
     <string name="style_stock">Estilo stock</string>
@@ -401,6 +406,7 @@
     <string name="visible">Visible</string>
     <string name="voldown">Bajar volumen</string>
     <string name="volup">Subir volumen</string>
+    <string name="weather">Clima</string>
     <string name="wifi">WiFi</string>
     <string name="wifi_icon">Icono WiFi</string>
     <string name="wifi_info">Información WiFi</string>

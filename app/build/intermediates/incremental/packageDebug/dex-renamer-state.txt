@@ -1,4 +1,7 @@
-#Mon Jul 23 08:30:16 CEST 2018
-base.0=C\:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Mon Jul 23 19:14:58 CEST 2018
+base.0=C\:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_18b82e5639855c5b8ceb2f8117a3948e1b6acf5f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1a9a14c44cd830919a92940235efe9ba9843a59f\\classes.dex
+base.1=C\:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1a9a14c44cd830919a92940235efe9ba9843a59f
+file.0=C\:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_18b82e5639855c5b8ceb2f8117a3948e1b6acf5f\\classes.dex

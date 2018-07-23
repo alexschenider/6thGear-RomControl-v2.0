@@ -63,8 +63,10 @@
         <item>@string/fromdowntoup</item>
         <item>@string/fromlefttoright</item>
         <item>@string/fromrighttoleft</item>
-        <item>@string/diagonal_left_right</item>
-        <item>@string/diagonal_right_left</item>
+        <item>@string/diagonal_down_left_right</item>
+        <item>@string/diagonal_down_right_left</item>
+        <item>@string/diagonal_up_left_right</item>
+        <item>@string/diagonal_up_right_left</item>
     </string-array>
     <string-array name="gradient_values" translatable="false">
         <item>0</item>
@@ -73,6 +75,8 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
+        <item>7</item>
     </string-array>
 
     <string-array name="navbar_gr_entries">
@@ -694,6 +698,10 @@
     <string name="style_three">Style 3</string>
     <string name="style_fourd">Style 4</string>
     <string name="style_five">Style 5</string>
+    <string name="diagonal_down_right_left">Bottom-Right to Top-Left</string>
+    <string name="diagonal_down_left_right">Bottom-Left to Top-Right</string>
+    <string name="diagonal_up_left_right">Top-Left to Bottom-Right</string>
+    <string name="diagonal_up_right_left">Top-Right to Bottom-Left</string>
 
     <string-array name="forma_fondo_notifi_drawables">
         <item>@drawable/noti_acdc</item>

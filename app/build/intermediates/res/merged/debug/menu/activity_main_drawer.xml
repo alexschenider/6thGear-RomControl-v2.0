@@ -14,9 +14,8 @@
         along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!--item android:title="@string/more_options" android:orderInCategory="1">
+    <item android:title="@string/more_options" android:orderInCategory="1">
         <menu>
-
             <item
                 android:id="@+id/themes"
                 android:icon="@drawable/ic_theme"
@@ -25,15 +24,15 @@
                 android:id="@+id/backup_restore"
                 android:icon="@drawable/ic_backup_restore"
                 android:title="@string/backup_and_restore"/>
-            <item
+            <!--item
                 android:id="@+id/changeLog"
                 android:icon="@drawable/ic_changelog"
                 android:title="@string/changelog"/>
             <item
                 android:id="@+id/about_us"
                 android:icon="@drawable/ic_info"
-                android:title="@string/about_us"/>
+                android:title="@string/about_us"/-->
         </menu>
-    </item-->
+    </item>
 
 </menu>

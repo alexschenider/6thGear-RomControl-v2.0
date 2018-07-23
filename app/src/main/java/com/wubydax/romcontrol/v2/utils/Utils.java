@@ -1,5 +1,6 @@
 package com.wubydax.romcontrol.v2.utils;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -374,6 +375,7 @@ public class Utils {
         return (newBitmap);
     }
 
+    @SuppressLint("StringFormatInvalid")
     public static void showKillPackageDialog(final String packageName, Context context) {
         try {
             ApplicationInfo applicationInfo = getContext().getPackageManager().getApplicationInfo(packageName, 0);

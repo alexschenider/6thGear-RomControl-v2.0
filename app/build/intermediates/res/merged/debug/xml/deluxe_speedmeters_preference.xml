@@ -5,7 +5,7 @@
         <PreferenceCategory android:title="@string/sp_title">
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                     android:title="@string/sp_info"
-                    android:key="network_traffic_state_left"
+                    android:key="agc_sb_left_network_traffic_state"
                     android:defaultValue="0"
                     app:dependentValue="0"
                     android:entryValues="@array/traffic_state_values"
@@ -13,68 +13,68 @@
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                     android:title="@string/sp_byte"
                     android:defaultValue="false"
-                    android:key="network_traffic_unit_left"
-                    android:dependency="network_traffic_state_left"/>
+                    android:key="agc_sb_left_network_traffic_unit"
+                    android:dependency="agc_sb_left_network_traffic_state"/>
         </PreferenceCategory>
-        <PreferenceCategory android:title="@string/sp_arrows_preferences" android:dependency="network_traffic_state_left">
+        <PreferenceCategory android:title="@string/sp_arrows_preferences" android:dependency="agc_sb_left_network_traffic_state">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                     android:title="@string/sp_show_arrows"
-                    android:key="network_traffic_show_arrows_left"
+                    android:key="agc_sb_left_network_traffic_show_arrows"
                     android:defaultValue="true"
-                    android:dependency="network_traffic_state_left"/>
+                    android:dependency="agc_sb_left_network_traffic_state"/>
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                     android:title="@string/position"
-                    android:key="network_traffic_arrows_position_left"
-                    android:dependency="network_traffic_show_arrows_left"
+                    android:key="agc_sb_left_network_traffic_arrows_position"
+                    android:dependency="agc_sb_left_network_traffic_show_arrows"
                     android:defaultValue="0"
                     android:entryValues="@array/arrow_position_values"
                     android:entries="@array/arrow_position_entries"/>
         </PreferenceCategory>
-        <PreferenceCategory android:title="@string/sp_visual_options" android:dependency="network_traffic_state_left">
+        <PreferenceCategory android:title="@string/sp_visual_options" android:dependency="agc_sb_left_network_traffic_state">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                     android:title="@string/sp_autohide"
-                    android:key="network_traffic_autohide_left"
+                    android:key="agc_sb_left_network_traffic_autohide"
                     android:defaultValue="false" />
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                     android:title="@string/sp_autohide_when"
                     app:unitsValue="Kb"
                     app:maxValue="100"
-                    android:key="network_traffic_threshold_left"
+                    android:key="agc_sb_left_network_traffic_threshold"
                     android:defaultValue="10"
-                    android:dependency="network_traffic_autohide_left"/>
+                    android:dependency="agc_sb_left_network_traffic_autohide"/>
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                     android:title="@string/font"
-                    android:key="network_traffic_text_style_left"
+                    android:key="agc_sb_left_network_traffic_text_style"
                     android:defaultValue="0"
                     android:entries="@array/traffic_style_entries"
                     android:entryValues="@array/traffic_style_entry_values"/>
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                     android:title="@string/size"
-                    android:key="network_traffic_scale_left"
+                    android:key="agc_sb_left_network_traffic_scale"
                     app:maxValue="10"
                     android:defaultValue="10"/>
         </PreferenceCategory>
-        <PreferenceCategory android:title="@string/colors" android:dependency="network_traffic_state_left">
+        <PreferenceCategory android:title="@string/colors" android:dependency="agc_sb_left_network_traffic_state">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                     android:title="@string/sp_separate_colors"
-                    android:key="network_traffic_global_color_left"
+                    android:key="agc_sb_left_network_traffic_global_color"
                     android:defaultValue="true" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:title="@string/texts"
-                    android:key="network_traffic_color_left"
+                    android:key="agc_sb_left_network_traffic_color"
                     android:defaultValue="#ffffff"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:title="@string/arrows"
-                    android:key="network_traffic_arrow_color_left"
+                    android:key="agc_sb_left_network_traffic_arrow_color"
                     android:defaultValue="#ffffff"
-                    android:dependency="network_traffic_global_color_left"/>
+                    android:dependency="agc_sb_left_network_traffic_global_color"/>
         </PreferenceCategory>
     </PreferenceScreen>
     <PreferenceScreen android:title="@string/sp_right">
-        <PreferenceCategory android:title="Tráfico de red">
+        <PreferenceCategory android:title="@string/sp_title">
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                     android:title="@string/sp_info"
-                    android:key="network_traffic_state"
+                    android:key="agc_sb_right_network_traffic_state"
                     android:defaultValue="0"
                     app:dependentValue="0"
                     android:entryValues="@array/traffic_state_values"
@@ -82,61 +82,61 @@
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                     android:title="@string/sp_byte"
                     android:defaultValue="false"
-                    android:key="network_traffic_unit"
-                    android:dependency="network_traffic_state"/>
+                    android:key="agc_sb_right_network_traffic_unit"
+                    android:dependency="agc_sb_right_network_traffic_state"/>
         </PreferenceCategory>
-        <PreferenceCategory android:title="@string/sp_arrows_preferences" android:dependency="network_traffic_state">
+        <PreferenceCategory android:title="@string/sp_arrows_preferences" android:dependency="agc_sb_right_network_traffic_state">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                     android:title="@string/sp_show_arrows"
-                    android:key="network_traffic_show_arrows"
+                    android:key="agc_sb_right_network_traffic_show_arrows"
                     android:defaultValue="true"
-                    android:dependency="network_traffic_state"/>
+                    android:dependency="agc_sb_right_network_traffic_state"/>
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                     android:title="@string/position"
-                    android:key="network_traffic_arrows_position"
-                    android:dependency="network_traffic_show_arrows"
+                    android:key="agc_sb_right_network_traffic_arrows_position"
+                    android:dependency="agc_sb_right_network_traffic_show_arrows"
                     android:defaultValue="0"
                     android:entryValues="@array/arrow_position_values"
                     android:entries="@array/arrow_position_entries"/>
         </PreferenceCategory>
-        <PreferenceCategory android:title="@string/sp_visual_options" android:dependency="network_traffic_state">
+        <PreferenceCategory android:title="@string/sp_visual_options" android:dependency="agc_sb_right_network_traffic_state">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                     android:title="@string/sp_autohide"
-                    android:key="network_traffic_autohide"
+                    android:key="agc_sb_right_network_traffic_autohide"
                     android:defaultValue="false" />
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                     android:title="@string/sp_autohide_when"
                     app:unitsValue="Kb"
                     app:maxValue="100"
-                    android:key="network_traffic_threshold"
+                    android:key="agc_sb_right_network_traffic_threshold"
                     android:defaultValue="10"
-                    android:dependency="network_traffic_autohide"/>
+                    android:dependency="agc_sb_right_network_traffic_autohide"/>
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                     android:title="@string/font"
-                    android:key="network_traffic_text_style"
+                    android:key="agc_sb_right_network_traffic_text_style"
                     android:defaultValue="0"
                     android:entries="@array/traffic_style_entries"
                     android:entryValues="@array/traffic_style_entry_values"/>
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                     android:title="@string/size"
-                    android:key="network_traffic_scale"
+                    android:key="agc_sb_right_network_traffic_scale"
                     app:maxValue="10"
                     android:defaultValue="10"/>
         </PreferenceCategory>
-        <PreferenceCategory android:title="@string/colors" android:dependency="network_traffic_state">
+        <PreferenceCategory android:title="@string/colors" android:dependency="agc_sb_right_network_traffic_state">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                     android:title="@string/sp_separate_colors"
-                    android:key="network_traffic_global_color"
+                    android:key="agc_sb_right_network_traffic_global_color"
                     android:defaultValue="true" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:title="@string/texts"
-                    android:key="network_traffic_color"
+                    android:key="agc_sb_right_network_traffic_color"
                     android:defaultValue="#ffffff"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:title="@string/arrows"
-                    android:key="network_traffic_arrow_color"
+                    android:key="agc_sb_right_network_traffic_arrow_color"
                     android:defaultValue="#ffffff"
-                    android:dependency="network_traffic_global_color"/>
+                    android:dependency="agc_sb_right_network_traffic_global_color"/>
         </PreferenceCategory>
     </PreferenceScreen>
 </PreferenceScreen>

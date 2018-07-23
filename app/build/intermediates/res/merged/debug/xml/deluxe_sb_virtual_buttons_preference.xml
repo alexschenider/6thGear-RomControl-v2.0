@@ -5,102 +5,150 @@
     <PreferenceScreen android:title="@string/sb_left">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="@string/enable"
-                android:key="statusbar_keybuttonview_izquierda"
+                android:key="agc_sb_left_visibility"
                 android:defaultValue="false" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:entries="@array/boton_virtual_izq_entries"
+                android:entries="@array/agc_virtual_buttons_entries"
                 android:title="@string/short_press"
-                android:key="statusbar_lvb_click_value"
-                android:dependency="statusbar_keybuttonview_izquierda"
-                android:defaultValue="999"
-                android:entryValues="@array/boton_virtual_izq_values" />
+                android:key="agc_sb_left_short_press"
+                android:dependency="agc_sb_left_visibility"
+                android:defaultValue="0"
+                android:entryValues="@array/agc_virtual_buttons_values" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:entries="@array/boton_virtual_izq_entries"
+                android:entries="@array/agc_virtual_buttons_entries"
                 android:title="@string/long_press"
-                android:key="statusbar_lvb_long_click_value"
-                android:dependency="statusbar_keybuttonview_izquierda"
-                android:defaultValue="999"
-                android:entryValues="@array/boton_virtual_izq_values" />
+                android:key="agc_sb_left_long_press"
+                android:dependency="agc_sb_left_visibility"
+                android:defaultValue="0"
+                android:entryValues="@array/agc_virtual_buttons_values" />
         <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
-                android:title="@string/select_app"
-                android:key="eragon_doubletap_home_app"
+                android:title="@string/short_press_app"
+                android:key="agc_sb_left_short_app"
+                android:dependency="agc_sb_left_visibility"
                 app:intentSeparator="\##"
                 app:showSearch="true" />
+        <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
+                android:title="@string/long_press_app"
+                android:key="agc_sb_left_long_app"
+                android:dependency="agc_sb_left_visibility"
+                app:intentSeparator="\##"
+                app:showSearch="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#FF0000FF"
+                android:dependency="agc_sb_left_visibility"
+                android:key="agc_sb_left_bgcolor"
+                android:title="@string/color"/>
     </PreferenceScreen>
     <PreferenceScreen android:title="@string/sb_center">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="@string/enable"
-                android:key="statusbar_keybuttonview_centro"
+                android:key="agc_sb_center_visibility"
                 android:defaultValue="false" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:entries="@array/boton_virtual_cntr_entries"
+                android:entries="@array/agc_virtual_buttons_entries"
                 android:title="@string/short_press"
-                android:key="statusbar_cvb_click_value"
-                android:dependency="statusbar_keybuttonview_centro"
-                android:defaultValue="999"
-                android:entryValues="@array/boton_virtual_cntr_values" />
+                android:key="agc_sb_center_short_press"
+                android:dependency="agc_sb_center_visibility"
+                android:defaultValue="0"
+                android:entryValues="@array/agc_virtual_buttons_values" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:entries="@array/boton_virtual_cntr_entries"
+                android:entries="@array/agc_virtual_buttons_entries"
                 android:title="@string/long_press"
-                android:key="statusbar_cvb_long_click_value"
-                android:dependency="statusbar_keybuttonview_centro"
-                android:defaultValue="999"
-                android:entryValues="@array/boton_virtual_cntr_values" />
+                android:key="agc_sb_center_long_press"
+                android:dependency="agc_sb_center_visibility"
+                android:defaultValue="0"
+                android:entryValues="@array/agc_virtual_buttons_values" />
         <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
-                android:title="@string/select_app"
-                android:key="eragon_longpress_back_app"
+                android:title="@string/short_press_app"
+                android:key="agc_sb_center_short_app"
+                android:dependency="agc_sb_center_visibility"
                 app:intentSeparator="\##"
                 app:showSearch="true" />
+        <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
+                android:title="@string/long_press_app"
+                android:key="agc_sb_center_long_app"
+                android:dependency="agc_sb_center_visibility"
+                app:intentSeparator="\##"
+                app:showSearch="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#FF0000FF"
+                android:dependency="agc_sb_center_visibility"
+                android:key="agc_sb_center_bgcolor"
+                android:title="On press color"/>
     </PreferenceScreen>
     <PreferenceScreen android:title="@string/sb_right">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="@string/enable"
-                android:key="statusbar_keybuttonview_derecha"
+                android:key="agc_sb_right_visibility"
                 android:defaultValue="false" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:entries="@array/boton_virtual_drch_entries"
+                android:entries="@array/agc_virtual_buttons_entries"
                 android:title="@string/short_press"
-                android:key="statusbar_rvb_click_value"
-                android:dependency="statusbar_keybuttonview_derecha"
-                android:defaultValue="999"
-                android:entryValues="@array/boton_virtual_drch_values" />
+                android:key="agc_sb_right_short_press"
+                android:dependency="agc_sb_right_visibility"
+                android:defaultValue="0"
+                android:entryValues="@array/agc_virtual_buttons_values" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:entries="@array/boton_virtual_drch_entries"
+                android:entries="@array/agc_virtual_buttons_entries"
                 android:title="@string/long_press"
-                android:key="statusbar_rvb_long_click_value"
-                android:dependency="statusbar_keybuttonview_derecha"
-                android:defaultValue="999"
-                android:entryValues="@array/boton_virtual_drch_values" />
+                android:key="agc_sb_right_long_press"
+                android:dependency="agc_sb_right_visibility"
+                android:defaultValue="0"
+                android:entryValues="@array/agc_virtual_buttons_values" />
         <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
-                android:title="@string/select_app"
-                android:key="eragon_longpress_home_app"
+                android:title="@string/short_press_app"
+                android:key="agc_sb_right_short_app"
+                android:dependency="agc_sb_right_visibility"
                 app:intentSeparator="\##"
                 app:showSearch="true" />
+        <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
+                android:title="@string/long_press_app"
+                android:key="agc_sb_right_long_app"
+                android:dependency="agc_sb_right_visibility"
+                app:intentSeparator="\##"
+                app:showSearch="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#FF0000FF"
+                android:dependency="agc_sb_right_visibility"
+                android:key="agc_sb_right_bgcolor"
+                android:title="On press color"/>
     </PreferenceScreen>
     <PreferenceScreen android:title="@string/navbar_right">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="@string/enable"
-                android:key="navbar_keybuttonview_derecha"
+                android:key="agc_nb_right_visibility"
                 android:defaultValue="false" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:entries="@array/boton_virtual_nav_entries"
+                android:entries="@array/agc_virtual_buttons_entries"
                 android:title="@string/short_press"
-                android:key="navbar_nvb_click_value"
-                android:dependency="navbar_keybuttonview_derecha"
-                android:defaultValue="999"
-                android:entryValues="@array/boton_virtual_nav_values" />
+                android:key="agc_nb_right_short_press"
+                android:dependency="agc_nb_right_visibility"
+                android:defaultValue="0"
+                android:entryValues="@array/agc_virtual_buttons_values" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:entries="@array/boton_virtual_nav_entries"
+                android:entries="@array/agc_virtual_buttons_entries"
                 android:title="@string/long_press"
-                android:key="navbar_nvb_long_click_value"
-                android:dependency="navbar_keybuttonview_derecha"
-                android:defaultValue="999"
-                android:entryValues="@array/boton_virtual_nav_values" />
+                android:key="agc_nb_right_long_press"
+                android:dependency="agc_nb_right_visibility"
+                android:defaultValue="0"
+                android:entryValues="@array/agc_virtual_buttons_values" />
         <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
-                android:title="@string/select_app"
-                android:key="eragon_longpress_menu_app"
+                android:title="@string/short_press_app"
+                android:key="agc_nb_right_short_app"
+                android:dependency="agc_nb_right_visibility"
                 app:intentSeparator="\##"
                 app:showSearch="true" />
+        <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
+                android:title="@string/long_press_app"
+                android:key="agc_nb_right_long_app"
+                android:dependency="agc_nb_right_visibility"
+                app:intentSeparator="\##"
+                app:showSearch="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#FF0000FF"
+                android:dependency="agc_nb_right_visibility"
+                android:key="agc_nb_right_bgcolor"
+                android:title="On press color"/>
     </PreferenceScreen>
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="@string/kill_on_long_press"

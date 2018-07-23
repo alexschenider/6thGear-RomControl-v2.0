@@ -339,7 +339,7 @@
     <string name="short_press_app">App en puls. corta</string>
     <string name="long_press_app">App en puls. larga</string>
     <string name="quickreboot">Reinicio rápido</string>
-    <string name="biometric_on_boot">Bométricos al reiniciar</string>
+    <string name="biometric_on_boot">Biométricos al reiniciar</string>
     <string name="fp_wakeup">Encender con sensor de huellas</string>
     <string name="pattern_colors">Colores del patrón</string>
     <string name="error_color">Error</string>
@@ -347,4 +347,10 @@
     <string name="regular_color">Normal</string>
     <string name="use_custom_pattern">Usar colores personalizados</string>
     <string name="restore_complete_toast">Restauración completa</string>
+    <string name="weather">Clima</string>
+    <string name="style_five">Estilo 5</string>
+    <string name="diagonal_down_right_left">Abajo-Derecha a Arriba-Izquierda</string>
+    <string name="diagonal_down_left_right">Abajo-Derecha a Arriba-Izquierda</string>
+    <string name="diagonal_up_left_right">Arriba-Izquierda a Abajo-Derecha</string>
+    <string name="diagonal_up_right_left">Arriba-Derecha a Abajo-Izquierda</string>
 </resources>

@@ -455,9 +455,9 @@
                     android:dependency="agc_customcarrier_visibility"
                     app:maxValue="25"/>
         </PreferenceScreen>
-        <PreferenceScreen android:title="Clima" android:summary="Visibilidad/Color/Fuente/Posición">
+        <PreferenceScreen android:title="@string/weather" >
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="Mostrar clima"
+                android:title="@string/show_hide"
                 android:defaultValue="false"
                 android:key="agc_sb_weather_visibility" />
             <com.wubydax.romcontrol.v2.prefs.MyListPreference

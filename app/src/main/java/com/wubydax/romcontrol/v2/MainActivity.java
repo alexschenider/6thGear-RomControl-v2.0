@@ -16,7 +16,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
 import com.wubydax.romcontrol.v2.utils.BackupRestoreIntentService;
 import com.wubydax.romcontrol.v2.utils.Constants;
 import com.wubydax.romcontrol.v2.utils.MyDialogFragment;
@@ -146,24 +145,17 @@ public class MainActivity extends AppCompatActivity
             loadPrefsFragment(getResources().getStringArray(R.array.nav_menu_xml_file_names)[index]);
             setTitle(item.getTitle().toString());
             mSharedPreferences.edit().putInt(Constants.LAST_FRAGMENT, index).apply();
-        } /*else {
+        } else {
             switch (id) {
-
                 case R.id.themes:
                     mFragmentManager.beginTransaction().add(MyDialogFragment.newInstance(Constants.THEME_DIALOG_REQUEST_CODE), "theme_dialog").commit();
-                    break;
-                case R.id.changeLog:
-                    mFragmentManager.beginTransaction().add(MyDialogFragment.newInstance(Constants.CHANGELOG_DIALOG_REQUEST_CODE), "changelog").commit();
-                    break;
-                case R.id.about_us:
-                    startActivity(new Intent(this, AboutActivity.class));
                     break;
                 case R.id.backup_restore:
                     mFragmentManager.beginTransaction().add(MyDialogFragment.newInstance(Constants.BACKUP_OR_RESTORE_DIALOG_REQUEST_CODE), "backup_restore").commit();
                     break;
             }
 
-        }*/
+        }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         assert drawer != null;
         drawer.closeDrawer(GravityCompat.START);
