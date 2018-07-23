@@ -16,11 +16,16 @@
                 android:defaultValue="false" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="@string/rebootdownload"
+                android:defaultValue="false"
                 android:key="agc_rebootmenu_download" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="@string/quickreboot"
+                android:key="agc_rebootmenu_quickreboot"
+                android:defaultValue="false" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="@string/emergencymode"
                 android:key="agc_rebootmenu_emergency_mode"
-                android:defaultValue="true" />
+                android:defaultValue="false" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="@string/datamobile"
                 android:key="agc_rebootmenu_mobile_data"
@@ -51,6 +56,157 @@
                 android:defaultValue="false" />
         </PreferenceCategory>
     </PreferenceScreen>
+    <PreferenceScreen android:title="@string/custombg">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="@string/custombg_enable"
+                android:defaultValue="false"
+                android:key="agc_powermenu_drw_visibility" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:title="@string/custombg_type"
+                android:key="agc_powermenu_drw_type"
+                android:defaultValue="0"
+                android:dependency="agc_powermenu_drw_visibility"
+                android:entries="@array/custom_bg_type_entries"
+                android:entryValues="@array/custom_bg_type_values" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:title="@string/opacity"
+                android:dependency="agc_powermenu_drw_visibility"
+                android:key="agc_powermenu_drw_opacity"
+                app:maxValue="255"
+                app:minValue="0"
+                android:defaultValue="255" />
+        <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference
+                android:title="@string/custombg_select_image"
+                android:key="agc_powermenu_drw_image_uri"
+                android:dependency="agc_powermenu_drw_visibility" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:title="@string/custombg_image_scale"
+                android:key="agc_powermenu_drw_scale"
+                android:dependency="agc_powermenu_drw_visibility"
+                android:defaultValue="0"
+                android:entryValues="@array/crop_values"
+                android:entries="@array/crop_entries" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#00000000"
+                android:dependency="agc_powermenu_drw_visibility"
+                android:key="agc_powermenu_drw_primary"
+                android:title="@string/custombg_primary"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#00000000"
+                android:dependency="agc_powermenu_drw_visibility"
+                android:key="agc_powermenu_drw_secondary"
+                android:title="@string/custombg_secondary"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#00000000"
+                android:dependency="agc_powermenu_drw_visibility"
+                android:key="agc_powermenu_drw_tertiary"
+                android:title="@string/color_3"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#00000000"
+                android:dependency="agc_powermenu_drw_visibility"
+                android:key="agc_powermenu_drw_quaternary"
+                android:title="@string/color_4"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#00000000"
+                android:dependency="agc_powermenu_drw_visibility"
+                android:key="agc_powermenu_drw_quinary"
+                android:title="@string/color_5"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#00000000"
+                android:dependency="agc_powermenu_drw_visibility"
+                android:key="agc_powermenu_drw_sextary"
+                android:title="@string/color_6"/>
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:dependency="agc_powermenu_drw_visibility"
+                android:entries="@array/gradient_entries"
+                android:entryValues="@array/gradient_values"
+                android:key="agc_powermenu_drw_gradient_orientation"
+                android:title="@string/custombg_orientation" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/matrix">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="@string/visibility"
+                android:key="agc_powermenu_matrix_visibility"
+                android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="@string/use_random"
+                android:key="agc_powermenu_matrix_random"
+                android:dependency="agc_powermenu_matrix_visibility"
+                android:defaultValue="false" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="@string/use_gradient"
+                android:key="agc_powermenu_matrix_gradient"
+                android:defaultValue="false"
+                android:dependency="agc_powermenu_matrix_visibility"/>
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="@string/invert_effect"
+                android:key="agc_powermenu_matrix_invert"
+                android:defaultValue="false"
+                android:dependency="agc_powermenu_matrix_visibility"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="@string/matrix_bg_color"
+                android:key="agc_powermenu_matrix_bg_color"
+                android:dependency="agc_powermenu_matrix_visibility"
+                android:defaultValue="#ff000000"
+                alphaSlider="true"
+                hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="@string/matrix_txt_color"
+                android:dependency="agc_powermenu_matrix_visibility"
+                android:key="agc_powermenu_matrix_txt_color"
+                android:defaultValue="#00ff00"
+                alphaSlider="true"
+                hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="@string/second_matrix_color"
+                android:dependency="agc_powermenu_matrix_visibility"
+                android:key="agc_powermenu_matrix_second_color"
+                android:defaultValue="#00ff00"
+                alphaSlider="true"
+                hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:max="50"
+                android:dependency="agc_powermenu_matrix_visibility"
+                android:title="@string/size"
+                android:key="agc_powermenu_matrix_size"
+                android:defaultValue="35"
+                min="12"
+                unitsRight="" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:max="50"
+                android:dependency="agc_powermenu_matrix_visibility"
+                android:title="@string/matrix_frqnc"
+                android:key="agc_powermenu_matrix_frequency"
+                android:defaultValue="5"
+                min="1"
+                unitsRight="" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/blur">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="agc_powermenu_blur_visibility"
+                android:title="@string/enable" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                app:minValue="0"
+                app:maxValue="20"
+                app:unitsValue="°"
+                android:defaultValue="2"
+                android:key="agc_powermenu_blur_degree"
+                android:title="@string/intensity" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                app:minValue="0"
+                app:maxValue="250"
+                app:unitsValue="°"
+                android:key="agc_powermenu_blur_alpha"
+                android:title="@string/opacity" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="@string/color"
+                android:key="agc_powermenu_blur_color"
+                android:defaultValue="#1EFFFFFF"
+                hexValue="true"
+                alphaSlider="true" />
+    </PreferenceScreen>
     <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
         app:drawableArray="@array/drawables_icono_reinicio"
         android:title="@string/select_style"
@@ -62,4 +218,8 @@
         android:title="@string/ask_confirmation"
         android:defaultValue="1"
         android:key="agc_show_confirmations" />
+    <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Invertir orden"
+            android:defaultValue="0"
+            android:key="agc_powermenu_invert_order" />
 </PreferenceScreen>

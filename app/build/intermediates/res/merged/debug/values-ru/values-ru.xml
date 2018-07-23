@@ -279,7 +279,7 @@
     <string name="use0">Использовать - как разделитель</string>
     <string name="use1">Использовать / как разделитель</string>
     <string name="use2">Используйте \\ как разделитель</string>
-    <string name="use3">Использовать - как разделитель</string>
+    <string name="use3">Использовать . как разделитель</string>
     <string name="use_custom_color">Использовать пользовательские / фондовые цвета</string>
     <string name="use_customtext">Использовать собственный текст</string>
     <string name="use_global_color">Использовать глобальный / индивидуальный цвет</string>

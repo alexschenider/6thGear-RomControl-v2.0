@@ -6,4 +6,43 @@
         android:key="agc_keyguard_rotation"
         app:packageNameToKill="com.android.systemui"
         app:isSilent="true" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="@string/show_iris_preview"
+        android:defaultValue="true"
+        android:key="agc_show_iris_preview" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="@string/usb_wakeup"
+        android:defaultValue="true"
+        android:key="usb_plugged" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="@string/biometric_on_boot"
+        android:defaultValue="false"
+        android:key="agc_biometric_on_boot" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="@string/fp_wakeup"
+        android:defaultValue="true"
+        android:key="agc_fp_wakeup"
+        app:packageNameToKill="com.android.systemui"
+        app:isSilent="true" />
+    <PreferenceScreen android:title="@string/pattern_colors">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="@string/use_custom_pattern"
+            android:key="agc_pattern_use_custom"
+            android:defaultValue="0" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="@string/regular_color"
+            android:defaultValue="#FFFFFF"
+            android:key="agc_pattern_regular_color"
+            android:dependency="agc_pattern_use_custom" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="@string/success_color"
+            android:defaultValue="#FFFFFF"
+            android:key="agc_pattern_success_color"
+            android:dependency="agc_pattern_use_custom" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="@string/error_color"
+            android:defaultValue="#FF0000"
+            android:key="agc_pattern_error_color"
+            android:dependency="agc_pattern_use_custom" />
+    </PreferenceScreen>
 </PreferenceScreen>

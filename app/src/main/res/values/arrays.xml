@@ -63,14 +63,29 @@
         <item>@string/fromdowntoup</item>
         <item>@string/fromlefttoright</item>
         <item>@string/fromrighttoleft</item>
-
+        <item>@string/diagonal_left_right</item>
+        <item>@string/diagonal_right_left</item>
     </string-array>
     <string-array name="gradient_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
 
+    <string-array name="navbar_gr_entries">
+        <item>@string/fromuptodown</item>
+        <item>@string/fromdowntoup</item>
+        <item>@string/fromlefttoright</item>
+        <item>@string/fromrighttoleft</item>
+    </string-array>
+    <string-array name="navbar_gr_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 
     <string-array name="crop_entries">
@@ -95,6 +110,31 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+    </string-array>
+
+    <string-array name="notpanel_styles_entries">
+        <item>@string/style_stock</item>
+        <item>@string/style_one</item>
+        <item>@string/style_two</item>
+        <item>@string/style_three</item>
+        <item>@string/style_fourd</item>
+        <item>@string/style_five</item>
+    </string-array>
+    <string-array name="notpanel_styles_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="notpanel_styles_drawables">
+        <item>@drawable/notpanel_style_stock</item>
+        <item>@drawable/notpanel_style_1</item>
+        <item>@drawable/notpanel_style_2</item>
+        <item>@drawable/notpanel_style_3</item>
+        <item>@drawable/notpanel_style_4</item>
+        <item>@drawable/notpanel_style_5</item>
     </string-array>
 
     <string-array name="clockelements_entries">
@@ -149,14 +189,15 @@
         <item>@string/left</item>
         <item>@string/center</item>
         <item>@string/right</item>
+        <item>@string/on_navbar</item>
     </string-array>
     <string-array name="clock_position_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
-
-
     <string-array name="longpress_back_timeout_entries">
         <item>300 ms</item>
         <item>400 ms</item>
@@ -179,26 +220,22 @@
     </string-array>
 
 
-    <string-array name="boton_virtual_nav_entries">
-        <item>@string/lock_screen</item>
-        <item>@string/reboot_menu</item>
-        <item>@string/back</item>
-        <item>@string/home</item>
-        <item>@string/recents</item>
-        <item>@string/menu</item>
-        <item>@string/volup</item>
-        <item>@string/voldown</item>
-        <item>@string/phone</item>
-        <item>@string/sound</item>
-        <item>@string/flashlight</item>
-        <item>@string/notpanel</item>
-        <item>@string/wifi</item>
-        <item>@string/bluetooth</item>
-        <item>@string/app</item>
-        <item>@string/cleanram</item>
-        <item>@string/nothing</item>
+    <string-array name="agc_virtual_buttons_entries">
+        <item>Nothing</item>
+        <item>Open app</item>
+        <item>Press back</item>
+        <item>Press home</item>
+        <item>Press recents</item>
+        <item>Press menu</item>
+        <item>Torchlight</item>
+        <item>Sound mode</item>
+        <item>Lock screen</item>
+        <item>Show reboot menu</item>
+        <item>Close actual app</item>
+        <item>Screenshot</item>
     </string-array>
-    <string-array name="boton_virtual_nav_values">
+
+    <string-array name="agc_virtual_buttons_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -208,135 +245,207 @@
         <item>6</item>
         <item>7</item>
         <item>8</item>
+        <item>9</item>
         <item>10</item>
-        <item>12</item>
-        <item>14</item>
-        <item>15</item>
-        <item>17</item>
-        <item>18</item>
-        <item>25</item>
-        <item>999</item>
+        <item>11</item>
     </string-array>
-    <string-array name="boton_virtual_izq_entries">
-        <item>@string/lock_screen</item>
-        <item>@string/reboot_menu</item>
-        <item>@string/back</item>
-        <item>@string/home</item>
-        <item>@string/recents</item>
-        <item>@string/menu</item>
-        <item>@string/volup</item>
-        <item>@string/voldown</item>
-        <item>@string/phone</item>
-        <item>@string/sound</item>
-        <item>@string/flashlight</item>
-        <item>@string/notpanel</item>
-        <item>@string/wifi</item>
-        <item>@string/bluetooth</item>
-        <item>@string/app</item>
-        <item>@string/cleanram</item>
-        <item>@string/nothing</item>
+
+
+    <string-array name="agc_outdoor_check_off_drawables">
+        <item>@drawable/check_off_1</item>
+        <item>@drawable/check_off_2</item>
     </string-array>
-    <string-array name="boton_virtual_izq_values">
+
+    <string-array name="agc_outdoor_check_off_entries">
+        <item>@string/square</item>
+        <item>@string/circle</item>
+    </string-array>
+
+    <string-array name="agc_outdoor_check_on_drawables">
+        <item>@drawable/check_on_1</item>
+        <item>@drawable/check_on_2</item>
+    </string-array>
+
+    <string-array name="agc_outdoor_check_on_entries">
+        <item>@string/square</item>
+        <item>@string/circle</item>
+    </string-array>
+
+    <string-array name="agc_outdoor_check_values">
         <item>0</item>
         <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>10</item>
-        <item>12</item>
-        <item>14</item>
-        <item>15</item>
-        <item>17</item>
-        <item>21</item>
-        <item>25</item>
-        <item>999</item>
     </string-array>
-    <string-array name="boton_virtual_cntr_entries">
-        <item>@string/lock_screen</item>
-        <item>@string/reboot_menu</item>
-        <item>@string/back</item>
-        <item>@string/home</item>
-        <item>@string/recents</item>
-        <item>@string/menu</item>
-        <item>@string/volup</item>
-        <item>@string/voldown</item>
-        <item>@string/phone</item>
-        <item>@string/sound</item>
-        <item>@string/flashlight</item>
-        <item>@string/notpanel</item>
-        <item>@string/wifi</item>
-        <item>@string/bluetooth</item>
-        <item>@string/app</item>
-        <item>@string/cleanram</item>
-        <item>@string/nothing</item>
-    </string-array>
-    <string-array name="boton_virtual_cntr_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>10</item>
-        <item>12</item>
-        <item>14</item>
-        <item>15</item>
-        <item>17</item>
-        <item>19</item>
-        <item>25</item>
-        <item>999</item>
-    </string-array>
-    <string-array name="boton_virtual_drch_entries">
-        <item>@string/lock_screen</item>
-        <item>@string/reboot_menu</item>
-        <item>@string/back</item>
-        <item>@string/home</item>
-        <item>@string/recents</item>
-        <item>@string/menu</item>
-        <item>@string/volup</item>
-        <item>@string/voldown</item>
-        <item>@string/phone</item>
-        <item>@string/sound</item>
-        <item>@string/flashlight</item>
-        <item>@string/notpanel</item>
-        <item>@string/wifi</item>
-        <item>@string/bluetooth</item>
-        <item>@string/app</item>
-        <item>@string/cleanram</item>
-        <item>@string/nothing</item>
-    </string-array>
-    <string-array name="boton_virtual_drch_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>10</item>
-        <item>12</item>
-        <item>14</item>
-        <item>15</item>
-        <item>17</item>
-        <item>20</item>
-        <item>25</item>
-        <item>999</item>
-    </string-array>
+
+
 
  <string-array name="agc_datausage_position_entries">
      <item>@string/left</item>
      <item>@string/center</item>
      <item>@string/right</item>
  </string-array>
+
+    <array name="common_font_drawables">
+        <item>@drawable/defaultt</item>
+        <item>@drawable/abductionsmall</item>
+        <item>@drawable/aabeakrg</item>
+        <item>@drawable/addisababa</item>
+        <item>@drawable/agentletouch</item>
+        <item>@drawable/airmolestripe</item>
+        <item>@drawable/aller</item>
+        <item>@drawable/androidclock</item>
+        <item>@drawable/arial</item>
+        <item>@drawable/arial_rb</item>
+        <item>@drawable/arraybold</item>
+        <item>@drawable/astandardbold</item>
+        <item>@drawable/attic</item>
+        <item>@drawable/barmeno105</item>
+        <item>@drawable/bauhaus</item>
+        <item>@drawable/beau_sans_pro_book</item>
+        <item>@drawable/beautifuleverytime</item>
+        <item>@drawable/belligerentbold</item>
+        <item>@drawable/blackchancery</item>
+        <item>@drawable/bluehigh</item>
+        <item>@drawable/bluehighbold</item>
+        <item>@drawable/bubbleletters</item>
+        <item>@drawable/cantaneobold</item>
+        <item>@drawable/caprica</item>
+        <item>@drawable/cartoon</item>
+        <item>@drawable/caviardreams_bold</item>
+        <item>@drawable/celtic</item>
+        <item>@drawable/comicsansms</item>
+        <item>@drawable/cooljazz</item>
+        <item>@drawable/darkromanticism</item>
+        <item>@drawable/dustismobold</item>
+        <item>@drawable/feastofflesh</item>
+        <item>@drawable/felipe</item>
+        <item>@drawable/galantnormal</item>
+        <item>@drawable/gezoe</item>
+        <item>@drawable/gillsansmtitalic</item>
+        <item>@drawable/helveticaneueece5roman</item>
+        <item>@drawable/jaramondbold</item>
+        <item>@drawable/laneposhbold</item>
+        <item>@drawable/lauren</item>
+        <item>@drawable/melonio</item>
+        <item>@drawable/metal</item>
+        <item>@drawable/motleycrue</item>
+        <item>@drawable/nokiapure</item>
+        <item>@drawable/petermorgan</item>
+        <item>@drawable/piratebold</item>
+        <item>@drawable/questbold</item>
+        <item>@drawable/roboto</item>
+        <item>@drawable/robotobold</item>
+        <item>@drawable/rosemary</item>
+        <item>@drawable/sansationbold</item>
+        <item>@drawable/segoe</item>
+    </array>
+    <string-array name="common_font_entries">
+        <item>Default</item>
+        <item>Abductionsmall</item>
+        <item>ABEAKRG</item>
+        <item>AddisAbaba</item>
+        <item>AGentleTouch</item>
+        <item>AirmoleStripe</item>
+        <item>Aller</item>
+        <item>AndroidClock</item>
+        <item>Arial</item>
+        <item>Arial_RB</item>
+        <item>ArrayBold</item>
+        <item>Astandardbold</item>
+        <item>Attic</item>
+        <item>Barmeno105</item>
+        <item>Bauhaus</item>
+        <item>Beau_Sans_Pro_Book</item>
+        <item>beautifuleverytime</item>
+        <item>Belligerentbold</item>
+        <item>BlackChancery</item>
+        <item>Bluehigh</item>
+        <item>Bluehighbold</item>
+        <item>BubbleLetters</item>
+        <item>Cantaneobold</item>
+        <item>Caprica</item>
+        <item>Cartoon</item>
+        <item>caviardreams_bold</item>
+        <item>Celtic</item>
+        <item>comicsansms</item>
+        <item>Cooljazz</item>
+        <item>Darkromanticism</item>
+        <item>Dustismobold</item>
+        <item>FeastOfFlesh</item>
+        <item>Felipe</item>
+        <item>GalantNormal</item>
+        <item>Gezoe</item>
+        <item>GillSansMTItalic</item>
+        <item>HelveticaNeueCE55Roman</item>
+        <item>Jaramondbold</item>
+        <item>Laneposhbold</item>
+        <item>Lauren</item>
+        <item>Melonio</item>
+        <item>Metal</item>
+        <item>MotleyCrue</item>
+        <item>NokiaPure</item>
+        <item>Petermorgan</item>
+        <item>Piratebold</item>
+        <item>Questbold</item>
+        <item>Roboto</item>
+        <item>Roboto-Bold</item>
+        <item>Rosemary</item>
+        <item>Sansationbold</item>
+        <item>Segoe</item>
+    </string-array>
+    <string-array name="common_font_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+    </string-array>
 
     <string-array name="agc_datausage_position_values">
         <item>0</item>
@@ -413,6 +522,11 @@
         <item>@string/gradient</item>
         <item>@string/hexagonal</item>
         <item>@string/spanky</item>
+        <item>@string/circle</item>
+        <item>@string/box</item>
+        <item>Ansiaviva</item>
+        <item>Deluxe</item>
+        <item>RB</item>
     </string-array>
     <string-array name="rebootmenu_style_values">
         <item>0</item>
@@ -420,41 +534,12 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
     </string-array>
-
-    <string-array name="agc_navbar_entries">
-        <item>Stock</item>
-        <item>Carbon</item>
-        <item>Airbrush</item>
-        <item>Zenyth</item>
-    </string-array>
-
-    <string-array name="agc_navbar_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
-
-    <array name="drawables_agc_navbar_recent">
-        <item>@drawable/navbar_stock_recent</item>
-        <item>@drawable/navbar_carbon_recent</item>
-        <item>@drawable/navbar_airbrush_recent</item>
-        <item>@drawable/navbar_zenyth_recent</item>
-    </array>
-    <array name="drawables_agc_navbar_home">
-        <item>@drawable/navbar_stock_home</item>
-        <item>@drawable/navbar_carbon_home</item>
-        <item>@drawable/navbar_airbrush_home</item>
-        <item>@drawable/navbar_zenyth_home</item>
-    </array>
-    <array name="drawables_agc_navbar_back">
-        <item>@drawable/navbar_stock_back</item>
-        <item>@drawable/navbar_carbon_back</item>
-        <item>@drawable/navbar_airbrush_back</item>
-        <item>@drawable/navbar_zenyth_back</item>
-    </array>
 
     <array name="drawables_icono_reinicio">
         <item>@drawable/stock</item>
@@ -462,6 +547,439 @@
         <item>@drawable/gradient</item>
         <item>@drawable/hexagonal</item>
         <item>@drawable/spanky</item>
+        <item>@drawable/tw_ic_do_agcdr_irpana</item>
+        <item>@drawable/tw_ic_do_agcdr_estonteria</item>
+        <item>@drawable/tw_ic_do_agcdr_ansiaviva</item>
+        <item>@drawable/tw_ic_do_agcdr_deluxe</item>
+        <item>@drawable/tw_ic_do_agcdr_rb</item>
     </array>
+
+    <array name="drawables_agc_navbar_recent">
+        <item>@drawable/navbar_stock_recent</item>
+        <item>@drawable/navbar_airbrush_recent</item>
+        <item>@drawable/navbar_androidl_recent</item>
+        <item>@drawable/navbar_arrea_recent</item>
+        <item>@drawable/navbar_bamboo_recent</item>
+        <item>@drawable/navbar_blueball_recent</item>
+        <item>@drawable/navbar_carbon_recent</item>
+        <item>@drawable/navbar_cod_recent</item>
+        <item>@drawable/navbar_condensed_recent</item>
+        <item>@drawable/navbar_deluxe_recent</item>
+        <item>@drawable/navbar_honeycomb_recent</item>
+        <item>@drawable/navbar_hud_recent</item>
+        <item>@drawable/navbar_metallica_recent</item>
+        <item>@drawable/navbar_motorola_recent</item>
+        <item>@drawable/navbar_nexus_recent</item>
+        <item>@drawable/navbar_zenyth_recent</item>
+        <item>@drawable/navbar_ring_recent</item>
+        <item>@drawable/navbar_pirata_recent_</item>
+        <item>@drawable/navbar_starwars_recent</item>
+    </array>
+    <array name="drawables_agc_navbar_home">
+        <item>@drawable/navbar_stock_home</item>
+        <item>@drawable/navbar_airbrush_home</item>
+        <item>@drawable/navbar_androidl_home</item>
+        <item>@drawable/navbar_arrea_home</item>
+        <item>@drawable/navbar_bamboo_home</item>
+        <item>@drawable/navbar_blueball_home</item>
+        <item>@drawable/navbar_carbon_home</item>
+        <item>@drawable/navbar_cod_home</item>
+        <item>@drawable/navbar_condensed_home</item>
+        <item>@drawable/navbar_deluxe_home</item>
+        <item>@drawable/navbar_honeycomb_home</item>
+        <item>@drawable/navbar_hud_home</item>
+        <item>@drawable/navbar_metallica_home</item>
+        <item>@drawable/navbar_motorola_home</item>
+        <item>@drawable/navbar_nexus_home</item>
+        <item>@drawable/navbar_zenyth_home</item>
+        <item>@drawable/navbar_ring_home</item>
+        <item>@drawable/navbar_pirata_home</item>
+        <item>@drawable/navbar_starwars_home</item>
+    </array>
+    <array name="drawables_agc_navbar_back">
+        <item>@drawable/navbar_stock_back</item>
+        <item>@drawable/navbar_airbrush_back</item>
+        <item>@drawable/navbar_androidl_back</item>
+        <item>@drawable/navbar_arrea_back</item>
+        <item>@drawable/navbar_bamboo_back</item>
+        <item>@drawable/navbar_blueball_back</item>
+        <item>@drawable/navbar_carbon_back</item>
+        <item>@drawable/navbar_cod_back</item>
+        <item>@drawable/navbar_condensed_back</item>
+        <item>@drawable/navbar_deluxe_back</item>
+        <item>@drawable/navbar_honeycomb_back</item>
+        <item>@drawable/navbar_hud_back</item>
+        <item>@drawable/navbar_metallica_back</item>
+        <item>@drawable/navbar_motorola_back</item>
+        <item>@drawable/navbar_nexus_back</item>
+        <item>@drawable/navbar_zenyth_back</item>
+        <item>@drawable/navbar_ring_back</item>
+        <item>@drawable/navbar_pirata_back</item>
+        <item>@drawable/navbar_starwars_back</item>
+    </array>
+    <string-array name="agc_navbar_entries">
+        <item>Stock</item>
+        <item>Airbrush</item>
+        <item>Androidl</item>
+        <item>Arrea</item>
+        <item>Bamboo</item>
+        <item>Blueball</item>
+        <item>Carbon</item>
+        <item>Cod</item>
+        <item>Condensed</item>
+        <item>Deluxe</item>
+        <item>Honeycomb</item>
+        <item>Hud</item>
+        <item>Metallica</item>
+        <item>Motorola</item>
+        <item>Nexus</item>
+        <item>Zenyth</item>
+        <item>Ring</item>
+        <item>Pirata</item>
+        <item>Star Wars</item>
+    </string-array>
+    <string-array name="agc_navbar_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+    </string-array>
+
+
+    <string-array name="transitions_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+    <string-array name="transitions_entries">
+        <item>ACCORDIAN</item>
+        <item>CARD</item>
+        <item>CARDFLIP</item>
+        <item>CAROUSAL</item>
+        <item>CASCADE</item>
+        <item>CONVEYOR</item>
+        <item>FAN</item>
+        <item>INNERCUBE</item>
+        <item>OUTERCUBE</item>
+        <item>PLAIN</item>
+        <item>ROTATE</item>
+        <item>SPIRAL</item>
+        <item>ZOOM</item>
+    </string-array>
+    <string name="style_three">Style 3</string>
+    <string name="style_fourd">Style 4</string>
+    <string name="style_five">Style 5</string>
+
+    <string-array name="forma_fondo_notifi_drawables">
+        <item>@drawable/noti_acdc</item>
+        <item>@drawable/noti_bruma_azul</item>
+        <item>@drawable/noti_bruma_beige</item>
+        <item>@drawable/noti_bruma_morado</item>
+        <item>@drawable/noti_bruma_verde</item>
+        <item>@drawable/noti_cielo</item>
+        <item>@drawable/noti_cristal</item>
+        <item>@drawable/noti_cuaderno</item>
+        <item>@drawable/noti_deedpool</item>
+        <item>@drawable/noti_dr_blanco</item>
+        <item>@drawable/noti_dr_negro</item>
+        <item>@drawable/noti_flor</item>
+        <item>@drawable/noti_flor_2</item>
+        <item>@drawable/noti_flor_3</item>
+        <item>@drawable/noti_fondo_mar</item>
+        <item>@drawable/noti_geometric_blanco_av</item>
+        <item>@drawable/noti_geometric_blanco_azul</item>
+        <item>@drawable/noti_geometric_blanco_gris</item>
+        <item>@drawable/noti_geometric_blanco_rp</item>
+        <item>@drawable/noti_geometric_blanco_verde</item>
+        <item>@drawable/noti_geometric_negro_verde</item>
+        <item>@drawable/noti_ladrillo</item>
+        <item>@drawable/noti_madera2</item>
+        <item>@drawable/noti_madera3</item>
+        <item>@drawable/noti_metal</item>
+        <item>@drawable/noti_metallica</item>
+        <item>@drawable/noti_musica</item>
+        <item>@drawable/noti_musica_2</item>
+        <item>@drawable/noti_musica_3</item>
+        <item>@drawable/noti_panal</item>
+        <item>@drawable/noti_panel_android</item>
+        <item>@drawable/noti_panel_negro</item>
+        <item>@drawable/noti_papel_viejo</item>
+        <item>@drawable/noti_papel_viejo2</item>
+        <item>@drawable/noti_smooth_blaze_azul</item>
+        <item>@drawable/noti_smooth_blaze_ma</item>
+        <item>@drawable/noti_smooth_blaze_verde</item>
+    </string-array>
+    <string-array name="forma_fondo_notifi_entries">
+        <item>ACDC</item>
+        <item>Blue mist</item>
+        <item>Beige mist</item>
+        <item>Purple mist</item>
+        <item>Green mist</item>
+        <item>Sky</item>
+        <item>Crystal</item>
+        <item>Notebook</item>
+        <item>Deadpool</item>
+        <item>White Deluxe</item>
+        <item>Black Deluxe</item>
+        <item>Flower</item>
+        <item>Flower 2</item>
+        <item>Flower 3</item>
+        <item>Sea</item>
+        <item>Geometric</item>
+        <item>Geometric white-blue</item>
+        <item>Geometric white-gray</item>
+        <item>Geometric white</item>
+        <item>Geometric white-green</item>
+        <item>Geometric black-green</item>
+        <item>Brick</item>
+        <item>Wood</item>
+        <item>Wood 3</item>
+        <item>Metal</item>
+        <item>Metallica</item>
+        <item>Music</item>
+        <item>Music 2</item>
+        <item>Music 3</item>
+        <item>Honeycomb</item>
+        <item>Android</item>
+        <item>Black</item>
+        <item>Old</item>
+        <item>Old 2</item>
+        <item>Blue blaze</item>
+        <item>Orange blaze</item>
+        <item>Green blaze</item>
+    </string-array>
+    <string-array name="forma_fondo_notifi_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+    </string-array>
+
+    <array name="agc_signal_drawables">
+        <item>@drawable/datos_stock</item>
+        <item>@drawable/datos_agua</item>
+        <item>@drawable/datos_aosp</item>
+        <item>@drawable/datos_barra</item>
+        <item>@drawable/datos_cadena</item>
+        <item>@drawable/datos_deluxerom</item>
+        <item>@drawable/datos_giro</item>
+        <item>@drawable/datos_luna</item>
+        <item>@drawable/datos_luz</item>
+        <item>@drawable/datos_ola</item>
+        <item>@drawable/datos_parabo</item>
+    </array>
+    <string-array name="agc_signal_entries">
+        <item>Stock</item>
+        <item>AGUA</item>
+        <item>AOSP</item>
+        <item>BARRA</item>
+        <item>CADENA</item>
+        <item>DELUXEROM</item>
+        <item>GIRO</item>
+        <item>LUNA</item>
+        <item>LUZ</item>
+        <item>OLA</item>
+        <item>PARABOLICA</item>
+    </string-array>
+    <string-array name="agc_signal_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+<array name="agc_wifi_drawables">
+<item>@drawable/wifi_stock_4</item>
+<item>@drawable/wifi_aosp_4</item>
+<item>@drawable/wifi_calatrava_4</item>
+<item>@drawable/wifi_curva_4</item>
+<item>@drawable/wifi_deluxerom_4</item>
+<item>@drawable/wifi_letra_4</item>
+<item>@drawable/wifi_rb_4</item>
+<item>@drawable/wifi_spanky_4</item>
+<item>@drawable/wifi_tierra_4</item>
+<item>@drawable/wifi_tribal1_4</item>
+<item>@drawable/wifi_tribal2_4</item>
+<item>@drawable/datos_giro</item>
+</array>
+<string-array name="agc_wifi_entries">
+<item>Stock</item>
+<item>AOSP</item>
+<item>CALATRAVA</item>
+<item>CURVA</item>
+<item>DELUXEROM</item>
+<item>LETRA</item>
+<item>RB</item>
+<item>SPANKY</item>
+<item>TIERRA</item>
+<item>TRIBAL</item>
+<item>TRIBAL 2</item>
+<item>GIRO</item>
+</string-array>
+<string-array name="agc_wifi_values">
+<item>0</item>
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+<item>9</item>
+<item>10</item>
+<item>11</item>
+</string-array>
+
+    <string-array name="agc_alarma_drawables">
+        <item>@drawable/alarma_stock</item>
+        <item>@drawable/alarma_arena</item>
+        <item>@drawable/alarma_campana</item>
+        <item>@drawable/alarma_clasico_1</item>
+        <item>@drawable/alarma_clasico_2</item>
+        <item>@drawable/alarma_deluxe</item>
+        <item>@drawable/alarma_digital_1</item>
+        <item>@drawable/alarma_digital_2</item>
+        <item>@drawable/alarma_moderno</item>
+        <item>@drawable/alarma_romano</item>
+    </string-array>
+    <string-array name="agc_alarma_entries">
+        <item>Stock</item>
+        <item>ARENA</item>
+        <item>CAMPANA</item>
+        <item>CLASICO 1</item>
+        <item>CLASICO 2</item>
+        <item>DELUXEROM</item>
+        <item>DIGITAL 1</item>
+        <item>DIGITAL 2</item>
+        <item>MODERNO</item>
+        <item>ROMANO</item>
+    </string-array>
+    <string-array name="agc_alarma_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="listview_animation_entries">
+        <item>listview_off</item>
+        <item>listview_wave_left</item>
+        <item>listview_wave_right</item>
+        <item>listview_scale</item>
+        <item>listview_alpha</item>
+        <item>listview_stack_top</item>
+        <item>listview_stack_bottom</item>
+        <item>listview_unfold</item>
+        <item>listview_fold</item>
+        <item>listview_translate_left</item>
+        <item>listview_translate_right</item>
+        <item>listview_rotate</item>
+    </string-array>
+    <string-array name="listview_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="listview_interpolator_entries">
+        <item>listview_off</item>
+        <item>listview_accelerate_interpolator</item>
+        <item>listview_decelerate_interpolator</item>
+        <item>listview_accelerate_decelerate_interpolator</item>
+        <item>listview_anticipate_interpolator</item>
+        <item>listview_overshoot_interpolator</item>
+        <item>listview_anticipate_overshoot_interpolator</item>
+        <item>listview_bounce_interpolator</item>
+    </string-array>
+    <string-array name="listview_interpolator_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
 
 </resources>

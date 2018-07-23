@@ -39,7 +39,13 @@
     <string name="no_backup_dialog_title">No backup found on this device</string>
     <string name="no_backup_dialog_message">Would you like to create new backup now?</string>
     <string name="restore_confirm_dialog_title">Please confirm restore</string>
-    <string name="restore_confirm_message">You have chosen to restore data from previous Rom Control preferences.\n\n<b>Please note! This operation will change your device settings based on the settings stored in this file.\n\n<font fgcolor="red">DO NOT PROCEED unless absolutely sure!!!</font></b>\n\nRom Control will close to allow data restoration and reopen again upon its completion. Depending on the amount of your settings this may take some time.\n\nPlease click \"CONFIRM\" to proceed or \"CANCEL\" to quit.</string>
+    <string name="restore_confirm_message">You have chosen to restore data from previous Rom Control preferences.
+        <b>Please note! This operation will change your device settings based on the settings stored in this file.
+            <font fgcolor="red">DO NOT PROCEED unless absolutely sure!!!</font>
+        </b>
+        Rom Control will close to allow data restoration and reopen again upon its completion. Depending on the amount
+        of your settings this may take some time. Please click \"CONFIRM\" to proceed or \"CANCEL\" to quit.
+    </string>
     <string name="backup_complete_toast">Backup completed successfully. The backup file can be found at\n%1$s</string>
     <string name="backup_file_prefix_date_format" translatable="false">dd-MM-yy_HH:mm</string>
     <string name="backup_file_suffix" translatable="false">_RCBackup</string>
@@ -56,7 +62,7 @@
     <string name="confirm_script_dialog_message">"Are you sure you want to run %1$s?"</string>
     <string name="run_script_confirm_dialog_title">Confirmation required</string>
     <string name="run_script_confirm_dialog_positive_button">Yes, run</string>
-    <string name="find_app" translatable="false">Find App</string>
+    <string name="find_app">Find App</string>
     <string name="reboot_required_dialog_title">Device reboot required</string>
     <string name="reboot_required_dialog_message">For this action to take effect, full device reboot is required. Would you like to reboot now?</string>
     <string name="reboot_later_negative_button">later</string>
@@ -223,7 +229,7 @@
     <string name="use0">Use - as separator</string>
     <string name="use1">Use / as separator</string>
     <string name="use2">Use \\ as separator</string>
-    <string name="use3">Use - as separator</string>
+    <string name="use3">Use . as separator</string>
     <string name="br_bar">Brightness bar</string>
     <string name="br_bar_without">Bar without brightness</string>
     <string name="br_max_level">Max. brightness level</string>
@@ -293,4 +299,109 @@
     <string name="fromdowntoup">Down to up</string>
     <string name="fromlefttoright">Left to right</string>
     <string name="fromrighttoleft">Right to left</string>
+    <string name="notpanel_fonts_summary">Date/Clock/Toggles</string>
+    <string name="bgfree">Background free</string>
+    <string name="bgused">Background used</string>
+    <string name="apps_access">Access to apps</string>
+    <string name="font_used_ram">Used RAM font</string>
+    <string name="font_free_ram">Free RAM font</string>
+    <string name="text_size">Text size</string>
+    <string name="maxtoggles_quickpanel">Max. toggles on quickpanel</string>
+    <string name="notpanel_styles">Toggles style</string>
+    <string name="usb_wakeup">Wake up on USB connection</string>
+    <string name="text">Text</string>
+    <string name="circle">Circle</string>
+    <string name="box">Square</string>
+    <string name="launcher">TW Launcher</string>
+    <string name="style_stock">Stock style</string>
+    <string name="style_one">Style 1</string>
+    <string name="style_two">Style 2</string>
+    <string name="diagonal_left_right">Diagonal left to right</string>
+    <string name="diagonal_right_left">Diagonal right to left</string>
+    <string name="bluronmenu">Blur on menu and folders</string>
+    <string name="transition">Select transition effect</string>
+    <string name="clear_all">Clear all</string>
+    <string name="notif_settings">Notification settings</string>
+    <string name="expand">Expand icon</string>
+    <string name="summary">Summary</string>
+    <string name="hour_divisor">Hour divisor</string>
+    <string name="name_app">Name app</string>
+    <string name="second_text">Secondary text</string>
+    <string name="primary_text">Primary text</string>
+    <string name="icon">Icon</string>
+    <string name="background">Background</string>
+    <string name="notif_colors">Notification colors</string>
+    <string name="titles_size">Titles size</string>
+    <string name="values_size">Values size</string>
+    <string name="title_fonts">Titles fonts</string>
+    <string name="values_fonts">Values fonts</string>
+    <string name="rom_version">ROM version</string>
+    <string name="device_up">Device up time</string>
+    <string name="next_alarm">Next alarm</string>
+    <string name="wifi_info">WiFi info</string>
+    <string name="netw_name">Network name</string>
+    <string name="bt_level">Battery level</string>
+    <string name="build_version">Build version</string>
+    <string name="android_version">Android version</string>
+    <string name="device_model">Device model</string>
+    <string name="items">Items</string>
+    <string name="show_uppercase">Show in uppercase</string>
+    <string name="values_color">Values color</string>
+    <string name="titles_color">Titles color</string>
+    <string name="device_info_view">Device info view</string>
+    <string name="show_bt_percentage">Show battery percentage</string>
+    <string name="keep_notif_stock">Keep notif. stock</string>
+    <string name="notifications">Notifications</string>
+    <string name="text_no_opened_apps">Text \"No recents apps\"</string>
+    <string name="left_padding">Left padding</string>
+    <string name="right_padding">Right padding</string>
+    <string name="up_padding">Up padding</string>
+    <string name="down_padding">Down padding</string>
+    <string name="close_all_text">\"Close all\" text</string>
+    <string name="preferences">Preferences</string>
+    <string name="more_settings">More settings icon</string>
+    <string name="launcher_settings">Launcher settings</string>
+    <string name="gradient_one">Gradient 1</string>
+    <string name="gradient_two">Gradient 2</string>
+    <string name="gradient_three">Gradient 3</string>
+    <string name="gradient_four">Gradient 4</string>
+    <string name="gradient_five">Gradient 5</string>
+    <string name="gradient_six">Gradient 6</string>
+    <string name="use_lte">Use LTE icon</string>
+    <string name="show_iris_preview">Show iris preview</string>
+    <string name="icons_selection">Icons selection</string>
+    <string name="wifi_icon">WiFi icon</string>
+    <string name="signal_icon">Signal icon</string>
+    <string name="alarm_icon">Alarm icon</string>
+    <string name="ampm">AM/PM</string>
+    <string name="others">Others</string>
+    <string name="listview">Listview animation</string>
+    <string name="interpolator">Interpolator animation</string>
+    <string name="on_navbar">On navigation bar</string>
+    <string name="square">Square</string>
+    <string name="color_off">Color off</string>
+    <string name="color_on">Color on</string>
+    <string name="icon_off">Icon off</string>
+    <string name="icon_on">Icon on</string>
+    <string name="outdoormode">Outdoor mode</string>
+    <string name="blur">Blur</string>
+    <string name="intensity">Intensity</string>
+    <string name="second_matrix_color">Secondary text color</string>
+    <string name="use_random">Use random color</string>
+    <string name="use_gradient">Use gradient</string>
+    <string name="invert_effect">Invert effect</string>
+    <string name="color_3">Color 3</string>
+    <string name="color_4">Color 4</string>
+    <string name="color_5">Color 5</string>
+    <string name="color_6">Color 6</string>
+    <string name="short_press_app">Short press app</string>
+    <string name="long_press_app">Long press app</string>
+    <string name="quickreboot">Quick reboot</string>
+    <string name="biometric_on_boot">Biometric on reboot</string>
+    <string name="fp_wakeup">Fingerprint sensor wake-up</string>
+    <string name="pattern_colors">Pattern color</string>
+    <string name="error_color">Error color</string>
+    <string name="success_color">Success color</string>
+    <string name="regular_color">Regular color</string>
+    <string name="use_custom_pattern">Use custom patter colors</string>
 </resources>

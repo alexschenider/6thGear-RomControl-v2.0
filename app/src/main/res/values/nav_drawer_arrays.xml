@@ -33,6 +33,8 @@
         <item>@drawable/ic_navbar</item>
         <item>@drawable/ic_recents</item>
         <item>@drawable/ic_custom_apps</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_deluxe_others</item>
     </array>
 
 
@@ -49,6 +51,8 @@
         <item>@string/navbar</item>
         <item>@string/recents</item>
         <item>@string/apps</item>
+        <item>@string/launcher</item>
+        <item>@string/others</item>
     </string-array>
 
 
@@ -66,5 +70,7 @@
         <item>deluxe_navbar_preference</item>
         <item>deluxe_recents_preference</item>
         <item>deluxe_custom_apps_preference</item>
+        <item>deluxe_launcher_preference</item>
+        <item>deluxe_others_preference</item>
     </string-array>
 </resources>

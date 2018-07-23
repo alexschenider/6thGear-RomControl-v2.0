@@ -58,6 +58,34 @@
             </PreferenceScreen>
                                                         -->
             </PreferenceCategory>
+            <PreferenceCategory android:title="@string/bt_percentage">
+                <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="@string/show_bt_percentage"
+                    android:key="display_battery_percentage"
+                    android:defaultValue="1"/>
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:title="@string/bt_percentage"
+                    android:key="agc_bt_percentage_color"
+                    android:defaultValue="-1"
+                    android:dependency="display_battery_percentage"
+                    hexValue="true"
+                    alphaSlider="true" />
+                <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                    android:title="@string/font"
+                    android:key="agc_bt_percentage_font"
+                    android:defaultValue="0"
+                    android:dependency="display_battery_percentage"
+                    app:drawableArray="@array/common_font_drawables"
+                    app:entryList="@array/common_font_entries"
+                    app:entryValuesList="@array/common_font_values" />
+                <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:title="@string/size"
+                    android:defaultValue="12"
+                    android:key="agc_bt_percentage_size"
+                    app:minValue="1"
+                    android:dependency="display_battery_percentage"
+                    app:maxValue="25"/>
+            </PreferenceCategory>
         </PreferenceScreen>
         <PreferenceScreen android:title="@string/clock" android:summary="@string/clock_summary">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -125,63 +153,74 @@
                     android:defaultValue="-1"
                     hexValue="true"
                     alphaSlider="true" />
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:title="@string/ampm"
+                    android:dependency="agc_clock_individual_colors"
+                    android:key="agc_clock_ampm_color"
+                    android:defaultValue="-1"
+                    hexValue="true"
+                    alphaSlider="true" />
             </PreferenceScreen>
             <PreferenceScreen android:title="@string/fonts" android:dependency="agc_clock_visibility" android:summary="@string/select_indiv_fonts">
-                <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                    android:title="@string/dayfont"
-                    android:defaultValue="0"
-                    android:key="agc_clock_day_font"
-                    android:entryValues="@array/ck_fonts_values"
-                    android:entries="@array/ck_fonts_entries" />
-                <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                    android:title="@string/datefont"
-                    android:defaultValue="0"
-                    android:key="agc_clock_date_font"
-                    android:entryValues="@array/ck_fonts_values"
-                    android:entries="@array/ck_fonts_entries" />
-                <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                    android:title="@string/hour_mins_secs_font"
-                    android:defaultValue="0"
-                    android:key="agc_clock_hour_font"
-                    android:entryValues="@array/ck_fonts_values"
-                    android:entries="@array/ck_fonts_entries" />
-                <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                    android:title="@string/ampmfont"
-                    android:defaultValue="0"
-                    android:key="agc_clock_ampm_font"
-                    android:entryValues="@array/ck_fonts_values"
-                    android:entries="@array/ck_fonts_entries" />
+                <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                        android:title="@string/dayfont"
+                        android:key="agc_clock_day_font"
+                        android:defaultValue="0"
+                        app:drawableArray="@array/common_font_drawables"
+                        app:entryList="@array/common_font_entries"
+                        app:entryValuesList="@array/common_font_values" />
+                <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                        android:title="@string/datefont"
+                        android:key="agc_clock_date_font"
+                        android:defaultValue="0"
+                        app:drawableArray="@array/common_font_drawables"
+                        app:entryList="@array/common_font_entries"
+                        app:entryValuesList="@array/common_font_values" />
+                <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                        android:title="@string/hour_mins_secs_font"
+                        android:key="agc_clock_hour_font"
+                        android:defaultValue="0"
+                        app:drawableArray="@array/common_font_drawables"
+                        app:entryList="@array/common_font_entries"
+                        app:entryValuesList="@array/common_font_values" />
+                <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                        android:title="@string/ampmfont"
+                        android:key="agc_clock_ampm_font"
+                        android:defaultValue="0"
+                        app:drawableArray="@array/common_font_drawables"
+                        app:entryList="@array/common_font_entries"
+                        app:entryValuesList="@array/common_font_values" />
             </PreferenceScreen>
             <PreferenceScreen android:title="@string/sizes" android:dependency="agc_clock_visibility" android:summary="@string/select_indv_sizes">
                 <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                     android:title="@string/hours_mins_size"
                     android:key="agc_clock_hour_size"
                     app:minValue="1"
-                    app:maxValue="10"
+                    app:maxValue="20"
                     android:defaultValue="10" />
                 <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                     android:title="@string/separator_size"
                     android:key="agc_clock_hourseparator_size"
                     app:minValue="1"
-                    app:maxValue="10"
+                    app:maxValue="20"
                     android:defaultValue="10" />
                 <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                     android:title="@string/day_size"
                     android:key="agc_clock_day_size"
                     app:minValue="1"
-                    app:maxValue="10"
+                    app:maxValue="20"
                     android:defaultValue="10" />
                 <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                     android:title="@string/date_size"
                     android:key="agc_clock_date_size"
                     app:minValue="1"
-                    app:maxValue="10"
+                    app:maxValue="20"
                     android:defaultValue="10" />
                 <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                     android:title="@string/ampm_size"
                     android:key="agc_clock_ampm_size"
                     app:minValue="1"
-                    app:maxValue="10"
+                    app:maxValue="20"
                     android:defaultValue="10" />
             </PreferenceScreen>
             <PreferenceScreen android:title="@string/extra_clock_prfs" android:dependency="agc_clock_visibility" android:summary="@string/extra_clock_prfs_summary">
@@ -229,6 +268,74 @@
                     android:entryValues="@array/ck_dateorder_values" />
             </PreferenceScreen>
         </PreferenceScreen>
+        <PreferenceScreen android:title="@string/custombg">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                    android:title="@string/custombg_enable"
+                    android:defaultValue="false"
+                    android:key="agc_sb_drw_visibility" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:title="@string/custombg_type"
+                    android:key="agc_sb_drw_type"
+                    android:defaultValue="0"
+                    android:dependency="agc_sb_drw_visibility"
+                    android:entries="@array/custom_bg_type_entries"
+                    android:entryValues="@array/custom_bg_type_values" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:title="@string/opacity"
+                    android:dependency="agc_sb_drw_visibility"
+                    android:key="agc_sb_drw_opacity"
+                    app:maxValue="255"
+                    app:minValue="0"
+                    android:defaultValue="255" />
+            <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference
+                    android:title="@string/custombg_select_image"
+                    android:key="agc_sb_drw_image_uri"
+                    android:dependency="agc_sb_drw_visibility" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:title="@string/custombg_image_scale"
+                    android:key="agc_sb_drw_scale"
+                    android:dependency="agc_sb_drw_visibility"
+                    android:defaultValue="0"
+                    android:entryValues="@array/crop_values"
+                    android:entries="@array/crop_entries" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#00000000"
+                    android:dependency="agc_sb_drw_visibility"
+                    android:key="agc_sb_drw_primary"
+                    android:title="@string/custombg_primary"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#00000000"
+                    android:dependency="agc_sb_drw_visibility"
+                    android:key="agc_sb_drw_secondary"
+                    android:title="@string/custombg_secondary"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#00000000"
+                    android:dependency="agc_sb_drw_visibility"
+                    android:key="agc_sb_drw_tertiary"
+                    android:title="@string/color_3"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#00000000"
+                    android:dependency="agc_sb_drw_visibility"
+                    android:key="agc_sb_drw_quaternary"
+                    android:title="@string/color_4"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#00000000"
+                    android:dependency="agc_sb_drw_visibility"
+                    android:key="agc_sb_drw_quinary"
+                    android:title="@string/color_5"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#00000000"
+                    android:dependency="agc_sb_drw_visibility"
+                    android:key="agc_sb_drw_sextary"
+                    android:title="@string/color_6"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:defaultValue="0"
+                    android:dependency="agc_sb_drw_visibility"
+                    android:entries="@array/gradient_entries"
+                    android:entryValues="@array/gradient_values"
+                    android:key="agc_sb_drw_gradient_orientation"
+                    android:title="@string/custombg_orientation" />
+        </PreferenceScreen>
         <PreferenceScreen android:title="@string/icons_col" android:summary="@string/icons_summary">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="@string/global_separated"
@@ -239,79 +346,82 @@
                 android:defaultValue="-1"
                 app:reverseDependency="agc_sb_use_separated_color"
                 hexValue="true"
-                alphaSlider="false"
+                alphaSlider="true"
                 android:key="agc_sb_global_color" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:title="@string/wifi"
                 android:defaultValue="-1"
                 android:dependency="agc_sb_use_separated_color"
                 hexValue="true"
-                alphaSlider="false"
+                alphaSlider="true"
                 android:key="agc_sb_wifi_color" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:title="@string/wifiarrws"
                 android:defaultValue="-1"
                 android:dependency="agc_sb_use_separated_color"
                 hexValue="true"
-                alphaSlider="false"
+                alphaSlider="true"
                 android:key="agc_sb_wifi_arrows_color" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:title="@string/mbl_data"
                 android:defaultValue="-1"
                 android:dependency="agc_sb_use_separated_color"
                 hexValue="true"
-                alphaSlider="false"
+                alphaSlider="true"
                 android:key="agc_sb_mbtype_color" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:title="@string/mbl_data_arrws"
                 android:defaultValue="-1"
                 android:dependency="agc_sb_use_separated_color"
                 hexValue="true"
-                alphaSlider="false"
+                alphaSlider="true"
                 android:key="agc_sb_mobile_arrows_color" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:title="@string/roaming"
                 android:defaultValue="-1"
                 android:dependency="agc_sb_use_separated_color"
                 hexValue="true"
-                alphaSlider="false"
+                alphaSlider="true"
                 android:key="agc_sb_roaming_color" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:title="@string/signal"
                 android:defaultValue="-1"
                 android:dependency="agc_sb_use_separated_color"
                 hexValue="true"
-                alphaSlider="false"
+                alphaSlider="true"
                 android:key="agc_sb_signal_color" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:title="@string/airplane"
                 android:defaultValue="-1"
                 android:dependency="agc_sb_use_separated_color"
                 hexValue="true"
-                alphaSlider="false"
+                alphaSlider="true"
                 android:key="agc_sb_airplane_color" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="@string/keep_notif_stock"
+                android:key="keep_notif_colors"
+                android:defaultValue="false" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:title="@string/bt_percentage"
-                android:key="agc_bt_percentage_color"
-                android:defaultValue="-1"
-                android:dependency="agc_sb_use_separated_color"
-                hexValue="true"
-                alphaSlider="false" />
-            <!--
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:title="Notificaciones"
+                android:title="@string/notifications"
                 android:key="agc_sb_notif_colors"
                 android:defaultValue="-1"
+                app:reverseDependency="keep_notif_colors"
                 android:dependency="agc_sb_use_separated_color"
                 hexValue="true"
                 alphaSlider="false" />
-                                        -->
         </PreferenceScreen>
         <PreferenceScreen android:title="@string/sb_carrier" android:summary="@string/carrier_summary">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                     android:title="@string/visibility_carrier"
                     android:key="agc_customcarrier_visibility"
                     android:defaultValue="true" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:title="@string/position"
+                    android:defaultValue="0"
+                    android:entries="@array/SignalPositionName"
+                    android:entryValues="@array/SignalPositionValue"
+                    android:key="agc_customcarrier_position"
+                    android:dependency="agc_customcarrier_visibility" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                     android:title="@string/use_customtext"
                     android:key="agc_customcarrier_usecustomtext"
@@ -323,14 +433,14 @@
                     android:summary="%s"
                     android:dependency="agc_customcarrier_usecustomtext"
                     android:defaultValue="DeluxeROM®" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
                     android:title="@string/font"
-                    android:key="agc_customcarrier_font"
-                    android:summary="%s"
                     android:dependency="agc_customcarrier_visibility"
-                    android:entryValues="@array/ck_fonts_values"
-                    android:entries="@array/ck_fonts_entries"
-                    android:defaultValue="0"/>
+                    android:key="agc_customcarrier_font"
+                    android:defaultValue="0"
+                    app:drawableArray="@array/common_font_drawables"
+                    app:entryList="@array/common_font_entries"
+                    app:entryValuesList="@array/common_font_values" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:title="@string/color"
                     android:key="agc_customcarrier_color"
@@ -345,12 +455,82 @@
                     android:dependency="agc_customcarrier_visibility"
                     app:maxValue="25"/>
         </PreferenceScreen>
+        <PreferenceScreen android:title="Clima" android:summary="Visibilidad/Color/Fuente/Posición">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Mostrar clima"
+                android:defaultValue="false"
+                android:key="agc_sb_weather_visibility" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:title="@string/position"
+                android:dependency="agc_sb_weather_visibility"
+                android:defaultValue="0"
+                android:entries="@array/SignalPositionName"
+                android:entryValues="@array/SignalPositionValue"
+                android:key="agc_sb_weather_position" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="@string/color"
+                android:dependency="agc_sb_weather_visibility"
+                android:key="agc_sb_weather_text_color"
+                android:defaultValue="-1"
+                hexValue="true"
+                alphaSlider="true" />
+            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                android:title="@string/font"
+                android:key="agc_sb_weather_font"
+                android:defaultValue="0"
+                android:dependency="agc_sb_weather_visibility"
+                app:drawableArray="@array/common_font_drawables"
+                app:entryList="@array/common_font_entries"
+                app:entryValuesList="@array/common_font_values" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:title="@string/size"
+                android:dependency="agc_sb_weather_visibility"
+                android:key="agc_sb_weather_size"
+                app:minValue="1"
+                android:defaultValue="12"
+                app:maxValue="25" />
+        </PreferenceScreen>
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:title="@string/signal_positions"
-            android:key="signal_position"
+            android:key="agc_signal_position"
             android:defaultValue="1"
             android:entryValues="@array/SignalPositionValue"
             android:entries="@array/SignalPositionName" />
+        <PreferenceScreen android:title="@string/icons_selection">
+            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                android:title="@string/wifi_icon"
+                android:key="agc_sb_wifi_icon"
+                android:defaultValue="0"
+                app:drawableArray="@array/agc_wifi_drawables"
+                app:entryList="@array/agc_wifi_entries"
+                app:entryValuesList="@array/agc_wifi_values"
+                app:packageNameToKill="com.android.systemui"
+                app:isSilent="true" />
+            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                android:title="@string/signal_icon"
+                android:key="agc_sb_signal_icon"
+                android:defaultValue="0"
+                app:drawableArray="@array/agc_signal_drawables"
+                app:entryList="@array/agc_signal_entries"
+                app:entryValuesList="@array/agc_signal_values"
+                app:packageNameToKill="com.android.systemui"
+                app:isSilent="true" />
+            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                android:title="@string/alarm_icon"
+                android:key="agc_sb_alarm_icon"
+                android:defaultValue="0"
+                app:drawableArray="@array/agc_alarma_drawables"
+                app:entryList="@array/agc_alarma_entries"
+                app:entryValuesList="@array/agc_alarma_values"
+                app:packageNameToKill="com.android.systemui"
+                app:isSilent="true" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="@string/use_lte"
+                android:key="agc_show_lte"
+                android:defaultValue="0"
+                app:packageNameToKill="com.android.systemui"
+                app:isSilent="true" />
+        </PreferenceScreen>
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/other_mods">
         <PreferenceScreen android:title="@string/bt_bar">

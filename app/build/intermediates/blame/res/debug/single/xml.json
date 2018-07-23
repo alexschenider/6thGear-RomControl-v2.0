@@ -1,38 +1,46 @@
 [
     {
-        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_navbar_preference.xml",
-        "source": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_navbar_preference.xml"
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_launcher_preference.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_launcher_preference.xml"
     },
     {
-        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_custom_apps_preference.xml",
-        "source": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_custom_apps_preference.xml"
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_custom_apps_preference.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_custom_apps_preference.xml"
     },
     {
-        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_recents_preference.xml",
-        "source": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_recents_preference.xml"
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_others_preference.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_others_preference.xml"
     },
     {
-        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_reboot_preference.xml",
-        "source": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_reboot_preference.xml"
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_recents_preference.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_recents_preference.xml"
     },
     {
-        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_speedmeters_preference.xml",
-        "source": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_speedmeters_preference.xml"
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_statusbar_preference.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_statusbar_preference.xml"
     },
     {
-        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_lockscreen_preference.xml",
-        "source": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_lockscreen_preference.xml"
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_speedmeters_preference.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_speedmeters_preference.xml"
     },
     {
-        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_sb_virtual_buttons_preference.xml",
-        "source": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_sb_virtual_buttons_preference.xml"
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_sb_virtual_buttons_preference.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_sb_virtual_buttons_preference.xml"
     },
     {
-        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_notpanel_preference.xml",
-        "source": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_notpanel_preference.xml"
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_notpanel_preference.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_notpanel_preference.xml"
     },
     {
-        "merged": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_statusbar_preference.xml",
-        "source": "C:\\Users\\AbrahamGC\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_statusbar_preference.xml"
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_reboot_preference.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_reboot_preference.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_navbar_preference.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_navbar_preference.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_lockscreen_preference.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_lockscreen_preference.xml"
     }
 ]

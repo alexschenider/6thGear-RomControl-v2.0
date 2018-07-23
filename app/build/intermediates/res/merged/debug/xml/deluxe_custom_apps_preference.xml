@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <PreferenceCategory android:title="Acceso a apps">
+    <PreferenceCategory android:title="@string/apps_access">
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
                 android:title="SuperSU"
                 android:icon="@drawable/ic_supersu"
@@ -15,7 +15,6 @@
                 app:componentName="org.adaway/org.adaway.ui.BaseActivity"/>
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
                 android:title="ScreenRecorder"
-                android:summary="Ajustes para ScreenRecorder"
                 app:componentName="com.sec.app.screenrecorder/com.sec.app.screenrecorder.activity.SettingsActivity" />
     </PreferenceCategory>
 </PreferenceScreen>
