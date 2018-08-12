@@ -9,58 +9,57 @@
         <item>1</item>
     </string-array>
     <array name="about_contact_us_drawables">
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
+        <item>@drawable/wifi_deluxerom_4_azul</item>
+        <item>@drawable/wifi_deluxerom_4</item>
     </array>
-    <string-array name="about_contact_us_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+    <string-array name="about_contact_us_links">
+        <item>https://www.htcmania.com/showthread.php?t=1404819</item>
+        <item>https://forum.xda-developers.com/galaxy-note-8/development/n950f-g955f-g950f-deluxerom-v6-0-t3784712</item>
     </string-array>
     <string-array name="about_contact_us_text">
-        <item>Facebook</item>
-        <item>Our Site</item>
-        <item>XDA</item>
+        <item>@string/htcm_thread</item>
+        <item>@string/xda_thread</item>
     </string-array>
     <array name="about_credits_drawables">
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
-        <item>@drawable/icon_4</item>
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_5</item>
+        <item>@drawable/paypal</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
     </array>
-    <string-array name="about_credits_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+    <string-array name="about_credits_links">
+        <item>https://www.paypal.me/AGarciaCortes?locale.x=es_ES</item>
+        <item>https://t.me/joinchat/CogTU1NBGds0SfBkJwTjlA</item>
+        <item>https://t.me/joinchat/CogTU0GwjRHXxzPvYA655Q</item>
     </string-array>
     <string-array name="about_credits_names">
-        <item>Star Trek - for being ultimately better than Star Wars</item>
-        <item>Jean-Luc Picard - for making us crave hot earl-grey tea even in the middle of the summer</item>
-        <item>Data - for running on the best rom. Google, we still are waiting for THAT android version</item>
-        <item>Janeway - for being a normal person and drinking black coffee</item>
-        <item>Q - for reminding us that you can live forever and still look great</item>
-        <item>Worf - for teaching us to love Klingons. It was NOT easy</item>
+        <item>@string/paypal</item>
+        <item>@string/tgm_spanish</item>
+        <item>@string/tgm_english</item>
     </string-array>
     <array name="about_team_drawables">
-        <item>@drawable/icon_5</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_1</item>
+        <item>@drawable/abrahamgc</item>
+        <item>@drawable/araul</item>
+        <item>@drawable/jota</item>
+        <item>@drawable/ivan</item>
+        <item>@drawable/fer</item>
+        <item>@drawable/luiyi</item>
+        <item>@drawable/jon</item>
+        <item>@drawable/pablo</item>
+        <item>@drawable/viti</item>
     </array>
-    <string-array name="about_team_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+    <string-array name="about_team_links">
+        <item>https://forum.xda-developers.com/member.php?u=7393522</item>
+        <item>http://forum.xda-developers.com/member.php?u=5829833</item>
     </string-array>
     <string-array name="about_team_names">
-        <item>Master Yoda - wise and talented lead developer</item>
-        <item>Luke Skywalker - one handed theme master</item>
-        <item>Darth Vader - dark theme master</item>
+        <item>@string/abrahamgc</item>
+        <item>@string/a_raul</item>
+        <item>@string/jota</item>
+        <item>@string/ivan</item>
+        <item>@string/fer</item>
+        <item>@string/luiyi</item>
+        <item>@string/jon</item>
+        <item>@string/pablo</item>
+        <item>@string/viti</item>
     </string-array>
     <string-array name="agc_alarma_drawables">
         <item>@drawable/alarma_stock</item>
@@ -97,6 +96,20 @@
         <item>7</item>
         <item>8</item>
         <item>9</item>
+    </string-array>
+    <string-array name="agc_bixby_buttons_entries">
+        <item>Nothing - (Stock action)</item>
+        <item>Open app</item>
+        <item>Press back</item>
+        <item>Press home</item>
+        <item>Press recents</item>
+        <item>Press menu</item>
+        <item>Torchlight</item>
+        <item>Sound mode</item>
+        <item>Lock screen</item>
+        <item>Show reboot menu</item>
+        <item>Close actual app</item>
+        <item>Screenshot</item>
     </string-array>
     <string-array name="agc_datausage_position_entries">
      <item>@string/left</item>
@@ -153,22 +166,72 @@
     <string-array name="agc_outdoor_check_off_drawables">
         <item>@drawable/check_off_1</item>
         <item>@drawable/check_off_2</item>
+        <item>@drawable/check_off_3</item>
+        <item>@drawable/check_off_4</item>
     </string-array>
     <string-array name="agc_outdoor_check_off_entries">
         <item>@string/square</item>
         <item>@string/circle</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
     <string-array name="agc_outdoor_check_on_drawables">
         <item>@drawable/check_on_1</item>
         <item>@drawable/check_on_2</item>
+        <item>@drawable/check_on_3</item>
+        <item>@drawable/check_on_4</item>
     </string-array>
     <string-array name="agc_outdoor_check_on_entries">
         <item>@string/square</item>
         <item>@string/circle</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
     <string-array name="agc_outdoor_check_values">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="agc_reboot_options">
+        <item>Power</item>
+        <item>Restart</item>
+        <item>Recovery</item>
+        <item>Download</item>
+        <item>Quickreboot</item>
+        <item>Emergency mode</item>
+        <item>Data mode</item>
+        <item>Torch</item>
+        <item>Assist</item>
+        <item>Screenrecord</item>
+        <item>Screenshot</item>
+        <item>Settings</item>
+        <item>RomControl</item>
+    </string-array>
+    <string-array name="agc_reboot_order_entries">
+        <item>Default</item>
+        <item>Invert</item>
+        <item>Shuffle</item>
+    </string-array>
+    <string-array name="agc_reboot_order_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="agc_reboot_values">
+        <item>newpower</item>
+        <item>restart</item>
+        <item>recovery</item>
+        <item>download</item>
+        <item>quickreboot</item>
+        <item>emergencymode</item>
+        <item>datamode</item>
+        <item>torch</item>
+        <item>assist</item>
+        <item>screenrecord</item>
+        <item>screenshot</item>
+        <item>settings</item>
+        <item>romcontrol</item>
     </string-array>
     <array name="agc_signal_drawables">
         <item>@drawable/datos_stock</item>
@@ -796,6 +859,40 @@
         <item>6</item>
         <item>7</item>
     </string-array>
+    <string-array name="hidden_icons_options">
+        <item>Rotation</item>
+        <item>Wifi p2p (mirroring..)</item>
+        <item>Alarm</item>
+        <item>Wifi Calling</item>
+        <item>Mobile Signal</item>
+        <item>Power Save</item>
+        <item>Airplane Mode</item>
+        <item>HeadSet</item>
+        <item>Volume</item>
+        <item>Wifi Signal</item>
+        <item>Bluetooth</item>
+        <item>Private Mode</item>
+        <item>Location</item>
+        <item>gps</item>
+        <item>wearable_gear</item>
+    </string-array>
+    <string-array name="hidden_icons_values">
+        <item>rotate</item>
+        <item>wifi_p2p</item>
+        <item>alarm_clock</item>
+        <item>ims_volte</item>
+        <item>mobile</item>
+        <item>power_saver</item>
+        <item>airplane</item>
+        <item>headset</item>
+        <item>volume</item>
+        <item>wifi</item>
+        <item>bluetooth</item>
+        <item>private_mode</item>
+        <item>location</item>
+        <item>gps</item>
+        <item>wearable_gear</item>
+    </string-array>
     <string-array name="listview_animation_entries">
         <item>listview_off</item>
         <item>listview_wave_left</item>
@@ -864,11 +961,26 @@
         <item>900</item>
         <item>1000</item>
     </string-array>
+    <string-array name="multi_select_entries_test">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+    </string-array>
+    <string-array name="multi_select_values_test">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+        <item>item5</item>
+    </string-array>
     <array name="nav_menu_prefs_drawables">
         <item>@drawable/ic_system_ui</item>
         <item>@drawable/ic_notification_panel</item>
         <item>@drawable/ic_network_speed</item>
         <item>@drawable/ic_virtual</item>
+        <item>@drawable/ic_bixby</item>
         <item>@drawable/ic_rebootnew</item>
         <item>@drawable/ic_lockscreen</item>
         <item>@drawable/ic_navbar</item>
@@ -882,6 +994,7 @@
         <item>@string/notpanel</item>
         <item>@string/speedmetters</item>
         <item>@string/virtualbuttons</item>
+        <item>@string/bixbybutton</item>
         <item>@string/menureboot</item>
         <item>@string/lockscreen</item>
         <item>@string/navbar</item>
@@ -895,6 +1008,7 @@
         <item>deluxe_notpanel_preference</item>
         <item>deluxe_speedmeters_preference</item>
         <item>deluxe_sb_virtual_buttons_preference</item>
+        <item>deluxe_bixby</item>
         <item>deluxe_reboot_preference</item>
         <item>deluxe_lockscreen_preference</item>
         <item>deluxe_navbar_preference</item>
@@ -1661,6 +1775,7 @@
     <integer name="default_theme">0</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="a_raul">\@A.Raul - Developer</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -1693,6 +1808,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="about_us">About us</string>
+    <string name="abrahamgc">\@AbrahamGC - Developer</string>
     <string name="adm">YYYY + DD + MM</string>
     <string name="airplane">Airplane mode</string>
     <string name="alarm_icon">Alarm icon</string>
@@ -1725,6 +1841,8 @@
     <string name="bgfree">Background free</string>
     <string name="bgused">Background used</string>
     <string name="biometric_on_boot">Biometric on reboot</string>
+    <string name="bixby_action">Bixby action</string>
+    <string name="bixbybutton">Bixby button</string>
     <string name="bluetooth">Bluetooth</string>
     <string name="blur">Blur</string>
     <string name="bluronmenu">Blur on menu and folders</string>
@@ -1768,6 +1886,7 @@
     <string name="colors">Colors</string>
     <string name="command_executed_success_toast">Executed successfully</string>
     <string name="confirm_script_dialog_message">"Are you sure you want to run %1$s?"</string>
+    <string name="contact_us">Contact us</string>
     <string name="custombg">Custom background</string>
     <string name="custombg_color_pref">Color/Gradient preferences</string>
     <string name="custombg_enable">Enable custom background</string>
@@ -1823,8 +1942,10 @@
     <string name="ereboot">Reboot</string>
     <string name="error_color">Error color</string>
     <string name="expand">Expand icon</string>
+    <string name="ext_storage">External storage</string>
     <string name="extra_clock_prfs">Elements to show/Other settings</string>
     <string name="extra_clock_prfs_summary">Select what to show and in what order</string>
+    <string name="fer">\@Fercostaber - BetaTester</string>
     <string name="find_app">Find App</string>
     <string name="fit_xy">Fit XY</string>
     <string name="flashlight">Flashlight</string>
@@ -1850,7 +1971,9 @@
     <string name="gradient_three">Gradient 3</string>
     <string name="gradient_two">Gradient 2</string>
     <string name="handler">Handler (2 lines)</string>
+    <string name="heads_ups">Heads-Up notifications</string>
     <string name="hexagonal">Hexagonal</string>
+    <string name="hide_icons">Hided icons</string>
     <string name="home">Home</string>
     <string name="homeicon">Home icon</string>
     <string name="hour">Hour</string>
@@ -1861,6 +1984,7 @@
     <string name="hourdaydate">Hour / Day / Date</string>
     <string name="hours">Hours</string>
     <string name="hours_mins_size">Hours/Mins/Secs size</string>
+    <string name="htcm_thread">HTCMania thread</string>
     <string name="icon">Icon</string>
     <string name="icon_off">Icon off</string>
     <string name="icon_on">Icon on</string>
@@ -1870,10 +1994,14 @@
     <string name="image">Image</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
     <string name="intensity">Intensity</string>
+    <string name="internal_storage">Internal storage</string>
     <string name="interpolator">Interpolator animation</string>
     <string name="invert_effect">Invert effect</string>
     <string name="invisible">Invisible</string>
     <string name="items">Items</string>
+    <string name="ivan">\@ISS81 - BetaTester</string>
+    <string name="jon">\@JonXJ - BetaTester</string>
+    <string name="jota">\@Jotajotavader - BetaTester</string>
     <string name="keep_notif_stock">Keep notif. stock</string>
     <string name="kill_on_long_press">Long press on back to kill app</string>
     <string name="launcher">TW Launcher</string>
@@ -1885,6 +2013,7 @@
     <string name="lockscreen">Lockscreen</string>
     <string name="long_press">Long press</string>
     <string name="long_press_app">Long press app</string>
+    <string name="luiyi">\@Luiyibike - BetaTester</string>
     <string name="matrix">Matrix effect</string>
     <string name="matrix_bg_color">Background color</string>
     <string name="matrix_frqnc">Text frequency</string>
@@ -1927,11 +2056,14 @@
     <string name="opacity">Opacity</string>
     <string name="other_mods">Other mods</string>
     <string name="others">Others</string>
+    <string name="our_team">DELUXETEAM ®</string>
     <string name="outdoormode">Outdoor mode</string>
+    <string name="pablo">\@PabloStriker19 - BetaTester</string>
     <string name="panel_bg">Background panel</string>
     <string name="panel_mnore_settings">More settings button (3 points)</string>
     <string name="panel_settings_bt">Settings button</string>
     <string name="pattern_colors">Pattern color</string>
+    <string name="paypal">PayPal</string>
     <string name="phone">Phone</string>
     <string name="phone_prefs">Phone prefs</string>
     <string name="position">Position</string>
@@ -1977,6 +2109,7 @@
     <string name="root_progress_dialog_title">Acquiring Root Access</string>
     <string name="root_tools_exception_toast">File not found or root denied</string>
     <string name="rotation">Rotation</string>
+    <string name="round_google_widget">Round Google widget</string>
     <string name="run_script_confirm_dialog_positive_button">Yes, run</string>
     <string name="run_script_confirm_dialog_title">Confirmation required</string>
     <string name="sb_carrier">Carrier text</string>
@@ -1984,16 +2117,20 @@
     <string name="sb_icons_preferences">Statusbar icon preferences</string>
     <string name="sb_left">Left on statusbar</string>
     <string name="sb_right">Right on statusbar</string>
+    <string name="screen_off">With screen off</string>
+    <string name="screen_on">With screen on</string>
     <string name="screenshot">Screenshot</string>
     <string name="search_menu_title">Search</string>
     <string name="second_matrix_color">Secondary text color</string>
     <string name="second_text">Secondary text</string>
     <string name="seconds">Seconds</string>
+    <string name="secure_reply">Quickreply always</string>
     <string name="select_all">Select all</string>
     <string name="select_all_label">All</string>
     <string name="select_app">Select application</string>
     <string name="select_indiv_fonts">Select individual fonts</string>
     <string name="select_indv_sizes">Select individual sizes</string>
+    <string name="select_items">Select items</string>
     <string name="select_style">Select icons style</string>
     <string name="semicircle">Semicircle</string>
     <string name="separator">Separator</string>
@@ -2049,13 +2186,17 @@
     <string name="style_two">Style 2</string>
     <string name="success_color">Success color</string>
     <string name="summary">Summary</string>
+    <string name="support">Support</string>
     <string name="systemui_prefs">SystemUI prefs</string>
     <string name="text">Text</string>
+    <string name="text_color">Text color</string>
     <string name="text_edit">Edit the text</string>
     <string name="text_no_opened_apps">Text \"No recents apps\"</string>
     <string name="text_size">Text size</string>
     <string name="text_toggles">Toggles text</string>
     <string name="texts">Texts</string>
+    <string name="tgm_english">English Telegram support</string>
+    <string name="tgm_spanish">Spanish Telegram support</string>
     <string name="theme_dialog_title">Choose theme</string>
     <string name="title_fonts">Titles fonts</string>
     <string name="titles_color">Titles color</string>
@@ -2065,6 +2206,9 @@
     <string name="toggles_off">Toggles off</string>
     <string name="toggles_on">Toggles on</string>
     <string name="transition">Select transition effect</string>
+    <string name="tw_text_color">Icon text color</string>
+    <string name="tw_text_size">Icon text size</string>
+    <string name="unlock_animation">Unlock animation</string>
     <string name="up_padding">Up padding</string>
     <string name="upanddown">Upload and download</string>
     <string name="uppercase_ampm">Show AM/PM uppercase</string>
@@ -2089,6 +2233,7 @@
     <string name="visibility">Visibility</string>
     <string name="visibility_carrier">Text visibility</string>
     <string name="visible">Visible</string>
+    <string name="viti">\@Jannaviti - BetaTester</string>
     <string name="voldown">Volume down</string>
     <string name="volup">Volume up</string>
     <string name="weather">Weather</string>
@@ -2096,6 +2241,7 @@
     <string name="wifi_icon">WiFi icon</string>
     <string name="wifi_info">WiFi info</string>
     <string name="wifiarrws">WiFi arrows</string>
+    <string name="xda_thread">XDA thread</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -2110,6 +2256,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:dialogTheme">@style/DialogTheme</item>
+        <item name="android:navigationBarColor">#ffa011</item>
         <item name="android:alertDialogTheme">@style/DialogTheme</item>
         <item name="navDrawerColorSelector">@color/nav_items_selector_light</item>
     </style>
@@ -2126,6 +2273,7 @@
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <style name="AppThemeDark" parent="Theme.AppCompat">
         
+        <item name="android:navigationBarColor">#ffa011</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>

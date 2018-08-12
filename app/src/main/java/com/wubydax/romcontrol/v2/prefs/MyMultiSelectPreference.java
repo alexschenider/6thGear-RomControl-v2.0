@@ -13,7 +13,6 @@ import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.RadioButton;
-
 import com.wubydax.romcontrol.v2.R;
 import com.wubydax.romcontrol.v2.utils.MultiSelectAdapter;
 import com.wubydax.romcontrol.v2.utils.SelectionItem;
@@ -53,11 +52,22 @@ public class MyMultiSelectPreference extends DialogPreference implements MultiSe
     private MultiSelectAdapter mMultiSelectAdapter;
     private String mValue;
     private int mCount;
+    private boolean isGlobal, isSecure;
     private RadioButton mRadioButton;
 
     public MyMultiSelectPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
+        isGlobal = false;
+        isSecure = false;
         mContentResolver = context.getContentResolver();
+        String isKeyGlobal = attrs.getAttributeValue("SECURE_GLOBAL", "isGlobal");
+        String isKeySecure = attrs.getAttributeValue("SECURE_GLOBAL", "isSecure");
+        if (TextUtils.equals(isKeyGlobal, "true")) {
+            isGlobal = true;
+        }
+        if (TextUtils.equals(isKeySecure, "true")) {
+            isSecure = true;
+        }
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.MyMultiSelectPreference);
         mEntries = context.getResources().getStringArray(typedArray.getResourceId(R.styleable.MyMultiSelectPreference_multiEntryList, -1));
         mValues = context.getResources().getStringArray(typedArray.getResourceId(R.styleable.MyMultiSelectPreference_multiValuesList, -1));
@@ -75,7 +85,6 @@ public class MyMultiSelectPreference extends DialogPreference implements MultiSe
 
         if (mEntries == null || mValues == null || mEntries.length != mValues.length || mEntries.length == 0)
             throw new IllegalArgumentException("Data for preference is missing or improperly formatted. Please verify the arrays are all present and are all of equal size");
-
     }
 
     @Override
@@ -85,10 +94,23 @@ public class MyMultiSelectPreference extends DialogPreference implements MultiSe
 
     @Override
     protected void onSetInitialValue(boolean restorePersistedValue, Object defaultValue) {
-        String value = Settings.System.getString(mContentResolver, getKey());
+        String value;
+        if (isGlobal) {
+            value = Settings.Global.getString(mContentResolver, getKey());
+        } else if (isSecure) {
+            value = Settings.Secure.getString(mContentResolver, getKey());
+        } else {
+            value = Settings.System.getString(mContentResolver, getKey());
+        }
         if (value == null) {
             value = defaultValue != null ? (String) defaultValue : "";
-            Settings.System.putString(mContentResolver, getKey(), value);
+            if (isGlobal) {
+                Settings.Global.putString(mContentResolver, getKey(), value);
+            } else if (isSecure) {
+                Settings.Secure.putString(mContentResolver, getKey(), value);
+            } else {
+                Settings.System.putString(mContentResolver, getKey(), value);
+            }
         }
         persistString(value);
         mValue = value;
@@ -133,8 +155,6 @@ public class MyMultiSelectPreference extends DialogPreference implements MultiSe
         super.onBindDialogView(view);
         mMultiSelectAdapter = new MultiSelectAdapter(getData(), this);
         mCount = 0;
-
-
         RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.multi_select_recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
         recyclerView.setAdapter(mMultiSelectAdapter);
@@ -158,7 +178,13 @@ public class MyMultiSelectPreference extends DialogPreference implements MultiSe
         if (which == DialogInterface.BUTTON_POSITIVE) {
             mValue = mMultiSelectAdapter.getSelectedItems();
             persistString(mValue);
-            Settings.System.putString(mContentResolver, getKey(), mValue);
+            if (isGlobal) {
+                Settings.Global.putString(mContentResolver, getKey(), mValue);
+            } else if (isSecure) {
+                Settings.Secure.putString(mContentResolver, getKey(), mValue);
+            } else {
+                Settings.System.putString(mContentResolver, getKey(), mValue);
+            }
             setSummary(getSummaryString());
             if (mIsRebootRequired) {
                 Utils.showRebootRequiredDialog(getContext());

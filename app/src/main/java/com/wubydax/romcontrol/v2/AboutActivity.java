@@ -9,16 +9,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.wubydax.romcontrol.v2.utils.Constants;
 
 import java.util.Arrays;
 import java.util.List;
 
-import de.hdodenhof.circleimageview.CircleImageView;
+//import de.hdodenhof.circleimageview.CircleImageView;
 /*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016
         This program is free software: you can redistribute it and/or modify
         it under the terms of the GNU General Public License as published by
@@ -61,7 +61,7 @@ public class AboutActivity extends AppCompatActivity {
         for (int i = 0; i < textItems.length; i++) {
             View itemView = LayoutInflater.from(this).inflate(R.layout.about_people_item, linearLayout, false);
 
-            ((CircleImageView) itemView.findViewById(R.id.aboutPeopleIcon)).setImageResource(typedArray.getResourceId(i, -1));
+            ((ImageView) itemView.findViewById(R.id.aboutPeopleIcon)).setImageResource(typedArray.getResourceId(i, -1));
             ((TextView) itemView.findViewById(R.id.aboutPeopleText)).setText(textItems[i]);
             int id = View.generateViewId();
             itemView.setId(id);
@@ -79,7 +79,7 @@ public class AboutActivity extends AppCompatActivity {
         assert linearLayout != null;
         for (int i = 0; i < textItems.length; i++) {
             View itemView = LayoutInflater.from(this).inflate(R.layout.about_people_item, linearLayout, false);
-            ((CircleImageView) itemView.findViewById(R.id.aboutPeopleIcon)).setImageResource(typedArray.getResourceId(i, -1));
+            ((ImageView) itemView.findViewById(R.id.aboutPeopleIcon)).setImageResource(typedArray.getResourceId(i, -1));
             ((TextView) itemView.findViewById(R.id.aboutPeopleText)).setText(textItems[i]);
             int id = View.generateViewId();
             itemView.setId(id);
@@ -99,7 +99,7 @@ public class AboutActivity extends AppCompatActivity {
         for (int i = 0; i < textItems.length; i++) {
             View itemView = LayoutInflater.from(this).inflate(R.layout.about_contact_us_item, linearLayout, false);
 
-            ((CircleImageView) itemView.findViewById(R.id.contactUsImage)).setImageResource(typedArray.getResourceId(i, -1));
+            ((ImageView) itemView.findViewById(R.id.contactUsImage)).setImageResource(typedArray.getResourceId(i, -1));
             ((TextView) itemView.findViewById(R.id.contactUsText)).setText(textItems[i]);
             int id = View.generateViewId();
             itemView.setId(id);
@@ -120,8 +120,9 @@ public class AboutActivity extends AppCompatActivity {
             linksList = Arrays.asList(getResources().getStringArray(R.array.about_contact_us_links));
             url = linksList.get(contactIds.indexOf(id));
         } else if (teamIds.contains(id)) {
-            linksList = Arrays.asList(getResources().getStringArray(R.array.about_team_links));
-            url = linksList.get(teamIds.indexOf(id));
+            return;
+            //linksList = Arrays.asList(getResources().getStringArray(R.array.about_team_links));
+            //url = linksList.get(teamIds.indexOf(id));
         } else if(creditsIds.contains(id)) {
             linksList = Arrays.asList(getResources().getStringArray(R.array.about_credits_links));
             url = linksList.get(creditsIds.indexOf(id));

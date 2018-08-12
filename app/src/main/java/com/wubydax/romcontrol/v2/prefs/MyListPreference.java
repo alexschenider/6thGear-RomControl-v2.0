@@ -5,11 +5,9 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.preference.ListPreference;
 import android.preference.Preference;
-import android.preference.PreferenceManager;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-
 import com.wubydax.romcontrol.v2.R;
 import com.wubydax.romcontrol.v2.utils.Utils;
 
@@ -36,11 +34,22 @@ public class MyListPreference extends ListPreference implements Preference.OnPre
     private final String mReverseDependencyKey;
     private ContentResolver mContentResolver;
     private List<CharSequence> mEntries, mValues;
+    private boolean isGlobal, isSecure;
 
 
     public MyListPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
         mContentResolver = context.getContentResolver();
+        isGlobal = false;
+        isSecure = false;
+        String isKeyGlobal = attrs.getAttributeValue("SECURE_GLOBAL", "isGlobal");
+        String isKeySecure = attrs.getAttributeValue("SECURE_GLOBAL", "isSecure");
+        if (TextUtils.equals(isKeyGlobal, "true")) {
+            isGlobal = true;
+        }
+        if (TextUtils.equals(isKeySecure, "true")) {
+            isSecure = true;
+        }
         mEntries = Arrays.asList(getEntries());
         mValues = Arrays.asList(getEntryValues());
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.Preference);
@@ -67,7 +76,14 @@ public class MyListPreference extends ListPreference implements Preference.OnPre
 
     @Override
     protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
-        String dbValue = Settings.System.getString(mContentResolver, getKey());
+        String dbValue;
+        if (isGlobal) {
+            dbValue = Settings.Global.getString(mContentResolver, getKey());
+        } else if (isSecure) {
+            dbValue = Settings.Secure.getString(mContentResolver, getKey());
+        } else {
+            dbValue = Settings.System.getString(mContentResolver, getKey());
+        }
         String value = "";
         if (!restoreValue) {
             if (dbValue != null) {
@@ -76,7 +92,14 @@ public class MyListPreference extends ListPreference implements Preference.OnPre
             } else {
                 if (defaultValue != null) {
                     value = (String) defaultValue;
-                    Settings.System.putString(mContentResolver, getKey(), (String) defaultValue);
+                    //Settings.System.putString(mContentResolver, getKey(), (String) defaultValue);
+                    if (isGlobal) {
+                        Settings.Global.putString(mContentResolver, getKey(), value);
+                    } else if (isSecure) {
+                        Settings.Secure.putString(mContentResolver, getKey(), value);
+                    } else {
+                        Settings.System.putString(mContentResolver, getKey(), value);
+                    }
                 }
             }
         } else {
@@ -110,8 +133,14 @@ public class MyListPreference extends ListPreference implements Preference.OnPre
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        Settings.System.putString(mContentResolver, getKey(), (String) newValue);
-
+        String value = (String) newValue;
+        if (isGlobal) {
+            Settings.Global.putString(mContentResolver, getKey(), value);
+        } else if (isSecure) {
+            Settings.Secure.putString(mContentResolver, getKey(), value);
+        } else {
+            Settings.System.putString(mContentResolver, getKey(), value);
+        }
         int index = mValues.indexOf(newValue);
         if (index != -1) {
             setSummary(mEntries.get(index));

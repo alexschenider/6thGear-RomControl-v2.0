@@ -405,4 +405,21 @@
     <string name="regular_color">Regular color</string>
     <string name="use_custom_pattern">Use custom patter colors</string>
     <string name="weather">Weather</string>
+    <string name="unlock_animation">Unlock animation</string>
+    <string name="round_google_widget">Round Google widget</string>
+    <string name="tw_text_size">Icon text size</string>
+    <string name="tw_text_color">Icon text color</string>
+    <string name="secure_reply">Quickreply always</string>
+    <string name="contact_us">Contact us</string>
+    <string name="our_team">DELUXETEAM ®</string>
+    <string name="support">Support</string>
+    <string name="bixby_action">Bixby action</string>
+    <string name="screen_on">With screen on</string>
+    <string name="screen_off">With screen off</string>
+    <string name="heads_ups">Heads-Up notifications</string>
+    <string name="select_items">Select items</string>
+    <string name="hide_icons">Hided icons</string>
+    <string name="text_color">Text color</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="ext_storage">External storage</string>
 </resources>

@@ -35,9 +35,20 @@ public class MySwitchPreference extends SwitchPreference implements Preference.O
     private boolean mIsSilent, mIsRebootRequired;
     private ArrayList<Preference> mReverseDependents;
     private String mReverseDependencyKey;
+    private boolean isGlobal, isSecure;
 
     public MySwitchPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
+        isGlobal = false;
+        isSecure = false;
+        String isKeyGlobal = attrs.getAttributeValue("SECURE_GLOBAL", "isGlobal");
+        String isKeySecure = attrs.getAttributeValue("SECURE_GLOBAL", "isSecure");
+        if (TextUtils.equals(isKeyGlobal, "true")) {
+            isGlobal = true;
+        }
+        if (TextUtils.equals(isKeySecure, "true")) {
+            isSecure = true;
+        }
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.Preference);
         mPackageToKill = typedArray.getString(R.styleable.Preference_packageNameToKill);
         mIsSilent = typedArray.getBoolean(R.styleable.Preference_isSilent, true);
@@ -64,11 +75,23 @@ public class MySwitchPreference extends SwitchPreference implements Preference.O
     protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
         int dbInt = 0;
         try {
-            dbInt = Settings.System.getInt(mContentResolver, getKey());
+            if (isGlobal) {
+                dbInt = Settings.Global.getInt(mContentResolver, getKey());
+            } else if (isSecure) {
+                dbInt = Settings.Secure.getInt(mContentResolver, getKey());
+            } else {
+                dbInt = Settings.System.getInt(mContentResolver, getKey());
+            }
         } catch (Settings.SettingNotFoundException e) {
             if (defaultValue != null) {
                 dbInt = (boolean) defaultValue ? 1 : 0;
-                Settings.System.putInt(mContentResolver, getKey(), dbInt);
+                if (isGlobal) {
+                    Settings.Global.putInt(mContentResolver, getKey(), dbInt);
+                } else if (isSecure) {
+                    Settings.Secure.putInt(mContentResolver, getKey(), dbInt);
+                } else {
+                    Settings.System.putInt(mContentResolver, getKey(), dbInt);
+                }
             }
         }
         persistBoolean(dbInt != 0);
@@ -81,7 +104,13 @@ public class MySwitchPreference extends SwitchPreference implements Preference.O
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         boolean isTrue = (boolean) newValue;
         int dbInt = isTrue ? 1 : 0;
-        Settings.System.putInt(mContentResolver, getKey(), dbInt);
+        if (isGlobal) {
+            Settings.Global.putInt(mContentResolver, getKey(), dbInt);
+        } else if (isSecure) {
+            Settings.Secure.putInt(mContentResolver, getKey(), dbInt);
+        } else {
+            Settings.System.putInt(mContentResolver, getKey(), dbInt);
+        }
         if (mIsRebootRequired) {
             Utils.showRebootRequiredDialog(getContext());
         } else {

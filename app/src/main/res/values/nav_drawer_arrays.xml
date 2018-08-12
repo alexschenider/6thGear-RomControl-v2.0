@@ -28,6 +28,7 @@
         <item>@drawable/ic_notification_panel</item>
         <item>@drawable/ic_network_speed</item>
         <item>@drawable/ic_virtual</item>
+        <item>@drawable/ic_bixby</item>
         <item>@drawable/ic_rebootnew</item>
         <item>@drawable/ic_lockscreen</item>
         <item>@drawable/ic_navbar</item>
@@ -46,6 +47,7 @@
         <item>@string/notpanel</item>
         <item>@string/speedmetters</item>
         <item>@string/virtualbuttons</item>
+        <item>@string/bixbybutton</item>
         <item>@string/menureboot</item>
         <item>@string/lockscreen</item>
         <item>@string/navbar</item>
@@ -65,6 +67,7 @@
         <item>deluxe_notpanel_preference</item>
         <item>deluxe_speedmeters_preference</item>
         <item>deluxe_sb_virtual_buttons_preference</item>
+        <item>deluxe_bixby</item>
         <item>deluxe_reboot_preference</item>
         <item>deluxe_lockscreen_preference</item>
         <item>deluxe_navbar_preference</item>
@@ -73,4 +76,5 @@
         <item>deluxe_launcher_preference</item>
         <item>deluxe_others_preference</item>
     </string-array>
+    <string name="bixbybutton">Bixby button</string>
 </resources>

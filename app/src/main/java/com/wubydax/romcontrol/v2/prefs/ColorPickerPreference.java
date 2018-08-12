@@ -63,11 +63,22 @@ public class ColorPickerPreference
     private boolean mHexValueEnabled;
     private boolean mIsInitialSetup;
     private String mReverseDependencyKey;
+    private boolean isGlobal, isSecure;
 
 
     public ColorPickerPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(attrs);
+        isGlobal = false;
+        isSecure = false;
+        String isKeyGlobal = attrs.getAttributeValue("SECURE_GLOBAL", "isGlobal");
+        String isKeySecure = attrs.getAttributeValue("SECURE_GLOBAL", "isSecure");
+        if (TextUtils.equals(isKeyGlobal, "true")) {
+            isGlobal = true;
+        }
+        if (TextUtils.equals(isKeySecure, "true")) {
+            isSecure = true;
+        }
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.Preference);
         mPackageToKill = typedArray.getString(R.styleable.Preference_packageNameToKill);
         mIsSilent = typedArray.getBoolean(R.styleable.Preference_isSilent, true);
@@ -167,10 +178,22 @@ public class ColorPickerPreference
     protected void onSetInitialValue(boolean restoreValue, Object defaultValue) {
         int color;
         try {
-            color = Settings.System.getInt(getContext().getContentResolver(), getKey());
+            if (isGlobal) {
+                color = Settings.Global.getInt(getContext().getContentResolver(), getKey());
+            } else if (isSecure) {
+                color = Settings.Secure.getInt(getContext().getContentResolver(), getKey());
+            } else {
+                color = Settings.System.getInt(getContext().getContentResolver(), getKey());
+            }
         } catch (Settings.SettingNotFoundException e) {
             color = restoreValue ? getPersistedInt(mValue) : (int) defaultValue;
-            Settings.System.putInt(getContext().getContentResolver(), getKey(), color);
+            if (isGlobal) {
+                Settings.Global.putInt(getContext().getContentResolver(), getKey(), color);
+            } else if (isSecure) {
+                Settings.Secure.putInt(getContext().getContentResolver(), getKey(), color);
+            } else {
+                Settings.System.putInt(getContext().getContentResolver(), getKey(), color);
+            }
         }
         mIsInitialSetup = true;
         onColorChanged(color);
@@ -268,7 +291,13 @@ public class ColorPickerPreference
     @Override
     public void onColorChanged(int color) {
         persistInt(color);
-        Settings.System.putInt(getContext().getContentResolver(), getKey(), color);
+        if (isGlobal) {
+            Settings.Global.putInt(getContext().getContentResolver(), getKey(), color);
+        } else if (isSecure) {
+            Settings.Secure.putInt(getContext().getContentResolver(), getKey(), color);
+        } else {
+            Settings.System.putInt(getContext().getContentResolver(), getKey(), color);
+        }
         mValue = color;
         setPreviewColor();
         if (!mIsInitialSetup) {

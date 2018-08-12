@@ -43,11 +43,22 @@ public class MySeekBarPreference extends Preference implements SeekBar.OnSeekBar
     private TextView mValueText;
     private ContentResolver mContentResolver;
     private String mReverseDependencyKey;
+    private boolean isGlobal, isSecure;
 
 
     public MySeekBarPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
+        isGlobal = false;
+        isSecure = false;
         mContentResolver = context.getContentResolver();
+        String isKeyGlobal = attrs.getAttributeValue("SECURE_GLOBAL", "isGlobal");
+        String isKeySecure = attrs.getAttributeValue("SECURE_GLOBAL", "isSecure");
+        if (TextUtils.equals(isKeyGlobal, "true")) {
+            isGlobal = true;
+        }
+        if (TextUtils.equals(isKeySecure, "true")) {
+            isSecure = true;
+        }
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.MySeekBarPreference);
         mMaxValue = typedArray.getInt(R.styleable.MySeekBarPreference_maxValue, 100);
         mMinValue = typedArray.getInt(R.styleable.MySeekBarPreference_minValue, 0);
@@ -87,10 +98,24 @@ public class MySeekBarPreference extends Preference implements SeekBar.OnSeekBar
     protected void onSetInitialValue(boolean restorePersistedValue, Object defaultValue) {
         int value;
         try {
-            value = Settings.System.getInt(mContentResolver, getKey());
+            //value = Settings.System.getInt(mContentResolver, getKey());
+            if (isGlobal) {
+                value = Settings.Global.getInt(mContentResolver, getKey());
+            } else if (isSecure) {
+                value = Settings.Secure.getInt(mContentResolver, getKey());
+            } else {
+                value = Settings.System.getInt(mContentResolver, getKey());
+            }
         } catch (Settings.SettingNotFoundException e) {
             value = !restorePersistedValue && defaultValue != null ? (int) defaultValue : getPersistedInt(mDefaultValue);
-            Settings.System.putInt(getContext().getContentResolver(), getKey(), value);
+            //Settings.System.putInt(getContext().getContentResolver(), getKey(), value);
+            if (isGlobal) {
+                Settings.Global.putInt(mContentResolver, getKey(), value);
+            } else if (isSecure) {
+                Settings.Secure.putInt(mContentResolver, getKey(), value);
+            } else {
+                Settings.System.putInt(mContentResolver, getKey(), value);
+            }
         }
         persistInt(value);
     }
@@ -138,7 +163,14 @@ public class MySeekBarPreference extends Preference implements SeekBar.OnSeekBar
     }
 
     private void onPreferenceChange(int newValue) {
-        Settings.System.putInt(mContentResolver, getKey(), newValue);
+        //Settings.System.putInt(mContentResolver, getKey(), newValue);
+        if (isGlobal) {
+            Settings.Global.putInt(mContentResolver, getKey(), newValue);
+        } else if (isSecure) {
+            Settings.Secure.putInt(mContentResolver, getKey(), newValue);
+        } else {
+            Settings.System.putInt(mContentResolver, getKey(), newValue);
+        }
         Log.d(LOG_TAG, "onPreferenceChange is called and reboot required is " + mIsRebootRequired);
         if (mIsRebootRequired) {
             Utils.showRebootRequiredDialog(getContext());

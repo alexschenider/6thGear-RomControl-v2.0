@@ -9,8 +9,6 @@ import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.widget.Toast;
-
 import com.wubydax.romcontrol.v2.R;
 import com.wubydax.romcontrol.v2.utils.Utils;
 
@@ -75,7 +73,6 @@ public class MyCheckBoxPreference extends CheckBoxPreference implements Preferen
         Settings.System.putInt(mContentResolver, getKey(), dbInt);
         persistBoolean(dbInt != 0);
         setChecked(dbInt != 0);
-
     }
 
     @Override

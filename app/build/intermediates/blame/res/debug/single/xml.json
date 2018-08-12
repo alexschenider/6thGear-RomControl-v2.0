@@ -24,6 +24,10 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_speedmeters_preference.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_bixby.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_bixby.xml"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\xml\\deluxe_sb_virtual_buttons_preference.xml",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\xml\\deluxe_sb_virtual_buttons_preference.xml"
     },

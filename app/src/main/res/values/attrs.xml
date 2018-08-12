@@ -192,4 +192,5 @@
     <attr name="wallpaperTextColor" format="reference|color" />
     <attr name="wallpaperTextColorSecondary" format="reference|color" />
 
+
 </resources>

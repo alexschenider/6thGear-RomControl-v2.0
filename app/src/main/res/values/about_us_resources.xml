@@ -19,70 +19,73 @@
 
     <!--In this array you will put the icons for contact information,
     for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
+
     <array name="about_contact_us_drawables">
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
+        <item>@drawable/wifi_deluxerom_4_azul</item>
+        <item>@drawable/wifi_deluxerom_4</item>
     </array>
-
-    <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
+    <string-array name="about_contact_us_links">
+        <item>https://www.htcmania.com/showthread.php?t=1404819</item>
+        <item>https://forum.xda-developers.com/galaxy-note-8/development/n950f-g955f-g950f-deluxerom-v6-0-t3784712</item>
+    </string-array>
     <string-array name="about_contact_us_text">
-        <item>Facebook</item>
-        <item>Our Site</item>
-        <item>XDA</item>
+        <item>@string/htcm_thread</item>
+        <item>@string/xda_thread</item>
     </string-array>
-
-    <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
-    <string-array name="about_contact_us_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
-    </string-array>
-
-
-
-    <!--Team info arrays-->
-    <array name="about_team_drawables">
-        <item>@drawable/icon_5</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_1</item>
-    </array>
-    <string-array name="about_team_names">
-        <item>Master Yoda - wise and talented lead developer</item>
-        <item>Luke Skywalker - one handed theme master</item>
-        <item>Darth Vader - dark theme master</item>
-    </string-array>
-    <string-array name="about_team_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
-    </string-array>
-
-
-
-    <!--Credits and thanks info arrays-->
     <array name="about_credits_drawables">
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
-        <item>@drawable/icon_4</item>
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_5</item>
+        <item>@drawable/paypal</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
     </array>
+    <string-array name="about_credits_links">
+        <item>https://www.paypal.me/AGarciaCortes?locale.x=es_ES</item>
+        <item>https://t.me/joinchat/CogTU1NBGds0SfBkJwTjlA</item>
+        <item>https://t.me/joinchat/CogTU0GwjRHXxzPvYA655Q</item>
+    </string-array>
     <string-array name="about_credits_names">
-        <item>Star Trek - for being ultimately better than Star Wars</item>
-        <item>Jean-Luc Picard - for making us crave hot earl-grey tea even in the middle of the summer</item>
-        <item>Data - for running on the best rom. Google, we still are waiting for THAT android version</item>
-        <item>Janeway - for being a normal person and drinking black coffee</item>
-        <item>Q - for reminding us that you can live forever and still look great</item>
-        <item>Worf - for teaching us to love Klingons. It was NOT easy</item>
+        <item>@string/paypal</item>
+        <item>@string/tgm_spanish</item>
+        <item>@string/tgm_english</item>
     </string-array>
-    <string-array name="about_credits_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+    <array name="about_team_drawables">
+        <item>@drawable/abrahamgc</item>
+        <item>@drawable/araul</item>
+        <item>@drawable/jota</item>
+        <item>@drawable/ivan</item>
+        <item>@drawable/fer</item>
+        <item>@drawable/luiyi</item>
+        <item>@drawable/jon</item>
+        <item>@drawable/pablo</item>
+        <item>@drawable/viti</item>
+    </array>
+    <string-array name="about_team_links">
+        <item>https://forum.xda-developers.com/member.php?u=7393522</item>
+        <item>http://forum.xda-developers.com/member.php?u=5829833</item>
     </string-array>
+    <string-array name="about_team_names">
+        <item>@string/abrahamgc</item>
+        <item>@string/a_raul</item>
+        <item>@string/jota</item>
+        <item>@string/ivan</item>
+        <item>@string/fer</item>
+        <item>@string/luiyi</item>
+        <item>@string/jon</item>
+        <item>@string/pablo</item>
+        <item>@string/viti</item>
+    </string-array>
+
+    <string name="htcm_thread">HTCMania thread</string>
+    <string name="xda_thread">XDA thread</string>
+    <string name="paypal">PayPal</string>
+    <string name="tgm_spanish">Spanish Telegram support</string>
+    <string name="tgm_english">English Telegram support</string>
+    <string name="abrahamgc">\@AbrahamGC - Developer</string>
+    <string name="a_raul">\@A.Raul - Developer</string>
+    <string name="jota">\@Jotajotavader - BetaTester</string>
+    <string name="ivan">\@ISS81 - BetaTester</string>
+    <string name="fer">\@Fercostaber - BetaTester</string>
+    <string name="luiyi">\@Luiyibike - BetaTester</string>
+    <string name="jon">\@JonXJ - BetaTester</string>
+    <string name="viti">\@Jannaviti - BetaTester</string>
+    <string name="pablo">\@PabloStriker19 - BetaTester</string>
 </resources>

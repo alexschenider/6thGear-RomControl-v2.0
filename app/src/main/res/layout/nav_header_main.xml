@@ -18,26 +18,10 @@
              android:gravity="bottom"
              >
 
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/deluxerom"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/protective_gradient_bottom"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:text=""
-        android:textColor="@android:color/white"
-        android:layout_margin="10dp"
-        android:textSize="18sp"
-        android:textStyle="bold"/>
+    <com.wubydax.romcontrol.v2.prefs.Animatingladron
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/animatingpadron"
+            android:scaleType="centerCrop" />
 
 </FrameLayout>

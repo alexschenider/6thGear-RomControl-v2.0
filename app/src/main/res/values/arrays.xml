@@ -255,29 +255,55 @@
     </string-array>
 
 
+    <string-array name="agc_bixby_buttons_entries">
+        <item>Nothing - (Stock action)</item>
+        <item>Open app</item>
+        <item>Press back</item>
+        <item>Press home</item>
+        <item>Press recents</item>
+        <item>Press menu</item>
+        <item>Torchlight</item>
+        <item>Sound mode</item>
+        <item>Lock screen</item>
+        <item>Show reboot menu</item>
+        <item>Close actual app</item>
+        <item>Screenshot</item>
+    </string-array>
+
+
     <string-array name="agc_outdoor_check_off_drawables">
         <item>@drawable/check_off_1</item>
         <item>@drawable/check_off_2</item>
+        <item>@drawable/check_off_3</item>
+        <item>@drawable/check_off_4</item>
     </string-array>
 
     <string-array name="agc_outdoor_check_off_entries">
         <item>@string/square</item>
         <item>@string/circle</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
 
     <string-array name="agc_outdoor_check_on_drawables">
         <item>@drawable/check_on_1</item>
         <item>@drawable/check_on_2</item>
+        <item>@drawable/check_on_3</item>
+        <item>@drawable/check_on_4</item>
     </string-array>
 
     <string-array name="agc_outdoor_check_on_entries">
         <item>@string/square</item>
         <item>@string/circle</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
 
     <string-array name="agc_outdoor_check_values">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 
 
@@ -989,5 +1015,99 @@
         <item>7</item>
     </string-array>
 
+    <string-array name="hidden_icons_options">
+        <item>Rotation</item>
+        <item>Wifi p2p (mirroring..)</item>
+        <item>Alarm</item>
+        <item>Wifi Calling</item>
+        <item>Mobile Signal</item>
+        <item>Power Save</item>
+        <item>Airplane Mode</item>
+        <item>HeadSet</item>
+        <item>Volume</item>
+        <item>Wifi Signal</item>
+        <item>Bluetooth</item>
+        <item>Private Mode</item>
+        <item>Location</item>
+        <item>gps</item>
+        <item>wearable_gear</item>
+    </string-array>
+    <string-array name="hidden_icons_values">
+        <item>rotate</item>
+        <item>wifi_p2p</item>
+        <item>alarm_clock</item>
+        <item>ims_volte</item>
+        <item>mobile</item>
+        <item>power_saver</item>
+        <item>airplane</item>
+        <item>headset</item>
+        <item>volume</item>
+        <item>wifi</item>
+        <item>bluetooth</item>
+        <item>private_mode</item>
+        <item>location</item>
+        <item>gps</item>
+        <item>wearable_gear</item>
+    </string-array>
+
+
+
+    <string-array name="multi_select_entries_test">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+    </string-array>
+    <string-array name="multi_select_values_test">
+        <item>item1</item>
+        <item>item2</item>
+        <item>item3</item>
+        <item>item4</item>
+        <item>item5</item>
+    </string-array>
+
+    <string-array name="agc_reboot_options">
+        <item>Power</item>
+        <item>Restart</item>
+        <item>Recovery</item>
+        <item>Download</item>
+        <item>Quickreboot</item>
+        <item>Emergency mode</item>
+        <item>Data mode</item>
+        <item>Torch</item>
+        <item>Assist</item>
+        <item>Screenrecord</item>
+        <item>Screenshot</item>
+        <item>Settings</item>
+        <item>RomControl</item>
+    </string-array>
+    <string-array name="agc_reboot_values">
+        <item>newpower</item>
+        <item>restart</item>
+        <item>recovery</item>
+        <item>download</item>
+        <item>quickreboot</item>
+        <item>emergencymode</item>
+        <item>datamode</item>
+        <item>torch</item>
+        <item>assist</item>
+        <item>screenrecord</item>
+        <item>screenshot</item>
+        <item>settings</item>
+        <item>romcontrol</item>
+    </string-array>
+
+    <string-array name="agc_reboot_order_entries">
+        <item>Default</item>
+        <item>Invert</item>
+        <item>Shuffle</item>
+    </string-array>
+
+    <string-array name="agc_reboot_order_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 
 </resources>

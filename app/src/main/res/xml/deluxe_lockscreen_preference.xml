@@ -24,6 +24,18 @@
         android:key="agc_fp_wakeup"
         app:packageNameToKill="com.android.systemui"
         app:isSilent="true" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="@string/unlock_animation"
+        android:defaultValue="true"
+        android:key="agc_unlock_animation"
+        app:packageNameToKill="com.android.systemui"
+        app:isSilent="true" />
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="@string/secure_reply"
+        android:defaultValue="false"
+        android:key="agc_secure_reply"
+        app:packageNameToKill="com.android.systemui"
+        app:isSilent="true" />
     <PreferenceScreen android:title="@string/pattern_colors">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="@string/use_custom_pattern"

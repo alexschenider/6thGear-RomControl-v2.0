@@ -1,5 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="agc_bixby_buttons_entries">
+        <item>Nada - (Acción stock)</item>
+        <item>Abrir app</item>
+        <item>Pulsar retroceso</item>
+        <item>Pulsar inicio</item>
+        <item>Pulsar recientes</item>
+        <item>Pulsar menú</item>
+        <item>Linterna</item>
+        <item>Modo de sonido</item>
+        <item>Bloquear teléfono</item>
+        <item>Mostrar menú de reinicio</item>
+        <item>Cerrar app actual</item>
+        <item>Captura de pantalla</item>
+    </string-array>
+    <string-array name="agc_reboot_options">
+        <item>Encendido</item>
+        <item>Reinicio</item>
+        <item>Recovery</item>
+        <item>Download</item>
+        <item>Reinicio rápido</item>
+        <item>Modo emergencia</item>
+        <item>Datos móviles</item>
+        <item>Linterna</item>
+        <item>Asistencia</item>
+        <item>Grabar pantalla</item>
+        <item>Captura de pantalla</item>
+        <item>Ajustes</item>
+        <item>RomControl</item>
+    </string-array>
+    <string-array name="agc_reboot_order_entries">
+        <item>Defecto</item>
+        <item>Invertir</item>
+        <item>Mezclar</item>
+    </string-array>
     <string-array name="agc_virtual_buttons_entries">
         <item>Nada</item>
         <item>Abrir app</item>
@@ -13,6 +47,23 @@
         <item>Mostrar menú de reinicio</item>
         <item>Cerrar app actual</item>
         <item>Captura de pantalla</item>
+    </string-array>
+    <string-array name="hidden_icons_options">
+        <item>Rotación</item>
+        <item>WiFi p2p</item>
+        <item>Alarma</item>
+        <item>Llamadas WiFi</item>
+        <item>Señal móvil</item>
+        <item>Ahorro de energia</item>
+        <item>Modo avión</item>
+        <item>Auriculares</item>
+        <item>Volumen</item>
+        <item>Señal WiFi</item>
+        <item>Bluetooth</item>
+        <item>Modo privado</item>
+        <item>Localización</item>
+        <item>Gps</item>
+        <item>Gear</item>
     </string-array>
     <string-array name="listview_animation_entries">
         <item>Apagado</item>
@@ -38,6 +89,7 @@
         <item>Anticipar/Excederse</item>
         <item>Bote</item>
     </string-array>
+    <string name="a_raul">\@A.Raul - Desarrollador</string>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Ir a la pantalla de inicio"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
     <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
@@ -58,6 +110,7 @@
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartir con %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Contraer"</string>
     <string name="about_us">Sobre nosotros</string>
+    <string name="abrahamgc">\@AbrahamGC - Desarrollador</string>
     <string name="adm">AAAA ++ DD ++ MM</string>
     <string name="airplane">Modo avión</string>
     <string name="alarm_icon">Icono de alarma</string>
@@ -86,7 +139,10 @@
     <string name="bgfree">Fondo RAM libre</string>
     <string name="bgused">Fondo RAM usada</string>
     <string name="biometric_on_boot">Biométricos al reiniciar</string>
+    <string name="bixby_action">Acción al pulsar</string>
+    <string name="bixbybutton">Botón Bixby</string>
     <string name="bluetooth">Bluetooth</string>
+    <string name="blur">Blur</string>
     <string name="bluronmenu">Blur en menú y carpetas</string>
     <string name="box">Cuadrado</string>
     <string name="br_bar">Barra de brillo</string>
@@ -119,6 +175,7 @@
     <string name="color_off">Color apagado</string>
     <string name="color_on">Color encendido</string>
     <string name="colors">Colores</string>
+    <string name="contact_us">Contacto</string>
     <string name="custombg">Fondo personalizado</string>
     <string name="custombg_color_pref">Preferencias de color/degradado</string>
     <string name="custombg_enable">Habilitar fondo personalizado</string>
@@ -145,6 +202,7 @@
     <string name="dayfont">Fuente de dia</string>
     <string name="dayhourdate">Dia / Hora / Fecha</string>
     <string name="deluxe_statusbar_preference">Barra de estado</string>
+    <string name="deselect_all">Deseleccionar todo</string>
     <string name="device_info_view">Información de dispositivo</string>
     <string name="device_model">Modelo</string>
     <string name="device_up">Tiempo encendido</string>
@@ -167,8 +225,10 @@
     <string name="ereboot">Reiniciar</string>
     <string name="error_color">Error</string>
     <string name="expand">Icono de expandir</string>
+    <string name="ext_storage">Alamcenamiento externo</string>
     <string name="extra_clock_prfs">Elementos a mostrar/Otros ajustes</string>
     <string name="extra_clock_prfs_summary">Selecciona que mostrar y en que orden</string>
+    <string name="fer">\@Fercostaber - BetaTester</string>
     <string name="find_app" translatable="false">Buscar app</string>
     <string name="fit_xy">Ajustar XY</string>
     <string name="flashlight">Linterna</string>
@@ -193,7 +253,9 @@
     <string name="gradient_three">Degradado 3</string>
     <string name="gradient_two">Degradado 2</string>
     <string name="handler">Icono arrastrar (2 lineas)</string>
+    <string name="heads_ups">Notificaciones Heads-Up</string>
     <string name="hexagonal">Hexagonal</string>
+    <string name="hide_icons">Iconos ocultos</string>
     <string name="home">Inicio</string>
     <string name="homeicon">Icono de inicio</string>
     <string name="hour">Hora</string>
@@ -204,6 +266,7 @@
     <string name="hourdaydate">Hora / Día / Fecha</string>
     <string name="hours">Horas</string>
     <string name="hours_mins_size">Tamaño de horas/minutos/segundos</string>
+    <string name="htcm_thread">Hilo en HTCMania</string>
     <string name="icon">Icono</string>
     <string name="icon_off">Icono apagado</string>
     <string name="icon_on">Icono encendido</string>
@@ -212,10 +275,14 @@
     <string name="icons_summary">WiFi/Señal/Datos/Avión/Porcentaje</string>
     <string name="image">Imagen</string>
     <string name="intensity">Intensidad</string>
+    <string name="internal_storage">Almacenamiento interno</string>
     <string name="interpolator">Animación de interpolador</string>
     <string name="invert_effect">Invertir efecto</string>
     <string name="invisible">Invisible</string>
     <string name="items">Elementos</string>
+    <string name="ivan">\@ISS81 - BetaTester</string>
+    <string name="jon">\@JonXJ - BetaTester</string>
+    <string name="jota">\@Jotajotavader - BetaTester</string>
     <string name="keep_notif_stock">Mantener notif. stock</string>
     <string name="kill_on_long_press">Pulsación larga en retroceso para cerrar aplicación</string>
     <string name="launcher">Lanzador TW</string>
@@ -227,6 +294,7 @@
     <string name="lockscreen">Pantalla de bloqueo</string>
     <string name="long_press">Pulsación larga</string>
     <string name="long_press_app">App en puls. larga</string>
+    <string name="luiyi">\@Luiyibike - BetaTester</string>
     <string name="matrix">Efecto Matrix</string>
     <string name="matrix_bg_color">Color de fondo</string>
     <string name="matrix_frqnc">Frecuencia de texto</string>
@@ -263,11 +331,14 @@
     <string name="opacity">Opacidad</string>
     <string name="other_mods">Otros mods</string>
     <string name="others">Otros</string>
+    <string name="our_team">DELUXETEAM ®</string>
     <string name="outdoormode">Modo exterior</string>
+    <string name="pablo">\@PabloStriker19 - BetaTester</string>
     <string name="panel_bg">Fondo del panel</string>
     <string name="panel_mnore_settings">Botón de mas ajustes (3 puntos)</string>
     <string name="panel_settings_bt">Botón de ajustes</string>
     <string name="pattern_colors">Colores del patrón</string>
+    <string name="paypal">PayPal</string>
     <string name="phone">Teléfono</string>
     <string name="position">Posición</string>
     <string name="preferences">Preferencias</string>
@@ -297,19 +368,26 @@
     <string name="rom_version">Versión de ROM</string>
     <string name="root_progress_dialog_title">Adquiriendo acceso root...</string>
     <string name="rotation">Rotación</string>
+    <string name="round_google_widget">Redondear widget de Google</string>
     <string name="sb_carrier">Nombre de operadora</string>
     <string name="sb_center">Centro en barra de estado</string>
     <string name="sb_icons_preferences">Preferencias de iconos en barra de estado</string>
     <string name="sb_left">Izquierda en barra de estado</string>
     <string name="sb_right">Derecha en barra de estado</string>
+    <string name="screen_off">Con pantalla apagada</string>
+    <string name="screen_on">Con pantalla encendida</string>
     <string name="screenshot">Captura de pantalla</string>
     <string msgid="146198913615257606" name="search_menu_title">"Buscar"</string>
     <string name="second_matrix_color">Color del texto secundario</string>
     <string name="second_text">Texto secundario</string>
     <string name="seconds">Segundos</string>
+    <string name="secure_reply">Respuesta rápida siempre</string>
+    <string name="select_all">Seleccionar todo</string>
+    <string name="select_all_label">Todo</string>
     <string name="select_app">Selecciona aplicación</string>
     <string name="select_indiv_fonts">Selecciona fuentes individuales</string>
     <string name="select_indv_sizes">Selecciona tamaños individuales</string>
+    <string name="select_items">Seleccionar elementos</string>
     <string name="select_style">Selecciona estilo de iconos</string>
     <string name="semicircle">Semicírculo</string>
     <string name="separator">Separador</string>
@@ -365,12 +443,16 @@
     <string name="style_two">Estilo 2</string>
     <string name="success_color">Completado</string>
     <string name="summary">Sumario</string>
+    <string name="support">Soporte</string>
     <string name="text">Texto</string>
+    <string name="text_color">Color del texto</string>
     <string name="text_edit">Edita el texto</string>
     <string name="text_no_opened_apps">Texto \"No hay apps recientes\"</string>
     <string name="text_size">Tamaño de texto</string>
     <string name="text_toggles">Texto de toggles</string>
     <string name="texts">Textos</string>
+    <string name="tgm_english">Soporte Telegram en inglés</string>
+    <string name="tgm_spanish">Soporte Telegram en español</string>
     <string name="theme_dialog_title">Elige tema</string>
     <string name="title_fonts">Fuente de titulos</string>
     <string name="titles_color">Color de titulos</string>
@@ -380,6 +462,9 @@
     <string name="toggles_off">Toggles apagados</string>
     <string name="toggles_on">Toggles encendidos</string>
     <string name="transition">Seleccoina efectos de transición</string>
+    <string name="tw_text_color">Color de textos</string>
+    <string name="tw_text_size">Tamaño de textos</string>
+    <string name="unlock_animation">Animación de desbloqueo</string>
     <string name="up_padding">Margen superior</string>
     <string name="upanddown">Subida y descarga</string>
     <string name="uppercase_ampm">Mostrar AM/PM en mayúsculas</string>
@@ -404,6 +489,7 @@
     <string name="visibility">Visibilidad</string>
     <string name="visibility_carrier">Visibilidad del texto</string>
     <string name="visible">Visible</string>
+    <string name="viti">\@Jannaviti - BetaTester</string>
     <string name="voldown">Bajar volumen</string>
     <string name="volup">Subir volumen</string>
     <string name="weather">Clima</string>
@@ -411,4 +497,5 @@
     <string name="wifi_icon">Icono WiFi</string>
     <string name="wifi_info">Información WiFi</string>
     <string name="wifiarrws">Flechas WiFi</string>
+    <string name="xda_thread">Hilo en XDA</string>
 </resources>

@@ -382,6 +382,10 @@
                     android:title="@string/build_version"/>
             <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
+                    android:key="device_rom_version"
+                    android:title="@string/rom_version"/>
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="true"
                     android:key="device_battery_level"
                     android:title="@string/bt_level"/>
             <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
@@ -394,6 +398,10 @@
                     android:title="@string/wifi_info"/>
             <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
+                    android:key="device_ip_info"
+                    android:title="IP info"/>
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="true"
                     android:key="device_next_alarm"
                     android:title="@string/next_alarm"/>
             <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
@@ -402,8 +410,44 @@
                     android:title="@string/device_up"/>
             <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
-                    android:key="device_rom_version"
-                    android:title="@string/rom_version"/>
+                    android:key="device_cpu_info"
+                    android:title="CPU info"/>
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="device_bootloader"
+                    android:title="Bootloader"/>
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="device_serial"
+                    android:title="Serial"/>
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="device_imei"
+                    android:title="Imei"/>
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="device_ram"
+                    android:title="Ram"/>
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="device_modem"
+                    android:title="Modem"/>
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="device_hardware"
+                    android:title="Hardware"/>
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="device_cpu_abi"
+                    android:title="CPU abi"/>
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="device_storage_info"
+                    android:title="@string/internal_storage"/>
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="true"
+                    android:key="device_ext_storage_info"
+                    android:title="@string/ext_storage"/>
         </PreferenceScreen>
         <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
                 android:title="@string/values_fonts"
@@ -461,62 +505,86 @@
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="@string/use_custom_color"
             android:key="agc_use_custom_notifications"
-            android:defaultValue="0" />
+            android:defaultValue="0"
+            app:packageNameToKill="com.android.systemui"
+            app:isSilent="true" />
         <PreferenceScreen android:title="@string/custombg">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                     android:title="@string/custombg_enable"
                     android:defaultValue="false"
-                    android:key="agc_notifs_drw_visibility" />
+                    android:key="agc_notifs_drw_visibility"
+                    app:packageNameToKill="com.android.systemui"
+                    app:isSilent="true" />
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                     android:title="@string/custombg_type"
                     android:key="agc_notifs_drw_type"
                     android:defaultValue="0"
                     android:dependency="agc_notifs_drw_visibility"
                     android:entries="@array/custom_bg_type_entries"
-                    android:entryValues="@array/custom_bg_type_values" />
+                    android:entryValues="@array/custom_bg_type_values"
+                    app:packageNameToKill="com.android.systemui"
+                    app:isSilent="true" />
             <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference
                     android:title="@string/custombg_select_image"
                     android:key="agc_notifs_drw_image_uri"
-                    android:dependency="agc_notifs_drw_visibility" />
+                    android:dependency="agc_notifs_drw_visibility"
+                    app:packageNameToKill="com.android.systemui"
+                    app:isSilent="true" />
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                     android:title="@string/custombg_image_scale"
                     android:key="agc_notifs_drw_scale"
                     android:dependency="agc_notifs_drw_visibility"
                     android:defaultValue="0"
                     android:entryValues="@array/crop_values"
-                    android:entries="@array/crop_entries" />
+                    android:entries="@array/crop_entries"
+                    app:packageNameToKill="com.android.systemui"
+                    app:isSilent="true" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:defaultValue="#00000000"
                     android:dependency="agc_notifs_drw_visibility"
                     android:key="agc_notifs_drw_primary"
-                    android:title="@string/custombg_primary"/>
+                    android:title="@string/custombg_primary"
+                    app:packageNameToKill="com.android.systemui"
+                    app:isSilent="true"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:defaultValue="#00000000"
                     android:dependency="agc_notifs_drw_visibility"
                     android:key="agc_notifs_drw_secondary"
-                    android:title="@string/custombg_secondary"/>
+                    android:title="@string/custombg_secondary"
+                    app:packageNameToKill="com.android.systemui"
+                    app:isSilent="true"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:defaultValue="#00000000"
                     android:dependency="agc_notifs_drw_visibility"
                     android:key="agc_notifs_drw_tertiary"
-                    android:title="@string/color_3"/>
+                    android:title="@string/color_3"
+                    app:packageNameToKill="com.android.systemui"
+                    app:isSilent="true"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:defaultValue="#00000000"
                     android:dependency="agc_notifs_drw_visibility"
                     android:key="agc_notifs_drw_quaternary"
-                    android:title="@string/color_4"/>
+                    android:title="@string/color_4"
+                    app:packageNameToKill="com.android.systemui"
+                    app:isSilent="true"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:defaultValue="#00000000"
                     android:dependency="agc_notifs_drw_visibility"
                     android:key="agc_notifs_drw_quinary"
-                    android:title="@string/color_5"/>
+                    android:title="@string/color_5"
+                    app:packageNameToKill="com.android.systemui"
+                    app:isSilent="true"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:defaultValue="#00000000"
                     android:dependency="agc_notifs_drw_visibility"
                     android:key="agc_notifs_drw_sextary"
-                    android:title="@string/color_6"/>
+                    android:title="@string/color_6"
+                    app:packageNameToKill="com.android.systemui"
+                    app:isSilent="true"/>
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                     android:defaultValue="0"
+                    app:packageNameToKill="com.android.systemui"
+                    app:isSilent="true"
                     android:dependency="agc_notifs_drw_visibility"
                     android:entries="@array/gradient_entries"
                     android:entryValues="@array/gradient_values"

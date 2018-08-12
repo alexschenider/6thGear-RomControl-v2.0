@@ -1,15 +1,23 @@
 [
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen013.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen013.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen00.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen00.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_rebootnew.xml",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\ic_rebootnew.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\datos_luna.png",
-        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\datos_luna.png"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notpanel_style_1.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\notpanel_style_1.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\datos_luna.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\datos_luna.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dustismobold.png",
@@ -56,12 +64,12 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_ring_recent.png",
-        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\navbar_ring_recent.png"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notpanel_style_stock.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\notpanel_style_stock.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_ring_recent.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\navbar_ring_recent.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_blueball_home.png",
@@ -70,6 +78,10 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alarma_digital_2.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\alarma_digital_2.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fer.jpg",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\fer.jpg"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\petermorgan.png",
@@ -92,12 +104,12 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\wifi_calatrava_4.png"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bubbleletters.png",
-        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\bubbleletters.png"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gradient.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\gradient.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bubbleletters.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\bubbleletters.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notpanel_style_3.png",
@@ -108,16 +120,20 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\noti_musica.png"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_on_2.png",
-        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\check_on_2.png"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_on_2.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\check_on_2.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen02.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen02.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_zenyth_recent.png",
@@ -140,12 +156,12 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\aabeakrg.png"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_virtual.xml",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\ic_virtual.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_zenyth_home.png",
@@ -162,6 +178,10 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\datos_parabo.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\datos_parabo.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_on_4.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\check_on_4.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tw_ic_do_agcdr_deluxe.png",
@@ -194,6 +214,10 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_notification_panel.xml",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\ic_notification_panel.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen04.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen04.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_bamboo_back.png",
@@ -268,8 +292,16 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\gezoe.png"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen011.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen011.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen017.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen017.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg.xml",
@@ -344,6 +376,22 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\nokiapure.png"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ivan.jpg",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\ivan.jpg"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\animatingpadron.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\animatingpadron.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen07.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen07.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen020.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen020.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_carbon_home.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\navbar_carbon_home.png"
     },
@@ -354,6 +402,10 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_hud_home.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\navbar_hud_home.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen05.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen05.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_navbar.xml",
@@ -376,6 +428,10 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen010.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen010.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sansationbold.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\sansationbold.png"
     },
@@ -386,6 +442,14 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\arial_rb.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\arial_rb.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\viti.jpg",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\viti.jpg"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen016.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen016.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wifi_stock_4.png",
@@ -408,12 +472,24 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\tw_ic_do_agcdr_ansiaviva.png"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen015.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen015.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pablo.jpg",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\pablo.jpg"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_blueball_recent.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\navbar_blueball_recent.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jon.jpg",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\jon.jpg"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noti_geometric_blanco_rp.png",
@@ -436,12 +512,12 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\user\\.android\\build-cache\\714f8ac24f62e0b5fed0f164bca5645643b09623\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_nexus_recent.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\navbar_nexus_recent.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\user\\.android\\build-cache\\714f8ac24f62e0b5fed0f164bca5645643b09623\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_starwars_home.png",
@@ -480,6 +556,10 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\ic_theme.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen06.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen06.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\belligerentbold.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\belligerentbold.png"
     },
@@ -494,6 +574,10 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noti_dr_negro.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\noti_dr_negro.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jota.jpg",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\jota.jpg"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spanky.png",
@@ -548,6 +632,10 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\helveticaneueece5roman.png"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen012.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen012.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noti_flor_2.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\noti_flor_2.png"
     },
@@ -576,6 +664,10 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\wifi_tierra_4.png"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen01.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen01.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_honeycomb_recent.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\navbar_honeycomb_recent.png"
     },
@@ -594,6 +686,10 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noti_dr_blanco.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\noti_dr_blanco.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wifi_giro_4.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\wifi_giro_4.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_network_speed.xml",
@@ -660,12 +756,16 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\motleycrue.png"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\caprica.png",
-        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\caprica.png"
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen024.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen024.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inset_dialog_bg.xml",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\inset_dialog_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\caprica.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\caprica.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\celtic.png",
@@ -700,6 +800,10 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\714f8ac24f62e0b5fed0f164bca5645643b09623\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen08.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen08.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_hud_back.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\navbar_hud_back.png"
     },
@@ -712,12 +816,12 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alarma_deluxe.png",
-        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\alarma_deluxe.png"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_deluxe_others.xml",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\ic_deluxe_others.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alarma_deluxe.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\alarma_deluxe.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wifi_deluxerom_4.png",
@@ -746,6 +850,10 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_info.xml",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\ic_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wifi_deluxerom_4_azul.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\wifi_deluxerom_4_azul.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\datos_giro.png",
@@ -780,6 +888,10 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\noti_fondo_mar.png"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\paypal.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\paypal.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\piratebold.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\piratebold.png"
     },
@@ -812,6 +924,18 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\noti_geometric_blanco_av.png"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen014.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen014.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_bixby.xml",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\ic_bixby.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_off_4.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\check_off_4.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wifi_tribal1_4.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\wifi_tribal1_4.png"
     },
@@ -830,6 +954,10 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\wifi_spanky_4.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\wifi_spanky_4.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen021.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen021.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\metal.png",
@@ -868,6 +996,10 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\714f8ac24f62e0b5fed0f164bca5645643b09623\\output\\res\\drawable\\design_ic_visibility.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen019.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen019.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alarma_moderno.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\alarma_moderno.png"
     },
@@ -878,6 +1010,10 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tw_ic_do_agcdr_rb.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\tw_ic_do_agcdr_rb.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\luiyi.jpg",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\luiyi.jpg"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\aller.png",
@@ -896,12 +1032,20 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gillsansmtitalic.png",
-        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\gillsansmtitalic.png"
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen023.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen023.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gillsansmtitalic.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\gillsansmtitalic.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen018.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen018.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\alarma_campana.png",
@@ -962,6 +1106,10 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_stock_recent.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\navbar_stock_recent.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen03.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen03.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navbar_arrea_home.png",
@@ -1036,6 +1184,10 @@
         "source": "C:\\Users\\user\\.android\\build-cache\\e1f6b1cdbbe99e18443e633651676ecfb05b3881\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\telegram.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\telegram.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_custom_apps.xml",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\ic_custom_apps.xml"
     },
@@ -1080,11 +1232,27 @@
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\datos_ola.png"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_on_3.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\check_on_3.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noti_metal.png",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\noti_metal.png"
     },
     {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_off_3.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\check_off_3.png"
+    },
+    {
         "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\deluxerom.jpg",
         "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\deluxerom.jpg"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen09.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen09.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\imagen022.png",
+        "source": "C:\\Users\\user\\Desktop\\DESARROLLO\\INTELLIJ\\6thGear-RomControl-v2.0\\app\\src\\main\\res\\drawable\\imagen022.png"
     }
 ]

@@ -7,25 +7,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_gravity="start"
+        android:layout_gravity="end"
         android:layout_margin="16dp"
-        android:gravity="center_horizontal"
+        android:gravity="center_vertical"
         android:id="@+id/select_all_main_container">
+        <!-- TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_all_label"/ -->
         <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/select_all_radio_button"
-            android:layout_margin="8dp"
-            android:clickable="false"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/select_all_label"/>
-
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/select_all_radio_button"
+                android:layout_margin="0dp"
+                android:paddingEnd="25dp"
+                android:text="@string/select_all"
+                android:clickable="false"/>
     </LinearLayout>
     <android.support.v7.widget.RecyclerView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/multi_select_recycler_view"/>
-
 </LinearLayout>

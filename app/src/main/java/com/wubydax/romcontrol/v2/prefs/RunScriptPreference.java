@@ -1,5 +1,6 @@
 package com.wubydax.romcontrol.v2.prefs;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -77,6 +78,7 @@ public class RunScriptPreference extends Preference {
     }
 
     @Override
+    @SuppressLint("StringFormatInvalid")
     protected void onClick() {
         super.onClick();
         if(mIsConfirmRequired) {
@@ -112,7 +114,7 @@ public class RunScriptPreference extends Preference {
                     Toast.makeText(getContext(), R.string.command_executed_success_toast, Toast.LENGTH_SHORT).show();
                     if(mRebootType == 1) {
                         Utils.showRebootRequiredDialog(getContext());
-                    } else if (mRebootType ==2 ) {
+                    } else if (mRebootType == 2) {
                         ((PowerManager) getContext().getSystemService(Context.POWER_SERVICE)).reboot(null);
                     } else if(mPackageToKill != null && Utils.isPackageInstalled(mPackageToKill)) {
                         if(mIsSilent) {

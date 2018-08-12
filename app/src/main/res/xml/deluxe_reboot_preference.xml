@@ -1,61 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <PreferenceScreen android:title="@string/elementstoshow">
-        <PreferenceCategory android:title="@string/elementstoshowmin">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/shutdown"
-                android:key="agc_rebootmenu_shutdown"
-                android:defaultValue="true" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/ereboot"
-                android:key="agc_rebootmenu_reboot"
-                android:defaultValue="true" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/rebootrecovery"
-                android:key="agc_rebootmenu_recovery"
-                android:defaultValue="false" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/rebootdownload"
-                android:defaultValue="false"
-                android:key="agc_rebootmenu_download" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/quickreboot"
-                android:key="agc_rebootmenu_quickreboot"
-                android:defaultValue="false" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/emergencymode"
-                android:key="agc_rebootmenu_emergency_mode"
-                android:defaultValue="false" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/datamobile"
-                android:key="agc_rebootmenu_mobile_data"
-                android:defaultValue="false" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/flashlight"
-                android:key="agc_rebootmenu_flashlight"
-                android:defaultValue="false" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/assistence"
-                android:key="agc_rebootmenu_assistence"
-                android:defaultValue="false" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/recordscreen"
-                android:key="agc_rebootmenu_recordscreen"
-                android:defaultValue="false" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/screenshot"
-                android:key="agc_rebootmenu_screenshot"
-                android:defaultValue="false" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/settings"
-                android:key="agc_rebootmenu_settings"
-                android:defaultValue="false" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="@string/drc"
-                android:key="agc_rebootmenu_romcontrol"
-                android:defaultValue="false" />
-        </PreferenceCategory>
-    </PreferenceScreen>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:extras="SECURE_GLOBAL">
+    <com.wubydax.romcontrol.v2.prefs.MyMultiSelectPreference
+        android:title="@string/elementstoshow"
+        android:dialogTitle="@string/elementstoshowmin"
+        android:key="agc_powermenu_visible_elements"
+        app:multiEntryList="@array/agc_reboot_options"
+        app:multiValuesList="@array/agc_reboot_values"
+        android:defaultValue="newpower,restart,romcontrol"/>
     <PreferenceScreen android:title="@string/custombg">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="@string/custombg_enable"
@@ -218,8 +169,14 @@
         android:title="@string/ask_confirmation"
         android:defaultValue="1"
         android:key="agc_show_confirmations" />
-    <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-            android:title="Invertir orden"
-            android:defaultValue="0"
-            android:key="agc_powermenu_invert_order" />
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:title="@string/elem_order"
+        android:key="agc_powermenu_order"
+        android:defaultValue="0"
+        android:entries="@array/agc_reboot_order_entries"
+        android:entryValues="@array/agc_reboot_order_values" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:defaultValue="#000000"
+        android:key="agc_powermenu_text_color"
+        android:title="@string/text_color"/>
 </PreferenceScreen>
